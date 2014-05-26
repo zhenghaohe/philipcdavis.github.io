@@ -1,0 +1,21 @@
+<header class="clearfix">
+  <a href="/"><img alt="Philip Davis" src="{{site.baseurl}}/assets/img/logo.png" class="logo"></a>
+
+  <nav>
+    {% if page.title == "home" %}
+      <a href="/" class="active">Portfolio</a>
+    {% else %}
+      <a href="/">Portfolio</a>
+    {% endif %}
+    {% if page.title == "about" %}
+      <a href="/about" class="active">About</a>
+    {% else %}
+      <a href="/about">About</a>
+    {% endif %}
+    {% if page.title == "notebook" %}
+      <a href="/notebook" class="active">Notebook</a>
+    {% else %}
+      <a href="/notebook">Notebook</a>
+    {% endif %}
+  </nav>
+</header>

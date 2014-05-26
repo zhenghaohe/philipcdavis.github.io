@@ -272,7 +272,8 @@ pre, code {
 }
 
 .headerImage {
-    margin: 1%;
+    padding: 1%;
+    max-width: 100%;
 }
 
 @media screen and (min-width: 640px) {

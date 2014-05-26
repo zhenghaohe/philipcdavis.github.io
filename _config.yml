@@ -1,5 +1,5 @@
 # Site settings
-url: "http://philipcdavis.github.io/notebook"
+baseurl: ""
 
 # Build settings
 markdown: kramdown

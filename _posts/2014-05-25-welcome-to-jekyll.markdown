@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-05-24 22:09:10
-categories: jekyll update
+categories: design
 headerImage: about.jpg
 ---
 

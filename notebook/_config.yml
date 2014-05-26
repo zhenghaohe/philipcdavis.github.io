@@ -1,0 +1,6 @@
+# Site settings
+url: "http://philipcdavis.github.io/notebook"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

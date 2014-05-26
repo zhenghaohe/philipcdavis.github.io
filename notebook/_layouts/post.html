@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% if page.headerImage %}
+  <img class="headerImage" src="{{site.url}}assets/img/{{page.headerImage}}" alt="{{page.headerImage}}" />
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <h2>{{ page.title }}</h2>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+  </header>
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+</div>

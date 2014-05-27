@@ -1,3 +1,10 @@
+# Site settings
+title: Philip's Notebook
+email: Phillysoul11@gmail.com
+description: "Musings of a young naive professional"
+baseurl: ""
+url: "http://philipcdavis.github.io"
+
 # Build settings
 markdown: kramdown
 permalink: pretty

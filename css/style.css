@@ -188,6 +188,10 @@ footer {
         text-align: center;
         margin: 0 auto;
     }
+    
+    .about h2 {
+        text-align: center;
+    }
 
   
 }
@@ -199,7 +203,7 @@ footer {
 
 .about h2 {
     color: #444;
-    text-align: center;
+    text-align: left;
 }
 
 .about p {
@@ -289,6 +293,10 @@ pre, code {
     }
     article {
         font-size: 1.2em;
+    }
+    
+    a.post-link {
+        max-width: 100%;
     }
 
 }

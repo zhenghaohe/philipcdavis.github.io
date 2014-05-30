@@ -197,16 +197,19 @@ footer {
     margin: 2% 1%;
 }
 
+.hello {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
 @media screen and (min-width: 640px) {
-    .about {
-        width: 60%;
+    .hello {
         text-align: center;
-        margin: 0 auto;
     }
     
-    .about img {
-        width: 100%;
-    }
+    
 }
 
 /* Blog List */

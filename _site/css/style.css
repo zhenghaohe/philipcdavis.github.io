@@ -123,12 +123,12 @@ a.grid-unit {
     content: "";
     display: block;
 }
-.site-footer, .container:after {
+footer, .container:after {
     /* .push must be the same height as footer */
     height: 60px;
     margin-top: 50px;
 }
-.site-footer {
+footer {
     width: 92%;
     max-width:  900px;
     margin-left: auto;

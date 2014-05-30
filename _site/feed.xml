@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philip's Notebook</title>
-    <description>Musings of a young naive professional</description>
+    <description>Online residence of Philip C Davis</description>
     <link>http://philipcdavis.github.io/</link>
     <atom:link href="http://philipcdavis.github.io/feed.xml" rel="self" type="application/rss+xml" />
     

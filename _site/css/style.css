@@ -203,6 +203,10 @@ footer {
         text-align: center;
         margin: 0 auto;
     }
+    
+    .about img {
+        width: 100%;
+    }
 }
 
 /* Blog List */

@@ -7,13 +7,16 @@
     <atom:link href="http://philipcdavis.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adip * isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
-
+        <title>Beginning Again</title>
+        <description>&lt;p&gt;Welcome to my revamped personal space.
+I plan on journaling some of the things i’ve been learning here.
+I needed to redo my website for a lot of reasons. The most important being speed.
+My previous website (&lt;a href=&quot;http://pettydesigner.com/&quot;&gt;still hosted&lt;/a&gt;) was awfully slow.
+I’ll be writing an overview of why this was and how I sped things up in a later post.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 24 May 2014 18:09:10 -0400</pubDate>
-        <link>http://philipcdavis.github.io/design/2014/05/24/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://philipcdavis.github.io/design/2014/05/24/welcome-to-jekyll/</guid>
+        <pubDate>Thu, 29 May 2014 17:00:00 -0400</pubDate>
+        <link>http://philipcdavis.github.io/development/2014/05/29/Site-Revamp/</link>
+        <guid isPermaLink="true">http://philipcdavis.github.io/development/2014/05/29/Site-Revamp/</guid>
       </item>
     
   </channel>

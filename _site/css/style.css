@@ -32,7 +32,7 @@ img {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 a {
@@ -267,6 +267,7 @@ a.post-link:hover {
 article {
    margin: 0 1% 1% 1%;
    font-size: 1em;
+   line-height: 1.6;
    color: #555;
 }
 

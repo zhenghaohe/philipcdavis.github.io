@@ -8,13 +8,23 @@
     
       <item>
         <title>Beginning Again</title>
-        <description>&lt;p&gt;Welcome to my revamped personal space.
-I plan on journaling some of the things i’ve been learning here.
-I needed to redo my website for a lot of reasons. The most important being speed.
+        <description>&lt;h2 id=&quot;welcome&quot;&gt;Welcome&lt;/h2&gt;
+&lt;p&gt;I’m glad you’re here. Consider this my web presence, revamped.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-it-fast&quot;&gt;Make it fast&lt;/h3&gt;
+&lt;p&gt;I needed to redo my website for a lot of reasons. The most important being speed.
 My previous website (&lt;a href=&quot;http://pettydesigner.com/&quot;&gt;still hosted&lt;/a&gt;) was awfully slow.
-I’ll be writing an overview of why this was and how I sped things up in a later post.&lt;/p&gt;
+There were lots of reasons why that was, the most important being lots of huge uncompressed images.
+There is still work to be done, but already the speed index has gone from (&lt;a href=&quot;http://www.webpagetest.org/result/140602_PK_24V/&quot;&gt;9295&lt;/a&gt;)(yikes!) to (&lt;a href=&quot;http://www.webpagetest.org/result/140602_82_246/&quot;&gt;635&lt;/a&gt;). The goal is to be ruthless when it comes to performance.&lt;/p&gt;
+
+&lt;h3 id=&quot;built-on-jekyll&quot;&gt;Built on Jekyll&lt;/h3&gt;
+&lt;p&gt;The updated site was built on top of (&lt;a href=&quot;jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;).
+I was originally going to use it solely for the blog, but I figured I could reuse the includes and layout styles for the other pages.
+I really like how much control it gives you over everything, it feels like a great lightweight solution for me.
+Still working on making the reading experience optimal. Trent Walton’s &lt;a href=&quot;http://trentwalton.com/2012/06/19/fluid-type/&quot; title=&quot;fluid type&quot;&gt;fluid type&lt;/a&gt; has been a great resource for me.&lt;/p&gt;
+
 </description>
-        <pubDate>Thu, 29 May 2014 17:00:00 -0400</pubDate>
+        <pubDate>Thu, 29 May 2014 19:43:00 -0400</pubDate>
         <link>http://philipcdavis.github.io/development/2014/05/29/Site-Revamp/</link>
         <guid isPermaLink="true">http://philipcdavis.github.io/development/2014/05/29/Site-Revamp/</guid>
       </item>

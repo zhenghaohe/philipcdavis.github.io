@@ -11,3 +11,5 @@ gulp.task('compress', function () {
         }))
         .pipe(gulp.dest('assets/dist'));
 });
+
+// figure out how to get this to work with multiple folders

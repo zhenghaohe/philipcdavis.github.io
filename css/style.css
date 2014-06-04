@@ -45,7 +45,7 @@ a:hover {
 }
 
 .container {
-    width: 90%;
+    width: 94%;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -71,7 +71,7 @@ header {
     padding-top: 30px;
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
-    margin: 0 1% ;
+    margin: 1% ;
 }
 
 section {
@@ -104,8 +104,8 @@ nav a.active {
 
 .grid-unit {
     float: left;
-    width:48%;
-    margin: 2% 1%;
+    width:50%;
+    padding: 3% .8%;
 }
 
 .grid-unit:nth-child(odd) {
@@ -176,8 +176,8 @@ footer {
     }
     
     .grid-unit {
-        width: 31.33333333%;
-        margin: 2% 1%;
+        width: 33.33333333%;
+        padding: 2% 1%;
     }
     
     .grid-unit:nth-child(3n+1) {

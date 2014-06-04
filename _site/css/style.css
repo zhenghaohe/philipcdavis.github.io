@@ -105,7 +105,7 @@ nav a.active {
 .grid-unit {
     float: left;
     width:50%;
-    padding: 3% .8%;
+    padding: 3% 1%;
 }
 
 .grid-unit:nth-child(odd) {
@@ -130,7 +130,7 @@ footer, .container:after {
     margin-top: 50px;
 }
 footer {
-    width: 92%;
+    width: 94%;
     max-width:  900px;
     margin-left: auto;
     margin-right: auto;
@@ -195,7 +195,7 @@ footer {
 
 /* About page */
 .about {
-    margin: 2% 1%;
+    padding: 3% 1%;
 }
 
 .hello {
@@ -209,6 +209,9 @@ footer {
     .hello {
         text-align: center;
         width: 60%;
+    }
+    .about {
+        padding: 2% 1%;
     }
 }
 

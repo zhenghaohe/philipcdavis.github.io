@@ -195,7 +195,7 @@ footer {
 
 /* About page */
 .about {
-    padding: 2% 1%;
+    padding: 3% 1%;
 }
 
 .hello {
@@ -211,7 +211,7 @@ footer {
         width: 60%;
     }
     .about {
-        padding: 3% 1%;
+        padding: 2% 1%;
     }
 }
 

@@ -5,14 +5,14 @@ date:   2014-05-29 23:43:00
 categories: development
 ---
 
-##Welcome
-I'm glad you're here. Consider this my web presence, revamped.
+
+Welcome. I’m glad you're here. 
 
 ###Make it fast
 I needed to redo my website for a lot of reasons. The most important being speed.
 My previous website ([still hosted](http://pettydesigner.com/)) was awfully slow.
 There were lots of reasons why that was, the most important being lots of huge uncompressed images.
-There is still work to be done, but already the speed index has gone from ([9295](http://www.webpagetest.org/result/140602_PK_24V/))(yikes!) to ([635](http://www.webpagetest.org/result/140602_82_246/)). The goal is to be ruthless when it comes to performance.
+There is still work to be done, but already the speed index has gone from [9295](http://www.webpagetest.org/result/140602_PK_24V/)(yikes!) to [635](http://www.webpagetest.org/result/140602_82_246/). The goal is to be ruthless when it comes to performance.
 
 ###Built on Jekyll
 The updated site was built on top of ([Jekyll](jekyllrb.com)).

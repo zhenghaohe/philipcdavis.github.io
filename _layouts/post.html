@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{% if page.headerImage %}
-  <img class="headerImage" src="{{site.baseurl}}/assets/dist/{{page.headerImage}}" alt="{{page.headerImage}}" />
+{% if page.header-img %}
+  <img class="headerImage" src="{{site.baseurl}}/assets/dist/{{page.header-img}}" alt="{{page.header-img}}" />
 {% endif %}
 
 <div class="post">
   <header class="post-header">
-    <h2 class="title">{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+    <h1 class="title">{{ page.title }}</h1>
+    <!--<p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>-->
   </header>
 
   <article class="post-content">

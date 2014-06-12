@@ -4,6 +4,7 @@ email: Phillysoul11@gmail.com
 description: "Online residence of Philip C Davis"
 baseurl: ""
 url: "http://philipcdavis.github.io"
+exclude: ['node_modules']
 
 # Build settings
 markdown: kramdown

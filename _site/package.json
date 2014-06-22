@@ -18,6 +18,7 @@
   "homepage": "https://github.com/philipcdavis/philipcdavis.github.io",
   "devDependencies": {
     "gulp": "^3.6.2",
-    "gulp-imagemin": "^0.5.0"
+    "gulp-imagemin": "^0.6.1",
+    "imagemin-pngcrush": "^0.1.0"
   }
 }

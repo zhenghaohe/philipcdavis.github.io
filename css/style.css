@@ -313,6 +313,14 @@ pre, code {
 }
 
 
+.iphone-video {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    display: block
+}
+
+
 @media screen and (min-width: 640px) {
     a.post-link {
         font-family: 'Open Sans', sans-serif;
@@ -328,7 +336,7 @@ pre, code {
         margin: 0 auto;
     }
     
-    .post img {
+    .post img, .full-video {
         width: 133.33334%;
         max-width: 133.333334%;
         margin-left: -16.666666%;

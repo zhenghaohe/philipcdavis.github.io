@@ -377,6 +377,7 @@ pre, code {
 .d3-block {
     width: 100%;
     overflow-x: scroll;
+    -webkit-overflow-scrolling:touch
     margin-left: 0%;
 }
 

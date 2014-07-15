@@ -8,19 +8,17 @@
     
       <item>
         <title>Beginning Again</title>
-        <description>&lt;p&gt;Welcome. I’m glad you’re here. &lt;/p&gt;
-
-&lt;h3 id=&quot;make-it-fast&quot;&gt;Make it fast&lt;/h3&gt;
-&lt;p&gt;I needed to redo my website for a lot of reasons. The most important being speed.
+        <description>&lt;p&gt;I needed to redo my website for a lot of reasons. The most important being speed.
 My previous website (&lt;a href=&quot;http://pettydesigner.com/&quot;&gt;still hosted&lt;/a&gt;) was awfully slow.
 There were lots of reasons why that was, the most important being lots of huge uncompressed images.
-There is still work to be done, but already the speed index has gone from &lt;a href=&quot;http://www.webpagetest.org/result/140602_PK_24V/&quot;&gt;9295&lt;/a&gt;(yikes!) to &lt;a href=&quot;http://www.webpagetest.org/result/140602_82_246/&quot;&gt;635&lt;/a&gt;. The goal is to be ruthless when it comes to performance.&lt;/p&gt;
+There is still work to be done, but already the speed index has gone from &lt;a href=&quot;http://www.webpagetest.org/result/140602_PK_24V/&quot;&gt;9295&lt;/a&gt; to &lt;a href=&quot;http://www.webpagetest.org/result/140602_82_246/&quot;&gt;635&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;built-on-jekyll&quot;&gt;Built on Jekyll&lt;/h3&gt;
-&lt;p&gt;The updated site was built on top of (&lt;a href=&quot;jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;).
+&lt;p&gt;This site is built on top of (&lt;a href=&quot;jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;).
 I was originally going to use it solely for the blog, but I figured I could reuse the includes and layout styles for the other pages.
 I really like how much control it gives you over everything, it feels like a great lightweight solution for me.
-Still working on making the reading experience optimal. Trent Walton’s &lt;a href=&quot;http://trentwalton.com/2012/06/19/fluid-type/&quot; title=&quot;fluid type&quot;&gt;fluid type&lt;/a&gt; has been a great resource for me.&lt;/p&gt;
+Still working on making the reading experience optimal. Trent Walton’s &lt;a href=&quot;http://trentwalton.com/2012/06/19/fluid-type/&quot; title=&quot;fluid type&quot;&gt;fluid type&lt;/a&gt; has been a great resource for me.
+If you notice anything funky, (&lt;a href=&quot;https://github.com/philipcdavis/philipcdavis.github.io/issues&quot;&gt;Let Me Know&lt;/a&gt;). &lt;/p&gt;
 
 </description>
         <pubDate>Thu, 29 May 2014 19:43:00 -0400</pubDate>

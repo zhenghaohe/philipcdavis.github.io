@@ -363,7 +363,7 @@ pre, code {
 
 .icons {
     margin-top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -392,8 +392,7 @@ pre, code {
     }
     
     .icons {
-        margin-top: 0px;
-        margin-bottom: 130px;
+        margin-top: 0;
     }
     
 }

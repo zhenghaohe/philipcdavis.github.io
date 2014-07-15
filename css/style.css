@@ -374,7 +374,22 @@ pre, code {
     line-height: 2;
 }
 
+.d3-block {
+    width: 100%;
+    overflow-x: scroll;
+    margin-left: 0%;
+}
+
+.d3-block iframe {
+    width: 100%;
+}
+
 @media screen and (min-width: 640px) {
+    
+    .d3-block {
+        width: 150%;
+        margin-left: -25%;
+    }
     
     .icons {
         margin-top: 0px;

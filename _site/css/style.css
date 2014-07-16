@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 ul {
@@ -260,7 +260,7 @@ footer {
 
 a.post-link {
     font-family: 'Open Sans', helvetica, arial, sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     color: #444;
     font-size: 1.4em;
     display: inline-block;
@@ -277,6 +277,7 @@ a.post-link:hover {
 }
 
 /* Blog Post */
+
 .post {
     width: 100%;
     color: #444;
@@ -296,13 +297,13 @@ header.post-header {
 
 article {
    margin: 0 1% 1% 1%;
-   font-size: 1em;
    line-height: 1.6;
 }
 
 article p {
     margin: .5% 0 5% 0;
     color: #555;
+    font-size: 1em;
 }
 
 article img, article img.large {
@@ -351,7 +352,7 @@ pre, code {
         max-width: 133.333334%;
         margin-left: -16.666666%;
     }
-    article {
+    article p {
         font-size: 1.2em;
     }
     article img.large {

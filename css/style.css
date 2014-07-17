@@ -43,7 +43,14 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid rgba(212, 35, 12, 0.7);
+}
+
+blockquote {
+    border-left: 3px solid #555;
+    font-style: italic;
+    margin-left: 0;
+    padding-left: 1.5em;
 }
 
 .container {
@@ -300,10 +307,18 @@ article {
    line-height: 1.6;
 }
 
-article p {
+article p, article ul {
     margin: .5% 0 5% 0;
     color: #555;
     font-size: 1em;
+}
+
+article ul {
+    margin-left: 25px;
+}
+
+article a {
+    border-bottom: 1px solid rgba(212, 35, 12, 0.3);
 }
 
 article img, article img.large {
@@ -352,9 +367,14 @@ pre, code {
         max-width: 133.333334%;
         margin-left: -16.666666%;
     }
-    article p {
+    article p, article ul {
         font-size: 1.2em;
     }
+    
+    article ul {
+        margin-left: 30px;
+    }
+    
     article img.large {
         max-width: 130%;
         width: 130%;

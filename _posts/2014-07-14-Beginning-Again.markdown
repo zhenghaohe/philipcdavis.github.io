@@ -18,5 +18,4 @@ If you notice anything funky, [let me know](https://github.com/philipcdavis/phil
 If you have any, [I would love to hear from you](http://www.twitter.com/philipcdavis).
 
 
-
   [1]: http://trentwalton.com/2012/06/19/fluid-type/ "fluid type"

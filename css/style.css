@@ -107,6 +107,7 @@ nav a {
 nav a:hover {
     color: #e93f2f;
     text-decoration: none;
+    border-bottom: none;
 }
 
 nav a.active {
@@ -139,6 +140,7 @@ nav a.active {
     opacity: .8;
     cursor: pointer;
     text-decoration: none;
+    border-bottom: none;
 }
 
 

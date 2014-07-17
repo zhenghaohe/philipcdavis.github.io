@@ -40,6 +40,7 @@ p {
 a {
     color: #e93f2f;
     text-decoration: none;
+    border-bottom: 1px solid rgba(212, 35, 12, 0.3);
 }
 
 a:hover {
@@ -102,6 +103,7 @@ nav a {
     margin-bottom: 1%;
     color: #777;
     text-decoration: none;
+    border-bottom: none;
 }
 
 nav a:hover {
@@ -128,12 +130,13 @@ nav a.active {
     text-decoration: none;
     color: #5a5a5a;
     transition: all 0.1s linear;
-    
+    border-bottom: none;
 }
 
 .port label {
     text-align: center;
     display: block;
+    border-bottom: none;
 }
 
 .port:hover, .port:hover label {
@@ -173,7 +176,11 @@ footer {
 .footer-links a {
     margin-left: 10px;
     margin-right: 10px;
-    
+    border-bottom: none;
+}
+
+.footer-links a:hover {
+    border-bottom: 1px solid rgba(212, 35, 12, 0.7);
 }
 
 .hide-large {
@@ -317,10 +324,6 @@ article p, article ul {
 
 article ul {
     margin-left: 25px;
-}
-
-article a {
-    border-bottom: 1px solid rgba(212, 35, 12, 0.3);
 }
 
 article img, article img.large {

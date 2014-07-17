@@ -280,11 +280,13 @@ a.post-link {
     color: #444;
     font-size: 1.4em;
     display: inline-block;
+    border-bottom: none;
 }
 
 a.post-link:hover {
     color: #e93f2f;
     text-decoration: none;
+    border-bottom: none;
 }
 
 .posts .post-date {

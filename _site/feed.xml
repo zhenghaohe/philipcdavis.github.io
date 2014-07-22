@@ -3,8 +3,8 @@
   <channel>
     <title>Philip's Notebook</title>
     <description>Online residence of Philip C Davis</description>
-    <link>http://philipcdavis.github.io/</link>
-    <atom:link href="http://philipcdavis.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://philipcdavis.com/</link>
+    <atom:link href="http://philipcdavis.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>The Art of Listening</title>
@@ -37,8 +37,8 @@ Appreciation and generosity will pump life into them.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.twitter.com/philipcdavis&quot;&gt;What are some of your listening tips?&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Jul 2014 02:20:00 -0400</pubDate>
-        <link>http://philipcdavis.github.io/Art-of-Listening</link>
-        <guid isPermaLink="true">http://philipcdavis.github.io/Art-of-Listening</guid>
+        <link>http://philipcdavis.com/Art-of-Listening/</link>
+        <guid isPermaLink="true">http://philipcdavis.com/Art-of-Listening/</guid>
       </item>
     
       <item>
@@ -55,8 +55,8 @@ If you notice anything funky, &lt;a href=&quot;https://github.com/philipcdavis/p
 
 </description>
         <pubDate>Mon, 14 Jul 2014 19:43:00 -0400</pubDate>
-        <link>http://philipcdavis.github.io/development/Beginning-Again</link>
-        <guid isPermaLink="true">http://philipcdavis.github.io/development/Beginning-Again</guid>
+        <link>http://philipcdavis.com/development/Beginning-Again/</link>
+        <guid isPermaLink="true">http://philipcdavis.com/development/Beginning-Again/</guid>
       </item>
     
   </channel>

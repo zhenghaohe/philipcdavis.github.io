@@ -324,7 +324,7 @@ article p, article ul {
     font-size: 1em;
 }
 
-article ul {
+article ul, article ol {
     margin-left: 25px;
 }
 
@@ -378,7 +378,7 @@ pre, code {
         font-size: 1.2em;
     }
     
-    article ul {
+    article ul, article ol {
         margin-left: 30px;
     }
     

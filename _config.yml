@@ -6,6 +6,7 @@ baseurl: ""
 url: "http://philipcdavis.com"
 exclude: ['node_modules']
 
+
 # Build settings
 markdown: kramdown
 permalink: notebook/:title

@@ -3,6 +3,7 @@ layout: post
 title:  "The Art of Listening"
 date:   2014-07-22 06:20:00
 header-img: "art-of-listening.jpg"
+permalink:  /Art-of-Listening/
 ---
 
 

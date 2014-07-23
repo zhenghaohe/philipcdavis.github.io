@@ -8,4 +8,5 @@ exclude: ['node_modules']
 
 # Build settings
 markdown: kramdown
+relative_permalinks: false
 permalink: notebook/:title

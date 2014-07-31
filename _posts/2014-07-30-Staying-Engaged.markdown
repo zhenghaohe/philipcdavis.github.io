@@ -6,16 +6,16 @@ header-img: "stay-engaged.jpg"
 ---
 
 There will always be seasons when you lose motivation in your work.
-If you lose interest in your work means something needs to change, either in your attitude or in the work itself.
-You have to stay engaged with your work in order to thrive in your career.
+When it happens, it means something needs to change, either in your attitude or in the work itself.
+You have to stay engaged with your work to thrive in your career.
 Here are some things that have helped me through droughts of motivation.
 
 ###Don't let your work define you.
 If you look to your job to provide meaning and significance it will let you down.
-Your work is important, but if it becomes your identity it will disillusion you.
+Your work is important, but it's not your identity.
 
 ###Create a side project. 
-Side projects give you the freedom to define the rules and explore the tools you want to learn.
+Side projects give you the freedom to define the rules and explore the things you want to learn.
 I always have 1-2 side projects that relate to my work. 
 
 ###Surround yourself with passionate people
@@ -23,8 +23,6 @@ I always have 1-2 side projects that relate to my work.
 > -  Jim Rohn
 
 Motivation is contagious. Find people who love what they do and spend lots of time with them.
-Your network doesn't need to be involved in the same field of work. 
-I am pushed to work to the best of my ability by friends in different career paths.
 
 [How do you get out of your motivation ruts?](http://www.twitter.com/philipcdavis)
 

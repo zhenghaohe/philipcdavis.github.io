@@ -177,7 +177,7 @@ footer hr {
 
 /* Gallery */
 
-.gallery [class*="grid"] {
+.gallery [class*="grid-2"], .gallery [class*="grid-3"]  {
   margin-bottom: 1%;
   margin-top: 1%;
   width: 50%;
@@ -267,6 +267,7 @@ footer hr {
   padding: 3em 1em;
   margin-top: 3em;
   margin-bottom: 3em;
+  text-align: center;
 }
 
 .spotlight img {
@@ -279,13 +280,11 @@ footer hr {
 
 .spotlight h1 {
   color: #3b5f7a;
-  text-align: center;
 }
 
 .spotlight p {
   color: #3b5f7a;
   font-size: 1.1em;
-  text-align: center;
 }
 
 .spotlight a {
@@ -296,10 +295,7 @@ footer hr {
   color: #3b5f7a;
   font-size: 1.1em;
   opacity: .8;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 10px;
-  display: inline;
 }
 
 .spotlight a:hover {
@@ -307,9 +303,10 @@ footer hr {
   cursor: pointer;
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 40em) {
   .spotlight {
     padding: 6em;
+    text-align: left;
   }
   
   .spotlight h1, .spotlight p {

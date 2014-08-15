@@ -6,7 +6,7 @@ header-img: "keyboard.jpg"
 ---
 
 I recently taught a front end intensive course to people who had no coding experience.
-Here are three thoughts I would share with new or future front end developers.
+Here are three thoughts I would share with new front end developers or those considering the profession.
 
 ###Technical confidence.
 Getting started it's easy to feel overwhelmed.

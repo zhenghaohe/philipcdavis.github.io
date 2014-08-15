@@ -2,25 +2,26 @@
 layout: post
 title:  "How to Become a Front End Developer"
 date:   2014-08-14 22:00:00
+header-img: "keyboard.jpg"
 ---
 
 I recently taught a front end intensive course to people who had no coding experience.
 Here are three thoughts I would share with new or future front end developers.
 
-1. Technical confidence.
+###Technical confidence.
 Getting started it's easy to feel overwhelmed.
 It's important to remember that a lot of front end developers are self taught.
 If you are self motivated, and have time and energy to devote you can overcome the barriers to this field.
 A great place to begin is with a solid understanding of HTML, CSS, and JavaScript.
 Learning these will build your confidence and allow your to explore other languages, and frameworks. 
 
-2. Mental grit.
+###Mental grit.
 There are moments in your work where you aren't eager to learn new things.
-<a href="../notebook/Staying-Engaged/">Staying engaged with your work</a> is important for those getting started because it's easier to drop out.
+<a href="../Staying-Engaged/">Staying engaged with your work</a> is important for those getting started because it's easier to drop out.
 You need to position yourself so that you don't get stuck for long.
 Make sure your expectations are realistic enough to overcome the hurdles.
 
-3. Creative Outlets.
+###Creative Outlets.
 Take the skills you are learning and put them to work.
 Building and shipping is a great way to learn.
 If you can't do this at your job, create side projects.

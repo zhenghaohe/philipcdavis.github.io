@@ -7,6 +7,86 @@
     <atom:link href="http://philipcdavis.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>The Making Of Wagon Pool</title>
+        <description>&lt;p&gt;I made my first app this past year. It’s a &lt;a href=&quot;http://www.wagonpool.com/&quot;&gt;simple carpooling calculator&lt;/a&gt; built to help you figure out how much each person owes. 
+While it’s still fresh in my mind I wanted to document the process I took in building it.
+This post may be helpful for you if you want to teach yourself how to make mobile applications.&lt;/p&gt;
+
+&lt;p&gt;If you don’t know me, I’m a designer and front end developer.
+I designed and built Wagon Pool from scratch without any previous Objective C, Xcode, or Object Oriented Programming experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-goals&quot;&gt;My Goals&lt;/h3&gt;
+&lt;p&gt;My hope for this project was that I would be able to ship something I was proud of.
+I wanted the app to be easy to use, focused, better than alternative options.&lt;/p&gt;
+
+&lt;p&gt;I also wanted to have a good understanding of what it takes to build an iOS application.
+I needed to learn Object Oriented Programming and learn mobile development on its own terms.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-started&quot;&gt;Getting Started:&lt;/h3&gt;
+&lt;p&gt;I found a 99 cent notebook to help organize my thoughts. In it, I sketched, illustrated, and diagrammed my way through the entire process.
+This allowed my to free up mental space and visualize what was going on in my head.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dist/posts/wagon-notepad.jpg&quot; alt=&quot;Notebook&quot; title=&quot;Notebook&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+&lt;p&gt;I wanted this app to look nice and to make calculating how much each person owed quick and easy.
+I spent a lot of time thinking about how I wanted the users to input information.
+I mocked up 8 different ways the interface could work. This forced me to look at the interface long enough to understand the pros and cons of various approaches.
+&lt;img src=&quot;/assets/dist/posts/wagon-mockups.jpg&quot; alt=&quot;Mockups&quot; title=&quot;Mockups&quot; /&gt;
+I used the last option as a starting point because I liked how it allowed the used to get fast estimates without having to type or switch pages.&lt;/p&gt;
+
+&lt;p&gt;I made something simple for the icon which I was planning on using.
+My friend challenged me to push myself and make something memorable.
+I sketched out lots of ideas some of which looked great at 512x512, but poor on the actual device.
+After much tweaking I came up with something I think worked well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dist/posts/wagon-icon.jpg&quot; alt=&quot;Icon&quot; title=&quot;Icon&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;development&quot;&gt;Development&lt;/h3&gt;
+&lt;p&gt;Coding Wagon Pool was one of the hardest and greatest things I have done.
+So many hours went into such a small app.&lt;/p&gt;
+
+&lt;p&gt;I started getting comfortable with Xcode by creating outlets, simple methods, and using the interface builder.
+Building a working version didn’t take long but there was a lot wrong. Everything was inside my view controller.
+I had read that you shouldn’t cram everything inside there, but I didn’t know where else to put it.
+There was also a lot of duplicate code that I didn’t know what to do with.&lt;/p&gt;
+
+&lt;p&gt;I decided to go through the &lt;a href=&quot;https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550&quot;&gt;Stanford course&lt;/a&gt; on iTunes University.
+The lectures were great, but I didn’t get much out of them because they assumed fundamental OOP understanding.
+Seven lectures in, I decided I needed something else.&lt;/p&gt;
+
+&lt;p&gt;I read Matt Neuburg’s &lt;a href=&quot;http://www.amazon.com/iOS-Programming-Fundamentals-Objective-C-Basics/dp/1491945575/ref=sr_1_2?ie=UTF8&amp;amp;qid=1409103316&amp;amp;sr=8-2&quot;&gt;iOS fundamentals&lt;/a&gt; front to back, and took lots of notes.
+This was my best investment of time during the whole project.
+I especially enjoyed the first 5 chapters where he covered the fundamentals of Object Oriented Programming.
+At the same time, I was implementing a lot of the things I was learning.
+Coding every morning and evening.&lt;/p&gt;
+
+&lt;p&gt;Even after I finished the book, there was still a lot of time put into the app.
+For better or worse, I let myself go down rabbit holes to better understand MVC patterns, auto layout, delegation, and animation.&lt;/p&gt;
+
+&lt;h3 id=&quot;ship-it&quot;&gt;Ship it&lt;/h3&gt;
+&lt;p&gt;About 3 months in I signed up for the developer program. I wanted to spend time debugging, learning about memory management, and getting feedback.
+When it came to getting feedback I got a lot of opinions. It was important for me to understand the problems underneath suggestions.
+The biggest problem was that users didn’t have enough control over their input. I decided to create a modal window that gave users the ability enter in specific values outside the range.
+This set me back a few weeks, but i’m glad I decided to address it in the v1.0 release.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;small&quot; src=&quot;/assets/dist/posts/wagon-glyphs.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After going through the process of uploading it to the app store, it spent a week waiting for review and was accepted the first try!
+It’s a small app, but it’s something I am very proud of.
+Check it out on the &lt;a href=&quot;https://itunes.apple.com/us/app/wagon-pool-simple-carpooling/id846135212?mt=8&quot;&gt;app store&lt;/a&gt; and let me know what you think!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dist/posts/wagon-screenshots.jpg&quot; alt=&quot;Screenshots&quot; title=&quot;Screenshots&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;legal&quot;&gt;Apple, the Apple logo, iPhone, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 25 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://philipcdavis.com/notebook/making-of-wagonpool</link>
+        <guid isPermaLink="true">http://philipcdavis.com/notebook/making-of-wagonpool</guid>
+      </item>
+    
+      <item>
         <title>How to Become a Front End Developer</title>
         <description>&lt;p&gt;I recently taught a front end intensive course to people who had no coding experience.
 Here are three thoughts I would share with new front end developers or those considering the profession.&lt;/p&gt;

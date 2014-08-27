@@ -47,7 +47,7 @@ I started the [Stanford course](https://itunes.apple.com/us/course/developing-io
 However, I realized I needed to get a stronger grasp on Object Oriented Programing. 
 
 I read Matt Neuburg's [iOS fundamentals](http://www.amazon.com/iOS-Programming-Fundamentals-Objective-C-Basics/dp/1491945575/ref=sr_1_2?ie=UTF8&qid=1409103316&sr=8-2) front to back.
-This was an indispensable investment. The first five chapters were especially helpful since they covered the fundamentals of iOS development.
+This was an invaluable investment. The first five chapters were especially helpful since they covered the fundamentals of iOS development.
 At the same time, I was coding every night and putting into practice what I was learning. 
 
 After I finished the book, there was still much to be done. I let myself go down rabbit holes to better understand MVC patterns, auto layout, delegation, and animation.

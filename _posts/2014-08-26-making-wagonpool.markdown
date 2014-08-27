@@ -26,11 +26,11 @@ This gave me extra mental space, and helped me visualize what was going on in my
 ###Design
 I wanted the app to look polished and to make calculating easy.
 I spent a lot of time thinking about how I wanted the users to input information.
-I mocked up 8 different ways the interface could work which helped me evaluate different interface options.
+I mocked up 8 different ways the interface could work.
 ![Mockups]({{site.baseurl}}/assets/dist/posts/wagon-mockups.jpg "Mockups")
 I chose the last option as a starting point because the user can get fast estimates without having to type or switch pages.
 
-I made something simple for the icon which I was planning on using.
+I started with something simple for the icon which I was planning on using.
 A friend challenged me to make something memorable.
 I sketched out lots of ideas some of which looked great at 512x512, but poor on the actual device.
 After much tweaking I came up with something I liked.
@@ -40,21 +40,20 @@ After much tweaking I came up with something I liked.
 ###Development
 Developing Wagon Pool was both challenging and rewarding. So many hours went into such a small app.
 
-I started getting comfortable with Xcode by creating outlets, using simple methods, and exploring interface builder. I created a working version in a short period of time, however there serious flaws in my approach. For example, Everything was inside my view controller.
+I got comfortable with Xcode by creating outlets, using simple methods, and exploring interface builder. I created a working version in a short period of time, however there were serious flaws in my approach. For example, Everything was inside my view controller.
 I knew that a lot of my code didn't belong there, but I didn’t know where else to put it. There was also a lot of excess code that I needed to eliminate.
 
 I started the [Stanford course](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550) on iTunes University.
 However, I realized I needed to get a stronger grasp on Object Oriented Programing. 
 
 I read Matt Neuburg's [iOS fundamentals](http://www.amazon.com/iOS-Programming-Fundamentals-Objective-C-Basics/dp/1491945575/ref=sr_1_2?ie=UTF8&qid=1409103316&sr=8-2) front to back.
-This was my best investment of time during the whole project.
 This was an indispensable investment. The first five chapters were especially helpful since they covered the fundamentals of iOS development.
 At the same time, I was coding every night and putting into practice what I was learning. 
 
 After I finished the book, there was still much to be done. I let myself go down rabbit holes to better understand MVC patterns, auto layout, delegation, and animation.
 
 ###Ship it
-About three months I signed up for the iOS developer program.
+About three months in I signed up for the iOS developer program.
 I wanted to spend time debugging, learn about memory management, and get feedback.
 I received a lot feedback and opinions. The biggest issue was that users didn’t have enough control over their input.
 I decided to create a modal that gave users the ability to enter in values outside the default range.

@@ -29,11 +29,11 @@ This gave me extra mental space, and helped me visualize what was going on in my
 &lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
 &lt;p&gt;I wanted the app to look polished and to make calculating easy.
 I spent a lot of time thinking about how I wanted the users to input information.
-I mocked up 8 different ways the interface could work which helped me evaluate different interface options.
+I mocked up 8 different ways the interface could work.
 &lt;img src=&quot;/assets/dist/posts/wagon-mockups.jpg&quot; alt=&quot;Mockups&quot; title=&quot;Mockups&quot; /&gt;
 I chose the last option as a starting point because the user can get fast estimates without having to type or switch pages.&lt;/p&gt;
 
-&lt;p&gt;I made something simple for the icon which I was planning on using.
+&lt;p&gt;I started with something simple for the icon which I was planning on using.
 A friend challenged me to make something memorable.
 I sketched out lots of ideas some of which looked great at 512x512, but poor on the actual device.
 After much tweaking I came up with something I liked.&lt;/p&gt;
@@ -43,21 +43,20 @@ After much tweaking I came up with something I liked.&lt;/p&gt;
 &lt;h3 id=&quot;development&quot;&gt;Development&lt;/h3&gt;
 &lt;p&gt;Developing Wagon Pool was both challenging and rewarding. So many hours went into such a small app.&lt;/p&gt;
 
-&lt;p&gt;I started getting comfortable with Xcode by creating outlets, using simple methods, and exploring interface builder. I created a working version in a short period of time, however there serious flaws in my approach. For example, Everything was inside my view controller.
+&lt;p&gt;I got comfortable with Xcode by creating outlets, using simple methods, and exploring interface builder. I created a working version in a short period of time, however there were serious flaws in my approach. For example, Everything was inside my view controller.
 I knew that a lot of my code didn’t belong there, but I didn’t know where else to put it. There was also a lot of excess code that I needed to eliminate.&lt;/p&gt;
 
 &lt;p&gt;I started the &lt;a href=&quot;https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550&quot;&gt;Stanford course&lt;/a&gt; on iTunes University.
 However, I realized I needed to get a stronger grasp on Object Oriented Programing. &lt;/p&gt;
 
 &lt;p&gt;I read Matt Neuburg’s &lt;a href=&quot;http://www.amazon.com/iOS-Programming-Fundamentals-Objective-C-Basics/dp/1491945575/ref=sr_1_2?ie=UTF8&amp;amp;qid=1409103316&amp;amp;sr=8-2&quot;&gt;iOS fundamentals&lt;/a&gt; front to back.
-This was my best investment of time during the whole project.
 This was an indispensable investment. The first five chapters were especially helpful since they covered the fundamentals of iOS development.
 At the same time, I was coding every night and putting into practice what I was learning. &lt;/p&gt;
 
 &lt;p&gt;After I finished the book, there was still much to be done. I let myself go down rabbit holes to better understand MVC patterns, auto layout, delegation, and animation.&lt;/p&gt;
 
 &lt;h3 id=&quot;ship-it&quot;&gt;Ship it&lt;/h3&gt;
-&lt;p&gt;About three months I signed up for the iOS developer program.
+&lt;p&gt;About three months in I signed up for the iOS developer program.
 I wanted to spend time debugging, learn about memory management, and get feedback.
 I received a lot feedback and opinions. The biggest issue was that users didn’t have enough control over their input.
 I decided to create a modal that gave users the ability to enter in values outside the default range.

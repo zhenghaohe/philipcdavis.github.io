@@ -13,7 +13,7 @@ Still working on making the reading experience optimal.
 If you notice anything funky, [let me know](https://github.com/philipcdavis/philipcdavis.github.io/issues).
 
 
-###Feedback
+##Feedback
 If you have any, [I would love to hear from you](http://www.twitter.com/philipcdavis).
 
 

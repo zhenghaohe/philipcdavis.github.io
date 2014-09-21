@@ -7,26 +7,64 @@
     <atom:link href="http://philipcdavis.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>A Well Rounded Designer</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Find the things that won’t change in your business and invest heavily in those things. - Jeff Bezos&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bezos’ quote resonates with me on many levels but I think there’s an important takeaway for designers.
+Are we investing into skills that are going to be relevant in 20 years?
+Here are a few communication skills that I am focusing on right now in my career.&lt;/p&gt;
+
+&lt;h2 id=&quot;persuasion&quot;&gt;Persuasion.&lt;/h2&gt;
+&lt;p&gt;Designers spend a lot of time reassuring, explaining, and defending design decisions.
+Persuasion is not the same thing as deception, its about sharing ideas in a winsome way.
+The ability to get people excited about an idea is of tremendous value.&lt;/p&gt;
+
+&lt;h2 id=&quot;listening&quot;&gt;Listening.&lt;/h2&gt;
+&lt;p&gt;We need to make sure our solutions are for real people.
+Spend time with the people who use what you create.
+Listen for the pain points, it’s up to us to create solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;teaching&quot;&gt;Teaching.&lt;/h2&gt;
+&lt;p&gt;When I teach a subject, it forces me learn the material inside and out.
+I’m challenged to boil down concepts so that they are easy to explain and understand.
+Technical jargon can be a cover up for insecurity.
+Oftentimes what sounds smart isn’t helpful.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As a communicator you have to decide if you want to impress people with your knowledge or be effective. You probably won’t do both. - Pete Wilson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?screen_name=philipcdavis&quot;&gt;What would you add to this list?&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 20 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://philipcdavis.com/notebook/well-rounded-designer</link>
+        <guid isPermaLink="true">http://philipcdavis.com/notebook/well-rounded-designer</guid>
+      </item>
+    
+      <item>
         <title>Making Wagon Pool</title>
         <description>&lt;p&gt;I made my first app this past year. It’s a &lt;a href=&quot;http://www.wagonpool.com/&quot;&gt;simple carpooling calculator&lt;/a&gt; that allows you to find out how much a trip will cost each person involved.
 I designed and built Wagon Pool from scratch without any previous Objective C, Xcode, or Object Oriented Programming experience.
 While it’s still fresh in my mind I wanted to document the process I took in building it.
 This post may be helpful for you if you want to learn how to make mobile applications.&lt;/p&gt;
 
-&lt;h3 id=&quot;my-goals&quot;&gt;My Goals&lt;/h3&gt;
+&lt;h2 id=&quot;my-goals&quot;&gt;My Goals&lt;/h2&gt;
 &lt;p&gt;My hope for this project was to be able to ship something I was proud of.
 I wanted the app to be simple, focused, and better than alternative options.&lt;/p&gt;
 
 &lt;p&gt;I also wanted to have a good understanding of what it takes to build an iOS application.
 I needed to learn Object Oriented Programming and learn mobile development on its own terms.&lt;/p&gt;
 
-&lt;h3 id=&quot;getting-started&quot;&gt;Getting Started:&lt;/h3&gt;
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started:&lt;/h2&gt;
 &lt;p&gt;I bought a 99 cent notebook to help organize my thoughts. I sketched, illustrated, and diagrammed my way through the entire process.
 This gave me extra mental space, and helped me visualize what was going on in my head.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/dist/posts/wagon-notepad.jpg&quot; alt=&quot;Notebook&quot; title=&quot;Notebook&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
 &lt;p&gt;I wanted the app to look polished and to make calculating easy.
 I spent a lot of time thinking about how I wanted the users to input information.
 I mocked up 8 different ways the interface could work.
@@ -40,7 +78,7 @@ After much tweaking I came up with something I liked.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/dist/posts/wagon-icon.jpg&quot; alt=&quot;Icon&quot; title=&quot;Icon&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;development&quot;&gt;Development&lt;/h3&gt;
+&lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
 &lt;p&gt;Developing Wagon Pool was both challenging and rewarding. So many hours went into such a small app.&lt;/p&gt;
 
 &lt;p&gt;I got comfortable with Xcode by creating outlets, using simple methods, and exploring interface builder. I created a working version in a short period of time, however there were serious flaws in my approach. For example, Everything was inside my view controller.
@@ -55,7 +93,7 @@ At the same time, I was coding every night and putting into practice what I was 
 
 &lt;p&gt;After I finished the book, there was still much to be done. I let myself go down rabbit holes to better understand MVC patterns, auto layout, delegation, and animation.&lt;/p&gt;
 
-&lt;h3 id=&quot;ship-it&quot;&gt;Ship it&lt;/h3&gt;
+&lt;h2 id=&quot;ship-it&quot;&gt;Ship it&lt;/h2&gt;
 &lt;p&gt;About three months in I signed up for the iOS developer program.
 I wanted to spend time debugging, learn about memory management, and get feedback.
 I received a lot feedback and opinions. The biggest issue was that users didn’t have enough control over their input.
@@ -82,20 +120,20 @@ Check it out on the &lt;a href=&quot;https://itunes.apple.com/us/app/wagon-pool-
         <description>&lt;p&gt;I recently taught a front end intensive course to people who had no coding experience.
 Here are three thoughts I would share with new front end developers or those considering the profession.&lt;/p&gt;
 
-&lt;h3 id=&quot;technical-confidence&quot;&gt;Technical confidence.&lt;/h3&gt;
+&lt;h2 id=&quot;technical-confidence&quot;&gt;Technical confidence.&lt;/h2&gt;
 &lt;p&gt;Getting started it’s easy to feel overwhelmed.
 It’s important to remember that a lot of front end developers are self taught.
 If you are self motivated, and have time and energy to devote you can overcome the barriers to this field.
 A great place to begin is with a solid understanding of HTML, CSS, and JavaScript.
 Learning these will build your confidence and allow your to explore other languages, and frameworks. &lt;/p&gt;
 
-&lt;h3 id=&quot;mental-grit&quot;&gt;Mental grit.&lt;/h3&gt;
+&lt;h2 id=&quot;mental-grit&quot;&gt;Mental grit.&lt;/h2&gt;
 &lt;p&gt;There are moments in your work where you aren’t eager to learn new things.
 &lt;a href=&quot;../Staying-Engaged/&quot;&gt;Staying engaged with your work&lt;/a&gt; is important for those getting started because it’s easier to drop out.
 You need to position yourself so that you don’t get stuck for long.
 Make sure your expectations are realistic enough to overcome the hurdles.&lt;/p&gt;
 
-&lt;h3 id=&quot;creative-outlets&quot;&gt;Creative Outlets.&lt;/h3&gt;
+&lt;h2 id=&quot;creative-outlets&quot;&gt;Creative Outlets.&lt;/h2&gt;
 &lt;p&gt;Take the skills you are learning and put them to work.
 Building and shipping is a great way to learn.
 If you can’t do this at your job, create side projects.
@@ -118,15 +156,15 @@ When it happens, it means something needs to change, either in your attitude or 
 You have to stay engaged with your work to thrive in your career.
 Here are some things that have helped me through droughts of motivation.&lt;/p&gt;
 
-&lt;h3 id=&quot;dont-let-your-work-define-you&quot;&gt;Don’t let your work define you.&lt;/h3&gt;
+&lt;h2 id=&quot;dont-let-your-work-define-you&quot;&gt;Don’t let your work define you.&lt;/h2&gt;
 &lt;p&gt;If you look to your job to provide meaning and significance it will let you down.
 Your work is important, but it’s not your identity.&lt;/p&gt;
 
-&lt;h3 id=&quot;create-a-side-project&quot;&gt;Create a side project.&lt;/h3&gt;
+&lt;h2 id=&quot;create-a-side-project&quot;&gt;Create a side project.&lt;/h2&gt;
 &lt;p&gt;Side projects give you the freedom to define the rules and explore the things you want to learn.
 I always have 1-2 side projects that relate to my work. &lt;/p&gt;
 
-&lt;h3 id=&quot;surround-yourself-with-passionate-people&quot;&gt;Surround yourself with passionate people&lt;/h3&gt;
+&lt;h2 id=&quot;surround-yourself-with-passionate-people&quot;&gt;Surround yourself with passionate people&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;You are the average of the five people that you spend the most time with.
 -  Jim Rohn&lt;/p&gt;
@@ -148,19 +186,19 @@ I always have 1-2 side projects that relate to my work. &lt;/p&gt;
 This destructive tendency can jeopardize any relationship which is why I have been fighting it. 
 I’ve learned a few things along the way that have helped me become a better listener. I hope they help you as well.&lt;/p&gt;
 
-&lt;h3 id=&quot;be-genuinely-interested-in-people&quot;&gt;Be genuinely interested in people&lt;/h3&gt;
+&lt;h2 id=&quot;be-genuinely-interested-in-people&quot;&gt;Be genuinely interested in people&lt;/h2&gt;
 &lt;p&gt;Sometimes you really don’t care about a story or opinion.
 It’s important to take interest in the person sharing them.
 Caring for people allows me to enjoy stories that I don’t find exciting, or opinions that I am indifferent to.&lt;/p&gt;
 
-&lt;h3 id=&quot;follow-up-with-questions&quot;&gt;Follow up with questions&lt;/h3&gt;
+&lt;h2 id=&quot;follow-up-with-questions&quot;&gt;Follow up with questions&lt;/h2&gt;
 &lt;p&gt;Following up is about asking relevant and helpful questions.
 It can be very easy to kill a conversation. People know when their words aren’t appreciated.
 I’ve found that asking questions is a more effective way of engaging others than offering advice or opinions.
 Have them flesh out their thoughts or give examples.
 It shows that you are engaged and allows meaningful conversational to take place.&lt;/p&gt;
 
-&lt;h3 id=&quot;give-people-time&quot;&gt;Give people time&lt;/h3&gt;
+&lt;h2 id=&quot;give-people-time&quot;&gt;Give people time&lt;/h2&gt;
 &lt;p&gt;To get the best thoughts out of people, don’t pressure them to talk faster than they are comfortable with.
 I am trying to wait for a minimum of 3-5 seconds of silence before I respond.
 I used to feel awkward about this, But a quick nod fills this time and serves as a transition to a shift in conversation.
@@ -186,7 +224,7 @@ There is still work to be done, but already the speed index has gone from &lt;a 
 Still working on making the reading experience optimal.
 If you notice anything funky, &lt;a href=&quot;https://github.com/philipcdavis/philipcdavis.github.io/issues&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;feedback&quot;&gt;Feedback&lt;/h3&gt;
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
 &lt;p&gt;If you have any, &lt;a href=&quot;http://www.twitter.com/philipcdavis&quot;&gt;I would love to hear from you&lt;/a&gt;.&lt;/p&gt;
 
 </description>

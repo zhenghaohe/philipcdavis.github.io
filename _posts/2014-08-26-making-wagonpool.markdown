@@ -10,20 +10,20 @@ I designed and built Wagon Pool from scratch without any previous Objective C, X
 While it's still fresh in my mind I wanted to document the process I took in building it.
 This post may be helpful for you if you want to learn how to make mobile applications.
 
-###My Goals
+##My Goals
 My hope for this project was to be able to ship something I was proud of.
 I wanted the app to be simple, focused, and better than alternative options.
 
 I also wanted to have a good understanding of what it takes to build an iOS application.
 I needed to learn Object Oriented Programming and learn mobile development on its own terms.
 
-###Getting Started:
+##Getting Started:
 I bought a 99 cent notebook to help organize my thoughts. I sketched, illustrated, and diagrammed my way through the entire process.
 This gave me extra mental space, and helped me visualize what was going on in my head.
 
 ![Notebook]({{site.baseurl}}/assets/dist/posts/wagon-notepad.jpg "Notebook")
 
-###Design
+##Design
 I wanted the app to look polished and to make calculating easy.
 I spent a lot of time thinking about how I wanted the users to input information.
 I mocked up 8 different ways the interface could work.
@@ -37,7 +37,7 @@ After much tweaking I came up with something I liked.
 
 ![Icon]({{site.baseurl}}/assets/dist/posts/wagon-icon.jpg "Icon")
 
-###Development
+##Development
 Developing Wagon Pool was both challenging and rewarding. So many hours went into such a small app.
 
 I got comfortable with Xcode by creating outlets, using simple methods, and exploring interface builder. I created a working version in a short period of time, however there were serious flaws in my approach. For example, Everything was inside my view controller.
@@ -52,7 +52,7 @@ At the same time, I was coding every night and putting into practice what I was 
 
 After I finished the book, there was still much to be done. I let myself go down rabbit holes to better understand MVC patterns, auto layout, delegation, and animation.
 
-###Ship it
+##Ship it
 About three months in I signed up for the iOS developer program.
 I wanted to spend time debugging, learn about memory management, and get feedback.
 I received a lot feedback and opinions. The biggest issue was that users didn’t have enough control over their input.

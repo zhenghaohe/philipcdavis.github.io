@@ -8,17 +8,18 @@ date:   2014-09-20
 
 Bezos' quote resonates with me on many levels but I think there's an important takeaway for designers.
 Are we investing into skills that are going to be relevant in 20 years?
-Here are a few communication skills that I am focusing on right now in my career.
+I believe that strong communication skills are indelible for designers
+Here are a few in particular that I am currently focusing on.
 
 ##Persuasion.
 Designers spend a lot of time reassuring, explaining, and defending design decisions.
 Persuasion is not the same thing as deception, its about sharing ideas in a winsome way.
-The ability to get people excited about an idea is of tremendous value.
+The ability to get people excited about an idea is tremendously valuable.
 
 ##Listening.
-We need to make sure our solutions are for real people.
-Spend time with the people who use what you create.
-Listen for the pain points, it's up to us to create solutions.
+We need to make sure we are building things for real people.
+It's important to spend time with the people who use what we create and listen for their pain points.
+Out job is to create solutions for genuine problems. We can't do that until we understand what those problems are.
 
 ##Teaching.
 When I teach a subject, it forces me learn the material inside and out.
@@ -28,5 +29,5 @@ Oftentimes what sounds smart isn't helpful.
 
 > As a communicator you have to decide if you want to impress people with your knowledge or be effective. You probably won't do both. - Pete Wilson
 
-[What would you add to this list?](https://twitter.com/intent/tweet?screen_name=philipcdavis)
+[What skills do you find valuable?](https://twitter.com/intent/tweet?screen_name=philipcdavis)
 

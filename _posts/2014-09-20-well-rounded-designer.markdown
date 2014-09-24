@@ -2,6 +2,7 @@
 layout: post
 title:  "A Well Rounded Designer"
 date:   2014-09-20
+header-img: "well-rounded-designer.jpg"
 ---
 
 > Find the things that won't change in your business and invest heavily in those things. - Jeff Bezos

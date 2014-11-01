@@ -1,0 +1,173 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 100%;
+  margin: 0;
+  background-color: #fff;
+  color: #212121;
+  font-size: 80%;
+}
+
+@media screen and (min-width: 35em) {
+  body {
+    font-size: 100%;
+  }
+
+}
+
+/* Typography */
+
+h1, h2 {
+  font-weight: 900;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+a {
+  color: #3d6dbe;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #6594e0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 0em;
+  max-width: 650px;
+}
+
+ul li {
+  line-height: 1.8;
+  max-width: 610px;
+}
+
+/* Header */
+header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+header p {
+  margin-top: 0;
+  line-height: .5;
+}
+
+header h1 {
+  padding-top: 2px;
+  margin-bottom: .1em;
+}
+
+.portrait {
+  width: 70px;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (min-width: 35em) {
+  
+  header {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  
+  .portrait {
+    margin-right: 20px;
+    margin-left: 0;
+    float: left;
+  }
+  
+
+}
+
+/* Utilities */
+
+img {
+  max-width: 100%;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.light {
+  color: #888;
+}
+
+/* The Grid */
+
+.container {
+  max-width: 800px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  clear: both;
+  margin-right: -1%;
+  margin-left:  -1%;
+  
+}
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.row:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ */
+.row {
+  *zoom: 1;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6 {
+  float: left;
+  width:100%;
+  padding: 0 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 40em) {
+  .grid-1 { width: 16.6666666%; }
+  .grid-2 { width: 33.3333333%; }
+  .grid-3 { width: 50%; }
+  .grid-4 { width: 66.6666666%; }
+  .grid-5 { width: 83.3333333%; }
+  .grid-6 { width: 100%; }
+
+}

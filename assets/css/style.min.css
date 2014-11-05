@@ -1,0 +1,82 @@
+*{box-sizing:border-box}
+body,html{height:100%}
+body{font-family:Georgia,serif;margin:0;font-size:1em;color:#444}
+h1,h2,h3,h4,h5{font-family:'Open Sans',helvetica,arial,sans-serif;margin-bottom:0;font-weight:800}
+h1{font-size:25px;margin-bottom:8px}
+h2{font-size:1.2em}
+@media screen and (min-width:640px){h1{font-size:2em;margin-bottom:12px}
+h2{font-size:1.5em}}
+ul{margin:0;padding:0}
+label{font-size:.8em;color:#777}
+img{max-width:100%}
+p{line-height:1.6}
+a{color:#e93f2f;text-decoration:none;border-bottom:1px solid rgba(212,35,12,.3)}
+a:hover{border-bottom:1px solid rgba(212,35,12,.7)}
+blockquote{border-left:3px solid #555;font-style:italic;margin-left:0;padding-left:1.5em}
+.container{width:94%;max-width:900px;margin-left:auto;margin-right:auto;min-height:100%;margin-bottom:-110px}
+.clearfix:after{content:"";display:table;clear:both}
+.logo{width:43px;margin:0 auto 30px;display:block}
+header{padding-top:30px;border-bottom:1px solid #ccc;margin:0 1% 1%}
+section{overflow:hidden}
+nav{text-align:center;margin-top:12px;margin-bottom:12px}
+nav a{display:inline;margin-left:.85em;margin-right:.85em;margin-bottom:1%;color:#777;text-decoration:none;border-bottom:none}
+nav a:hover{color:#e93f2f;text-decoration:none;border-bottom:none}
+nav a.active{color:#444}
+.grid-unit{float:left;width:50%;padding:3% 1%}
+.grid-unit:nth-child(odd){clear:left}
+.port{text-decoration:none;color:#5a5a5a;transition:all .1s linear;border-bottom:none}
+.port label{text-align:center;display:block;border-bottom:none}
+.port:hover,.port:hover label{opacity:.8;cursor:pointer;text-decoration:none;border-bottom:none}
+.container:after{content:"";display:block}
+.container:after,footer{height:60px;margin-top:50px}
+footer{width:94%;max-width:900px;margin-left:auto;margin-right:auto}
+.footer-links{border-top:solid 1px #ccc;margin:0 1%;padding:17px;text-align:center;color:#777}
+.footer-links a{margin-left:10px;margin-right:10px;border-bottom:none}
+.footer-links a:hover{border-bottom:1px solid rgba(212,35,12,.7)}
+.hide-large{display:block}
+@media screen and (min-width:640px){body{font-size:1.1em}
+nav{text-align:right;float:right}
+nav a{display:inline;margin-left:1.7em;margin-right:1.7em}
+h1,h2,h3,h4,h5{font-family:'Open Sans',sans-serif}
+.logo{margin-left:0;float:left}
+.grid-unit{width:33.33333333%;padding:2% 1%}
+.grid-unit:nth-child(3n+1){clear:left}
+.grid-unit:nth-child(2n+1){clear:none}
+label{font-size:.9em}
+.hide-large{display:none}}
+.about{padding:3% 1%}
+.hello{text-align:left;width:100%;margin:0 auto}
+@media screen and (min-width:640px){.hello{width:60%}
+.about{padding:2% 1%}}
+.posts{padding:0 1%}
+.posts li{position:relative;list-style:none;padding:30px 15px 30px 0;border-bottom:1px dotted #ccc}
+.posts li:last-child{border-bottom:none}
+a.post-link{font-family:'Open Sans',helvetica,arial,sans-serif;font-weight:800;color:#444;font-size:1.4em;display:inline-block;border-bottom:none}
+a.post-link:hover{color:#e93f2f;text-decoration:none;border-bottom:none}
+.posts .post-date{color:#aaa;font-size:.9em}
+.post{width:100%;color:#444}
+header.post-header{margin:7% 0 0;padding:0 1%;border-bottom:none}
+.post .meta{padding:0;margin:5px 0 8px;color:#aaa}
+article{margin:0 1% 1%;line-height:1.6}
+article p,article ul{margin:.5% 0 5%;color:#555;font-size:1em}
+article ol,article ul{margin-left:25px}
+article img,article img.large{width:100%;margin:0;max-width:100%}
+code,pre{background-color:#eee;padding:4px 8px;border-radius:3px}
+.headerImage{padding:2% 1%;max-width:100%}
+.iphone-video{max-width:100%;margin:0 auto;width:300px;display:block}
+.legal{color:#aaa;font-size:.8em;text-align:center;border-top:1px solid #ccc;padding-top:20px}
+@media screen and (min-width:640px){a.post-link{font-family:'Open Sans',sans-serif}
+.posts .post-date{position:absolute;top:42%;right:0}
+.post{width:75%;margin:0 auto}
+.full-video,.post img{width:133.33334%;max-width:133.333334%;margin-left:-16.666666%}
+.post img.small{width:100%;margin-left:auto;margin-right:auto}
+.post img.half-image{width:50%;float:left;margin-left:0;margin-right:0;padding:5px}
+article p,article ul{font-size:1.2em}
+article ol,article ul{margin-left:30px}
+article img.large{max-width:130%;width:130%;margin-left:-15%}}
+.icons{margin-top:0;margin-bottom:50px;text-align:center}
+.icons span{font-size:16px;margin-left:0;margin-right:10px;line-height:2}
+.d3-block{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin-left:0}
+.d3-block iframe{width:100%}
+@media screen and (min-width:640px){.d3-block{width:150%;margin-left:-25%}
+.icons{margin-top:0}}

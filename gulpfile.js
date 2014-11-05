@@ -1,7 +1,10 @@
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
 var pngcrush = require('imagemin-pngcrush');
+var minifyCSS = require('gulp-minify-css');
+var rename = require("gulp-rename");
 
+//Shrink image size down
 gulp.task('compress', function () {
     return gulp.src('assets/img/**')
         .pipe(imagemin({
@@ -12,4 +15,15 @@ gulp.task('compress', function () {
         .pipe(gulp.dest('assets/dist/'));
 });
 
-// figure out how to get this to work with multiple folders
+
+//Minified css goes into my assets folder
+gulp.task('minify-css', function() {
+  gulp.src('css/*.css')
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(minifyCSS({keepBreaks:true}))
+    .pipe(gulp.dest('assets/css/'))
+    
+});
+
+// My default task
+gulp.task('default', ['compress', 'minify-css']);

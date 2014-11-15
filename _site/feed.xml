@@ -106,7 +106,10 @@ This set me back a few weeks, but I’m glad I decided to address it in the v1.0
 &lt;p&gt;It’s a small app, but it’s something I am very proud of.
 Check it out on the &lt;a href=&quot;https://itunes.apple.com/us/app/wagon-pool-simple-carpooling/id846135212?mt=8&quot;&gt;app store&lt;/a&gt; and let me know what you think!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/dist/posts/wagon-screenshots.jpg&quot; alt=&quot;Screenshots&quot; title=&quot;Screenshots&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;clearfix&quot;&gt;
+    &lt;img src=&quot;/assets/dist/sliding.gif&quot; class=&quot;half-image&quot; /&gt;
+    &lt;img src=&quot;/assets/dist/modal.gif&quot; class=&quot;half-image&quot; /&gt;
+&lt;/div&gt;
 
 &lt;p class=&quot;legal&quot;&gt;Apple, the Apple logo, iPhone, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.&lt;/p&gt;
 

@@ -64,7 +64,7 @@ article img,article img.large{width:100%;margin:0;max-width:100%}
 code,pre{background-color:#eee;padding:4px 8px;border-radius:3px}
 .headerImage{padding:2% 1%;max-width:100%}
 .iphone-video{max-width:100%;margin:0 auto;width:300px;display:block}
-.legal{color:#aaa;font-size:.8em;text-align:center;border-top:1px solid #ccc;padding-top:20px}
+.legal{color:#aaa;font-size:.8em;text-align:center;padding-top:20px}
 @media screen and (min-width:640px){a.post-link{font-family:'Open Sans',sans-serif}
 .posts .post-date{position:absolute;top:42%;right:0}
 .post{width:75%;margin:0 auto}

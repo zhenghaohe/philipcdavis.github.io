@@ -64,8 +64,11 @@ This set me back a few weeks, but I’m glad I decided to address it in the v1.0
 It's a small app, but it's something I am very proud of.
 Check it out on the [app store](https://itunes.apple.com/us/app/wagon-pool-simple-carpooling/id846135212?mt=8) and let me know what you think!
 
-![Screenshots]({{site.baseurl}}/assets/dist/posts/wagon-screenshots.jpg "Screenshots")
 
+<div class="clearfix">
+    <img src="{{site.baseurl}}/assets/dist/sliding.gif" class="half-image">
+    <img src="{{site.baseurl}}/assets/dist/modal.gif" class="half-image">
+</div>
 
 
 

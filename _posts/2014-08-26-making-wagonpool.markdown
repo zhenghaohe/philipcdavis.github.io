@@ -8,7 +8,6 @@ date:   2014-08-26
 I made my first app this past year. It's a [simple carpooling calculator](http://www.wagonpool.com/) that allows you to find out how much a trip will cost each person involved.
 I designed and built Wagon Pool from scratch without any previous Objective C, Xcode, or Object Oriented Programming experience.
 While it's still fresh in my mind I wanted to document the process I took in building it.
-This post may be helpful for you if you want to learn how to make mobile applications.
 
 ##My Goals
 My hope for this project was to be able to ship something I was proud of.

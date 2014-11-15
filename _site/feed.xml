@@ -49,8 +49,7 @@ Oftentimes what sounds smart isn’t helpful.&lt;/p&gt;
         <title>Making Wagon Pool</title>
         <description>&lt;p&gt;I made my first app this past year. It’s a &lt;a href=&quot;http://www.wagonpool.com/&quot;&gt;simple carpooling calculator&lt;/a&gt; that allows you to find out how much a trip will cost each person involved.
 I designed and built Wagon Pool from scratch without any previous Objective C, Xcode, or Object Oriented Programming experience.
-While it’s still fresh in my mind I wanted to document the process I took in building it.
-This post may be helpful for you if you want to learn how to make mobile applications.&lt;/p&gt;
+While it’s still fresh in my mind I wanted to document the process I took in building it.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-goals&quot;&gt;My Goals&lt;/h2&gt;
 &lt;p&gt;My hope for this project was to be able to ship something I was proud of.

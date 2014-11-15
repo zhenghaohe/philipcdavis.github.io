@@ -6,8 +6,8 @@ date:   2014-11-12
 
 
 I love side projects for a host of reasons. 
-They give you autonomy, boost your skills, and allow you to experiment with tools and processes.
-They can also be uniquely challenging. 
+They give you autonomy, sharpen your skills, teach you valuable lessons, and allow you to experiment with whatever you are interested in.
+They can also be challenging in unique ways. 
 With all the freedom and its benefits you also need to make hard decisions about what to build. 
 This post is collection of my thoughts on deciding on a side project.
 

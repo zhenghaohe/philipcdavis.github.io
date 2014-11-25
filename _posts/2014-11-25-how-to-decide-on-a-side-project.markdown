@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Decide on a Side Project"
 date:   2014-11-25
-header-img: "how-to-decide-on-a-side-project.jpg"
+header-img: "How-to-decide-on-a-side-project.jpg"
 ---
 
 I love side projects for a host of reasons. 

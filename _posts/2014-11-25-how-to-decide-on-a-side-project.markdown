@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Decide on a Side Project"
-date:   2014-11-12
+date:   2014-11-25
 header-img: "how-to-decide-on-a-side-project.jpg"
 ---
 

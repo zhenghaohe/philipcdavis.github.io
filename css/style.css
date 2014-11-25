@@ -338,15 +338,12 @@ article {
    line-height: 1.6;
 }
 
-article p, article ul {
+article p, article ul, article ol {
     margin: .5% 0 5% 0;
     color: #555;
     font-size: 1em;
 }
 
-article ul, article ol {
-    margin-left: 25px;
-}
 
 article img, article img.large {
     width: 100%;
@@ -416,7 +413,7 @@ pre, code {
         padding: 5px;
     }
     
-    article p, article ul {
+    article p, article ul, article ol {
         font-size: 1.2em;
     }
     

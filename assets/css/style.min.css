@@ -58,8 +58,7 @@ a.post-link:hover{color:#e93f2f;text-decoration:none;border-bottom:none}
 header.post-header{margin:7% 0 0;padding:0 1%;border-bottom:none}
 .post .meta{padding:0;margin:5px 0 8px;color:#aaa}
 article{margin:0 1% 1%;line-height:1.6}
-article p,article ul{margin:.5% 0 5%;color:#555;font-size:1em}
-article ol,article ul{margin-left:25px}
+article ol,article p,article ul{margin:.5% 0 5%;color:#555;font-size:1em}
 article img,article img.large{width:100%;margin:0;max-width:100%}
 code,pre{background-color:#eee;padding:4px 8px;border-radius:3px}
 .headerImage{padding:2% 1%;max-width:100%}
@@ -71,7 +70,7 @@ code,pre{background-color:#eee;padding:4px 8px;border-radius:3px}
 .full-video,.post img{width:133.33334%;max-width:133.333334%;margin-left:-16.666666%}
 .post img.small{width:100%;margin-left:auto;margin-right:auto}
 .post img.half-image{width:50%;float:left;margin-left:0;margin-right:0;padding:5px}
-article p,article ul{font-size:1.2em}
+article ol,article p,article ul{font-size:1.2em}
 article ol,article ul{margin-left:30px}
 article img.large{max-width:130%;width:130%;margin-left:-15%}}
 .icons{margin-top:0;margin-bottom:50px;text-align:center}

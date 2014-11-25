@@ -2,35 +2,37 @@
 layout: post
 title:  "How to Decide on a Side Project"
 date:   2014-11-12
+header-img: "how-to-decide-on-a-side-project.jpg"
 ---
 
-
 I love side projects for a host of reasons. 
-They give you autonomy, sharpen your skills, teach you valuable lessons, and allow you to experiment with whatever you are interested in.
-They can also be challenging in unique ways. 
-With all the freedom and its benefits you also need to make hard decisions about what to build. 
-This post is collection of my thoughts on deciding on a side project.
+They give you autonomy, sharpen your skills, and can teach you valuable lessons about building and shipping products.
+They can also be uniquely challenging.
+Getting started it is important to make smart decisions about what you want to build.
+This post outlines how I go about deciding on a good side project.
 
 
-##Solve a real problem
-Maybe you have acquired rare and valuable skills and you want to use them to solve a problem.
-Make sure it's a real one. The easiest way to know its a real problem is if it's your problem.
-You don't always have that luxury though. The other way I validate problems is by waiting until 3+ people approach me with the same problem.
-Responsive Resume came about this way. I had friends who kept asking me for a way to put something professional online.
-I didn't have anything to recommend and I needed the template for myself so I created it.
-I abstracted what I built for myself and then branded it as something others could use. I knew it was useful because I used it myself.
+As with many things, it's helpful to figure out your end goals.
+Mine usually fall into one of two buckets.
 
+1. I want to learn something that I don't know very well.
+2. I want to build something that people will use.
+
+Let's break these down a bit.
 
 ##Learn something new
-Maybe you don't have any ideas, but you know you want teach yourself something new.
-One good way to sharpen your skills is by consistently applying yourself.
+I learn new skills best by consistently applying myself.
 When I was in college I spent every day for 150 days creating a design based off a chapter in the book of Psalms.
-Forcing myself to create and post something every day made me a much better designer.
-At the beginning it was embarrassing because my work wasn't good, but the amount of embarrassing content decreased as I went on.
-I have tried this technique with other mediums like writing and programming and the results are incredible. 
+Forcing myself to create and post something every day made me a much better visual designer.
+At the beginning it was embarrassing because my work wasn't good, but the rate of embarrassing content decreased as I went on.
+I have tried this technique with other mediums like writing and programming and the results are incredible.
+If you decide to go this route don't be too focused on impressing others.
+Focus on shipping your work and allow yourself to explore.
 
-
-I was able to do both of these things with Wagon Pool, the first iPhone app I created.
-I wanted to learn iOS development and at the same time i wanted to create something my friends needed.
-In all cases it should be something you get excited about.  
-If you aren't proud of what you are working on, it probably isn't worth it.
+##Build something new
+Once you have acquired rare and valuable skills it's time to put them to use.
+Side projects are great places to confirm your ideas if you are interesting in growing into a business.
+Even if you aren't interested in starting a business it's an amazing experience releasing a product you had full control over.
+You end up sharpening your technical skills, marketing chops, product design, and documentation habits.
+These types of side projects are much more interesting if they are solving a real problem.
+Build something you need yourself, or something you know a lot of other people need.

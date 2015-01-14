@@ -19,7 +19,6 @@ gulp.task('compress', function () {
 //Minified css goes into my assets folder
 gulp.task('minify-css', function() {
   gulp.src('css/*.css')
-    .pipe(rename({ suffix: '.min' }))
     .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('assets/css/'))
     

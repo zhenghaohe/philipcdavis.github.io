@@ -1,3 +1,9 @@
+/* Body Text: #444
+ * Header Text: #555
+ * Light Text: #777
+ * Highlight Red: #e93f2f
+ */
+
 * {
     box-sizing: border-box;
 }
@@ -10,13 +16,14 @@ body {
     font-family: Georgia, serif;
     margin: 0;
     font-size: 1em;
-    color: #444;
+    color: #555;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     margin-bottom: 0;
     font-weight: 800;
+    color: #444;
 }
 
 h1 {
@@ -148,7 +155,6 @@ nav a.active {
 
 .port {
     text-decoration: none;
-    color: #5a5a5a;
     transition: all 0.1s linear;
     border-bottom: none;
 }
@@ -298,7 +304,7 @@ a.post-link {
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-weight: 800;
     color: #444;
-    font-size: 1.4em;
+    font-size: 1.3em;
     display: inline-block;
     border-bottom: none;
 }
@@ -338,7 +344,7 @@ article {
    line-height: 1.6;
 }
 
-article p, article ul, article ol {
+p, article p, article ul, article ol {
     margin: .5% 0 5% 0;
     color: #555;
     font-size: 1em;
@@ -413,7 +419,7 @@ pre, code {
         padding: 5px;
     }
     
-    article p, article ul, article ol {
+    p, article p, article ul, article ol {
         font-size: 1.2em;
     }
     

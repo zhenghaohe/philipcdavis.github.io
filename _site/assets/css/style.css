@@ -1,7 +1,7 @@
 *{box-sizing:border-box}
 body,html{height:100%}
-body{font-family:Georgia,serif;margin:0;font-size:1em;color:#444}
-h1,h2,h3,h4,h5{font-family:'Open Sans',helvetica,arial,sans-serif;margin-bottom:0;font-weight:800}
+body{font-family:Georgia,serif;margin:0;font-size:1em;color:#555}
+h1,h2,h3,h4,h5{font-family:'Open Sans',helvetica,arial,sans-serif;margin-bottom:0;font-weight:800;color:#444}
 h1{font-size:25px;margin-bottom:8px}
 h2{font-size:1.2em}
 @media screen and (min-width:640px){h1{font-size:2em;margin-bottom:12px}
@@ -24,7 +24,7 @@ nav a:hover{color:#e93f2f;text-decoration:none;border-bottom:none}
 nav a.active{color:#444}
 .grid-unit{float:left;width:50%;padding:3% 1%}
 .grid-unit:nth-child(odd){clear:left}
-.port{text-decoration:none;color:#5a5a5a;transition:all .1s linear;border-bottom:none}
+.port{text-decoration:none;transition:all .1s linear;border-bottom:none}
 .port label{text-align:center;display:block;border-bottom:none}
 .port:hover,.port:hover label{opacity:.8;cursor:pointer;text-decoration:none;border-bottom:none}
 .container:after{content:"";display:block}
@@ -51,14 +51,14 @@ label{font-size:.9em}
 .posts{padding:0 1%}
 .posts li{position:relative;list-style:none;padding:30px 15px 30px 0;border-bottom:1px dotted #ccc}
 .posts li:last-child{border-bottom:none}
-a.post-link{font-family:'Open Sans',helvetica,arial,sans-serif;font-weight:800;color:#444;font-size:1.4em;display:inline-block;border-bottom:none}
+a.post-link{font-family:'Open Sans',helvetica,arial,sans-serif;font-weight:800;color:#444;font-size:1.3em;display:inline-block;border-bottom:none}
 a.post-link:hover{color:#e93f2f;text-decoration:none;border-bottom:none}
 .posts .post-date{color:#aaa;font-size:.9em}
 .post{width:100%;color:#444}
 header.post-header{margin:7% 0 0;padding:0 1%;border-bottom:none}
 .post .meta{padding:0;margin:5px 0 8px;color:#aaa}
 article{margin:0 1% 1%;line-height:1.6}
-article ol,article p,article ul{margin:.5% 0 5%;color:#555;font-size:1em}
+article ol,article p,article ul,p{margin:.5% 0 5%;color:#555;font-size:1em}
 article img,article img.large{width:100%;margin:0;max-width:100%}
 code,pre{background-color:#eee;padding:4px 8px;border-radius:3px}
 .headerImage{padding:2% 1%;max-width:100%}
@@ -70,7 +70,7 @@ code,pre{background-color:#eee;padding:4px 8px;border-radius:3px}
 .full-video,.post img{width:133.33334%;max-width:133.333334%;margin-left:-16.666666%}
 .post img.small{width:100%;margin-left:auto;margin-right:auto}
 .post img.half-image{width:50%;float:left;margin-left:0;margin-right:0;padding:5px}
-article ol,article p,article ul{font-size:1.2em}
+article ol,article p,article ul,p{font-size:1.2em}
 article ol,article ul{margin-left:30px}
 article img.large{max-width:130%;width:130%;margin-left:-15%}}
 .icons{margin-top:0;margin-bottom:50px;text-align:center}

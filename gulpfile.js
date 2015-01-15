@@ -20,7 +20,7 @@ gulp.task('compress', function () {
 gulp.task('minify-css', function() {
   gulp.src('css/*.css')
     .pipe(minifyCSS({keepBreaks:true}))
-    .pipe(gulp.dest('assets/css/'))
+    .pipe(gulp.dest('css/'))
     
 });
 

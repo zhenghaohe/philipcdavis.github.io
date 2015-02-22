@@ -6,6 +6,11 @@ layout: default
   <img class="headerImage" src="{{site.baseurl}}/assets/dist/posts/{{page.header-img}}" alt="{{page.header-img}}" />
 {% endif %}
 
+{% if page.header-video %}
+  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+  .embed-container iframe, .embed-container object, .embed-container embed { padding: 2% 1%; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='{{page.header-video}}' frameborder='0' allowfullscreen></iframe></div>
+{% endif %}
+
 <div class="post">
   <header class="post-header">
     <h1>{{ page.title }}</h1>

@@ -7,6 +7,23 @@
     <atom:link href="http://philipcdavis.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Git Tip: Commiting with Vim</title>
+        <description>&lt;p&gt;In this quick tip video, I go over how to write your commit message using Vim. It’s helpful if you’ve ever accidentally found yourself stuck in this editor.&lt;/p&gt;
+
+&lt;p&gt;To summerize:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Press 'i' to enter insert mode&lt;/li&gt;
+    &lt;li&gt;Type your commit message&lt;/li&gt;
+    &lt;li&gt;Press esc to exit insert mode&lt;/li&gt;
+    &lt;li&gt;Press :x to save the commit and exit vim&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 22 Feb 2015 16:55:00 -0500</pubDate>
+        <link>http://philipcdavis.com/notebook/2015-02-22-Committing-with-Vim</link>
+        <guid isPermaLink="true">http://philipcdavis.com/notebook/2015-02-22-Committing-with-Vim</guid>
+      </item>
+    
+      <item>
         <title>How to Decide on a Side Project</title>
         <description>&lt;p&gt;I love side projects for a host of reasons. 
 They give you autonomy, sharpen your skills, and can teach you valuable lessons about building and shipping products.

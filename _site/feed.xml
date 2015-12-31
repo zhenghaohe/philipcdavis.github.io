@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Philip's Notebook</title>
+    <title>Philip&#39;s Notebook</title>
     <description>Online residence of Philip C Davis</description>
     <link>http://philipcdavis.com/</link>
     <atom:link href="http://philipcdavis.com/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Git Tip: Commiting with Vim</title>
-        <description>&lt;p&gt;In this quick tip video, I go over how to write your commit message using Vim. It’s helpful if you’ve ever accidentally found yourself stuck in this editor.&lt;/p&gt;
-
-&lt;p&gt;To summerize:&lt;/p&gt;
-&lt;ol&gt;
-    &lt;li&gt;Press 'i' to enter insert mode&lt;/li&gt;
-    &lt;li&gt;Type your commit message&lt;/li&gt;
-    &lt;li&gt;Press esc to exit insert mode&lt;/li&gt;
-    &lt;li&gt;Press :x to save the commit and exit vim&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sun, 22 Feb 2015 16:55:00 -0500</pubDate>
-        <link>http://philipcdavis.com/notebook/2015-02-22-Committing-with-Vim</link>
-        <guid isPermaLink="true">http://philipcdavis.com/notebook/2015-02-22-Committing-with-Vim</guid>
-      </item>
     
       <item>
         <title>How to Decide on a Side Project</title>
@@ -58,7 +41,7 @@ You end up sharpening your technical skills, marketing chops, product design, an
 These types of side projects are much more interesting if they are solving a real problem.
 Build something you need yourself, or something you know a lot of other people need.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 25 Nov 2014 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 25 Nov 2014 00:00:00 -0800</pubDate>
         <link>http://philipcdavis.com/notebook/how-to-decide-on-a-side-project</link>
         <guid isPermaLink="true">http://philipcdavis.com/notebook/how-to-decide-on-a-side-project</guid>
       </item>
@@ -97,7 +80,7 @@ Oftentimes what sounds smart isn’t helpful.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?screen_name=philipcdavis&quot;&gt;What communication skills do you find valuable as a designer?&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 20 Sep 2014 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 20 Sep 2014 00:00:00 -0700</pubDate>
         <link>http://philipcdavis.com/notebook/well-rounded-designer</link>
         <guid isPermaLink="true">http://philipcdavis.com/notebook/well-rounded-designer</guid>
       </item>
@@ -142,11 +125,11 @@ After much tweaking I came up with something I liked.&lt;/p&gt;
 I knew that a lot of my code didn’t belong there, but I didn’t know where else to put it. There was also a lot of excess code that I needed to eliminate.&lt;/p&gt;
 
 &lt;p&gt;I started the &lt;a href=&quot;https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550&quot;&gt;Stanford course&lt;/a&gt; on iTunes University.
-However, I realized I needed to get a stronger grasp on Object Oriented Programing. &lt;/p&gt;
+However, I realized I needed to get a stronger grasp on Object Oriented Programing.&lt;/p&gt;
 
 &lt;p&gt;I read Matt Neuburg’s &lt;a href=&quot;http://www.amazon.com/iOS-Programming-Fundamentals-Objective-C-Basics/dp/1491945575/ref=sr_1_2?ie=UTF8&amp;amp;qid=1409103316&amp;amp;sr=8-2&quot;&gt;iOS fundamentals&lt;/a&gt; front to back.
 This was an invaluable investment. The first five chapters were especially helpful since they covered the fundamentals of iOS development.
-At the same time, I was coding every night and putting into practice what I was learning. &lt;/p&gt;
+At the same time, I was coding every night and putting into practice what I was learning.&lt;/p&gt;
 
 &lt;p&gt;After I finished the book, there was still much to be done. I let myself go down rabbit holes to better understand MVC patterns, auto layout, delegation, and animation.&lt;/p&gt;
 
@@ -170,7 +153,7 @@ Check it out on the &lt;a href=&quot;https://itunes.apple.com/us/app/wagon-pool-
 &lt;p class=&quot;legal&quot;&gt;Apple, the Apple logo, iPhone, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 26 Aug 2014 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 26 Aug 2014 00:00:00 -0700</pubDate>
         <link>http://philipcdavis.com/notebook/making-wagonpool</link>
         <guid isPermaLink="true">http://philipcdavis.com/notebook/making-wagonpool</guid>
       </item>
@@ -185,7 +168,7 @@ Here are three thoughts I would share with new front end developers or those con
 It’s important to remember that a lot of front end developers are self taught.
 If you are self motivated, and have time and energy to devote you can overcome the barriers to this field.
 A great place to begin is with a solid understanding of HTML, CSS, and JavaScript.
-Learning these will build your confidence and allow your to explore other languages, and frameworks. &lt;/p&gt;
+Learning these will build your confidence and allow your to explore other languages, and frameworks.&lt;/p&gt;
 
 &lt;h2 id=&quot;mental-grit&quot;&gt;Mental grit.&lt;/h2&gt;
 &lt;p&gt;There are moments in your work where you aren’t eager to learn new things.
@@ -204,7 +187,7 @@ Devour resources and never stop exploring the terrain because it changes fast.&l
 You need the confidence that allows you undertake this education and the humility to know you will get stuck along the way.
 Start with the essentials and keep creating new things.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 14 Aug 2014 18:00:00 -0400</pubDate>
+        <pubDate>Thu, 14 Aug 2014 15:00:00 -0700</pubDate>
         <link>http://philipcdavis.com/notebook/How-To-Become-A-Front-End-Developer</link>
         <guid isPermaLink="true">http://philipcdavis.com/notebook/How-To-Become-A-Front-End-Developer</guid>
       </item>
@@ -222,7 +205,7 @@ Your work is important, but it’s not your identity.&lt;/p&gt;
 
 &lt;h2 id=&quot;create-a-side-project&quot;&gt;Create a side project.&lt;/h2&gt;
 &lt;p&gt;Side projects give you the freedom to define the rules and explore the things you want to learn.
-I always have 1-2 side projects that relate to my work. &lt;/p&gt;
+I always have 1-2 side projects that relate to my work.&lt;/p&gt;
 
 &lt;h2 id=&quot;surround-yourself-with-passionate-people&quot;&gt;Surround yourself with passionate people&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -235,7 +218,7 @@ I always have 1-2 side projects that relate to my work. &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.twitter.com/philipcdavis&quot;&gt;How do you get out of your motivation ruts?&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 30 Jul 2014 17:55:00 -0400</pubDate>
+        <pubDate>Wed, 30 Jul 2014 14:55:00 -0700</pubDate>
         <link>http://philipcdavis.com/notebook/Staying-Engaged</link>
         <guid isPermaLink="true">http://philipcdavis.com/notebook/Staying-Engaged</guid>
       </item>
@@ -263,14 +246,14 @@ It shows that you are engaged and allows meaningful conversational to take place
 I am trying to wait for a minimum of 3-5 seconds of silence before I respond.
 I used to feel awkward about this, But a quick nod fills this time and serves as a transition to a shift in conversation.
 If you are talking with someone who wants to have 100% of the time to talk, be generous and give it to them.
-Playing tug of war in a conversation makes for a frustrating experiance. &lt;/p&gt;
+Playing tug of war in a conversation makes for a frustrating experiance.&lt;/p&gt;
 
 &lt;p&gt;Zoning out and interrupting will kill your conversations.
 Appreciation and generosity will pump life into them.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.twitter.com/philipcdavis&quot;&gt;What are some of your listening tips?&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Jul 2014 02:20:00 -0400</pubDate>
+        <pubDate>Mon, 21 Jul 2014 23:20:00 -0700</pubDate>
         <link>http://philipcdavis.com/Art-of-Listening/</link>
         <guid isPermaLink="true">http://philipcdavis.com/Art-of-Listening/</guid>
       </item>
@@ -288,7 +271,7 @@ If you notice anything funky, &lt;a href=&quot;https://github.com/philipcdavis/p
 &lt;p&gt;If you have any, &lt;a href=&quot;http://www.twitter.com/philipcdavis&quot;&gt;I would love to hear from you&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 14 Jul 2014 19:43:00 -0400</pubDate>
+        <pubDate>Mon, 14 Jul 2014 16:43:00 -0700</pubDate>
         <link>http://philipcdavis.com/notebook/Beginning-Again</link>
         <guid isPermaLink="true">http://philipcdavis.com/notebook/Beginning-Again</guid>
       </item>

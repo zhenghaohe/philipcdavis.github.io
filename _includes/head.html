@@ -7,13 +7,12 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" href="{{ "/assets/dist/favicon.ico" | prepend: site.baseurl }}" />
     <!-- Custom CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/css/highlight.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-    
+
     <!--Page Specific Stylesheet-->
     {% if page.css %}
         <link rel="stylesheet" href="{{ page.css | prepend: site.baseurl }}">
     {% endif %}
-    
+
 </head>

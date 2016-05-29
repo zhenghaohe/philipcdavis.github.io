@@ -1,0 +1,33 @@
+.nav {
+  padding-top: 20px;
+}
+
+
+.nav-logo-img:hover {
+  opacity: .8;
+}
+
+.nav-links {
+  float: right;
+  padding-top: 7px;
+}
+
+.nav-link {
+  color: $smoke-dark;
+  text-decoration: none;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 16px;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+@media (min-width: 500px) {
+  .nav-link {
+    font-size: 19px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

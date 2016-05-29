@@ -1,0 +1,44 @@
+.work-title {
+  font-weight: 200;
+  font-size: 1em;
+  line-height: 1.4;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.work-gallery {
+  text-decoration: none;
+  transition: opacity 0.1s ease-out;
+  display: block;
+}
+
+.work-gallery:hover {
+  opacity: .8;
+}
+
+.work-label {
+  font-size: .7em;
+  color: $smoke-dark;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 3px;
+  display: block;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  .work-title {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 800px) {
+  .work-title {
+    font-size: 2em;
+  }
+
+  .work-label  {
+    font-size: .8em;
+  }
+}

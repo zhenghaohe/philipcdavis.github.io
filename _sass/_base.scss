@@ -1,0 +1,36 @@
+$charcoal: #43434A;
+$smoke-dark: #64646E;
+$smoke: #EAEEF1;
+$red: #FF0D0D;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: georgia, serif;
+  color: $charcoal;
+  font-size: 21px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.fit {
+  max-width: 100%;
+}

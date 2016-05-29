@@ -1,0 +1,19 @@
+<nav class="nav">
+
+  <a class="nav-logo" href="{{ site.baseurl }}/">
+    <img class="nav-logo-img" src="{{ "/assets/svg/logo.svg" | prepend: site.baseurl }}" alt="Philip Davis"/>
+  </a>
+  <div class="nav-links">
+    {% if page.title == "work" %}
+      <a href="/" class="nav-link active">Work</a>
+    {% else %}
+      <a href="/" class="nav-link">Work</a>
+    {% endif %}
+    {% if page.title == "notebook" %}
+      <a href="/notebook" class="nav-link active">Notebook</a>
+    {% else %}
+      <a href="/notebook" class="nav-link">Notebook</a>
+    {% endif %}
+  </div>
+
+</nav>

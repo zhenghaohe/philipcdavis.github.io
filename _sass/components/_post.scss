@@ -12,6 +12,19 @@
   }
 }
 
+.post p {
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.post h1, .post h2 {
+  margin-top: 60px;
+}
+
+.post h3, .post h4 {
+  margin-top: 40px;
+}
+
 .post-title {
   font-weight: 300;
   margin-top: 40px;
@@ -21,6 +34,6 @@
 @media (min-width: 500px) {
 
   .post-content {
-    font-size: 21px;
+    font-size: 1.3rem;
   }
 }

@@ -1,8 +1,8 @@
-.work-title {
+.work-header-title {
   font-weight: 200;
   font-size: 1em;
   line-height: 1.4;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 60px;
 }
 
@@ -28,13 +28,13 @@
 }
 
 @media (min-width: 500px) {
-  .work-title {
+  .work-header-title {
     font-size: 1.5em;
   }
 }
 
 @media (min-width: 800px) {
-  .work-title {
+  .work-header-title {
     font-size: 2em;
   }
 

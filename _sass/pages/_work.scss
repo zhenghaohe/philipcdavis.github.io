@@ -1,6 +1,6 @@
 .work-header-title {
   font-weight: 200;
-  font-size: 1em;
+  font-size: .9em;
   line-height: 1.4;
   margin-top: 20px;
   margin-bottom: 60px;
@@ -13,7 +13,7 @@
 }
 
 .work-gallery:hover {
-  opacity: .8;
+  opacity: .9;
 }
 
 .work-label {
@@ -25,6 +25,12 @@
   display: block;
   padding-bottom: 20px;
   cursor: pointer;
+}
+
+@media (min-width: 350px) {
+  .work-header-title {
+    font-size: 1em;
+  }
 }
 
 @media (min-width: 500px) {

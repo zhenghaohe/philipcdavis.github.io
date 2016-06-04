@@ -1,3 +1,6 @@
+.post {
+  margin-bottom: 20px;
+}
 .post-content {
   line-height: 1.6;
   font-size: 16px;
@@ -25,15 +28,72 @@
   margin-top: 40px;
 }
 
-.post-title {
-  font-weight: 300;
-  margin-top: 40px;
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-list-title {
+  font-size: 1.2rem;
+  color: $charcoal;
+  text-decoration: none;
+  display: block;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+.post-list-meta {
+  color: $smoke-shadow;
+  font-size: .9rem;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.post-list-row {
+  text-decoration: none;
+  border-top: 1px solid $smoke;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &:first-of-type {
+    border-top: none;
+  }
 }
 
 
 @media (min-width: 500px) {
-
   .post-content {
     font-size: 1.3rem;
+  }
+
+  .post-list-title {
+    font-size: 1.4rem;
+  }
+
+  .post-list-meta {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .post-list-title {
+    font-size: 1.8rem;
+    display: inline;
+  }
+
+  .post-list-meta {
+    font-size: 1.2rem;
+    float: right;
+    position: relative;
+    top: 2px;
+  }
+
+  .post-list-row {
+    padding-top: 33px;
+    padding-bottom: 37px;
   }
 }

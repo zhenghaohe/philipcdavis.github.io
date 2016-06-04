@@ -9,7 +9,9 @@ layout: default
     {% endif %}
   </header>
   <div class="container-small">
-    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.title %}
+      <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
     <div class="post-content">
       {{ content }}
     </div>

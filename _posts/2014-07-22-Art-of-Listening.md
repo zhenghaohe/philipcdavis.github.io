@@ -27,9 +27,7 @@ To get the best thoughts out of people, don't pressure them to talk faster than 
 I am trying to wait for a minimum of 3-5 seconds of silence before I respond.
 I used to feel awkward about this, But a quick nod fills this time and serves as a transition to a shift in conversation.
 If you are talking with someone who wants to have 100% of the time to talk, be generous and give it to them.
-Playing tug of war in a conversation makes for a frustrating experiance.
+Playing tug of war in a conversation makes for a frustrating experience.
 
 Zoning out and interrupting will kill your conversations.
 Appreciation and generosity will pump life into them.
-
-[What are some of your listening tips?](http://www.twitter.com/philipcdavis)

@@ -58,13 +58,10 @@ I received a lot feedback and opinions. The biggest issue was that users didn’
 I decided to create a modal that gave users the ability to enter in values outside the default range.
 This set me back a few weeks, but I’m glad I decided to address it in the v1.0 release.
 
-<img class="small" src="{{site.baseurl}}/assets/dist/posts/wagon-glyphs.jpg">
-
 It's a small app, but it's something I am very proud of.
 Check it out on the [app store](https://itunes.apple.com/us/app/wagon-pool-simple-carpooling/id846135212?mt=8) and let me know what you think!
 
-
-<div class="clearfix">
-    <img src="{{site.baseurl}}/assets/dist/sliding.gif" class="half-image">
-    <img src="{{site.baseurl}}/assets/dist/modal.gif" class="half-image">
+<div class="row cf">
+    <img src="{{site.baseurl}}/assets/dist/sliding.gif" class="grid-3 post-half-img">
+    <img src="{{site.baseurl}}/assets/dist/modal.gif" class="grid-3 post-half-img">
 </div>

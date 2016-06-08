@@ -14,6 +14,4 @@ url: "http://philipcdavis.gitlab.io" # the base hostname & protocol for your sit
 
 # Build settings
 markdown: kramdown
-relative_permalinks: false
-permalink: notebook/:title
-future: true
+permalink: pretty

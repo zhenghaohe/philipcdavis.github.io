@@ -16,3 +16,4 @@ url: "http://philipcdavis.gitlab.io" # the base hostname & protocol for your sit
 markdown: kramdown
 relative_permalinks: false
 permalink: notebook/:title
+future: true

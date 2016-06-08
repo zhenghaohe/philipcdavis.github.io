@@ -28,5 +28,3 @@ Technical jargon can be a cover up for insecurity.
 Oftentimes what sounds smart isn't helpful.
 
 > As a communicator you have to decide if you want to impress people with your knowledge or be effective. You probably won't do both. - Pete Wilson
-
-[What communication skills do you find valuable as a designer?](https://twitter.com/intent/tweet?screen_name=philipcdavis)

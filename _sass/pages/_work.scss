@@ -21,10 +21,11 @@
   color: $smoke-dark;
   text-decoration: none;
   text-align: center;
-  margin-top: 3px;
   display: block;
   padding-bottom: 20px;
   cursor: pointer;
+  position: relative;
+  top: -3px;
 }
 
 @media (min-width: 350px) {
@@ -33,9 +34,13 @@
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 510px) {
   .work-header-title {
     font-size: 1.5em;
+  }
+
+  .work-label {
+    top: 0;
   }
 }
 

@@ -23,7 +23,7 @@ I have tried this technique with other mediums like writing and programming and 
 If you decide to go this route don't be too focused on impressing others.
 Focus on shipping your work and allow yourself to explore.
 
-## Build something new
+## Build something useful
 Once you have acquired rare and valuable skills it's time to put them to use.
 Side projects are great places to confirm your ideas if you are interesting in growing into a business.
 Even if you aren't interested in starting a business it's an amazing experience releasing a product you had full control over.

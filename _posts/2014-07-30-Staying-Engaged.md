@@ -22,5 +22,3 @@ I always have 1-2 side projects that relate to my work.
 > -  Jim Rohn
 
 Motivation is contagious. Find people who love what they do and spend lots of time with them.
-
-[How do you get out of your motivation ruts?](http://www.twitter.com/philipcdavis)

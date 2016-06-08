@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-<article class="post container-small" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    {% if page.header-img %}
-      <img class="fit" src="{{site.baseurl}}/assets/dist/posts/{{page.header-img}}" alt="{{page.header-img}}" />
-    {% endif %}
-  </header>
+<header class="post-header">
+  {% if page.header-img %}
+    <img class="fit" src="{{site.baseurl}}/assets/dist/posts/{{page.header-img}}" alt="{{page.header-img}}" />
+  {% endif %}
+</header>
+
+<article class="post container-small" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="post-content" itemprop="articleBody">
     {% if page.title %}

@@ -15,14 +15,14 @@
   }
 }
 
-.post img {
+.post-img {
     width: 100%;
     margin-left: 0%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.post .post-half-img {
+.post-half-img {
     width: 50%;
     margin-left: 0;
 }
@@ -109,12 +109,10 @@ blockquote {
     display: inline;
   }
 
-  .post img {
+  .post-img {
       width: 133.33334%;
       max-width: 133.333334%;
       margin-left: -16.666666%;
-      margin-top: 20px;
-      margin-bottom: 20px;
   }
 
   .post-list-meta {

@@ -8,8 +8,6 @@ I love side projects for a host of reasons.
 They give you autonomy, sharpen your skills, and can teach you valuable lessons about building and shipping products.
 They can also be uniquely challenging.
 Getting started it is important to make smart decisions about what you want to build.
-This post outlines how I go about deciding on a good side project.
-
 
 As with many things, it's helpful to figure out your end goals.
 Mine usually fall into one of two buckets.

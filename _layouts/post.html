@@ -8,7 +8,11 @@ layout: default
   {% endif %}
 </header>
 
+{% if page.header-img %}
 <article class="post container-small" itemscope itemtype="http://schema.org/BlogPosting">
+{% else %}
+<article class="post container-small-left" itemscope itemtype="http://schema.org/BlogPosting">
+{% endif %}
   <div class="post-content" itemprop="articleBody">
     {% if page.title %}
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>

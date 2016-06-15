@@ -7,9 +7,7 @@ date:   2014-11-25
 I love side projects for a host of reasons.
 They give you autonomy, sharpen your skills, and can teach you valuable lessons about building and shipping products.
 They can also be uniquely challenging.
-Getting started it is important to make smart decisions about what you want to build.
-
-As with many things, it's helpful to figure out your end goals.
+Getting started it is important to make smart decisions about what you want to build. It's helpful to figure out your end goals.
 Mine usually fall into one of two buckets.
 
 ## Learn something new
@@ -22,7 +20,7 @@ If you decide to go this route don't be too focused on impressing others.
 Focus on shipping your work and allow yourself to explore.
 
 ## Build something useful
-Once you have acquired rare and valuable skills it's time to put them to use.
+Once you have acquired your awesome skills it's time to put them to use.
 Side projects are great places to confirm your ideas if you are interesting in growing into a business.
 Even if you aren't interested in starting a business it's an amazing experience releasing a product you had full control over.
 You end up sharpening your technical skills, marketing chops, product design, and documentation habits.

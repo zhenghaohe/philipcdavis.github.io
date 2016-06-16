@@ -81,11 +81,11 @@
   }
 }
 
-blockquote {
-  font-style: italic;
-  margin-left: 0;
-  padding-left: 30px;
-  border-left: 3px solid $charcoal;
+.post-no-header {
+  border: none;
+  border-bottom: 1px solid $smoke;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 
@@ -100,6 +100,10 @@ blockquote {
 
   .post-list-meta {
     font-size: 1rem;
+  }
+
+  .post-no-header {
+    margin-bottom: 60px;
   }
 }
 
@@ -125,5 +129,9 @@ blockquote {
   .post-list-row {
     padding-top: 33px;
     padding-bottom: 37px;
+  }
+
+  .post-no-header {
+    margin-bottom: 80px;
   }
 }

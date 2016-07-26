@@ -4,9 +4,7 @@ title:  "How I Read Books"
 date:   2016-07-25
 ---
 
-Books are mini mentors. The value I receive from books exceeds that of other digital mediums. I think it’s because it forces me to sit on a problem for sustained periods of time. The concepts are given ample room to sink in.
-
-That said, i’m not a great reader. Even though my brain knows I should read more, my natural inclination is to spend my time on twitter and medium.
+Books are mini mentors. The value I receive from books exceeds that of other digital mediums. I think it’s because it forces me to sit on a problem for sustained periods of time. The concepts are given ample room to sink in. That said, i’m not a great reader. Even though my brain knows I should read more, my natural inclination is to spend my time on twitter and medium.
 
 Here’s how I beat that.
 

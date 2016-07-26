@@ -6,7 +6,9 @@ date:   2016-07-25
 
 Books are mini mentors. The value I receive from books exceeds that of other digital mediums. I think it’s because it forces me to sit on a problem for sustained periods of time. The concepts are given ample room to sink in.
 
-Even though my brain knows I should read more, my natural inclination is to spend my time on twitter and medium. Here’s how I beat that.
+Even though my brain knows I should read more, my natural inclination is to spend my time on twitter and medium.
+
+Here’s how I beat that.
 
 First, I schedule in reading. In the same way i don’t debate whether or not I should brush my teeth. I don’t debate if I should read. I find the early evening to be a good time to do my reading. It’s a part of my schedule like everything else. The time to read is protected. Removing the need for a decision is half the battle.
 

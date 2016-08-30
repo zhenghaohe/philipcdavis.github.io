@@ -7,6 +7,7 @@ date:   2016-08-30
 The purpose of my daily schedule is to help me approach my day intentionally. It's not a rigid system.
 
 Here are the steps I take to create my schedule:
+
 1. Write 1-3 goals daily goals.
 2. Write an hour by hour breakdown of your day.
 3. Review to make sure your goals are somehow reflected in your schedule.

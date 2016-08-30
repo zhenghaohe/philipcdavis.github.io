@@ -10,7 +10,7 @@ Here are the steps I take to create my schedule:
 
 1. Write 1-3 goals daily goals.
 2. Write an hour by hour breakdown of your day.
-3. Review to make sure your goals are somehow reflected in your schedule.
+3. Review to make sure your goals are reflected in your schedule.
 
 Having these decisions made in the past help me if I forget what I should be working on.
 

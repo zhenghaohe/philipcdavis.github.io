@@ -9,15 +9,14 @@ I made my first app this past year. It's a [simple carpooling calculator](http:/
 I designed and built Wagon Pool from scratch without any previous Objective C, Xcode, or Object Oriented Programming experience.
 While it's still fresh in my mind I wanted to document the process I took in building it.
 
-## My Goals
+
 My hope for this project was to be able to ship something I was proud of.
 I wanted the app to be simple, focused, and better than alternative options.
 
 I also wanted to have a good understanding of what it takes to build an iOS application.
 I needed to learn Object Oriented Programming and learn mobile development on its own terms.
 
-## Getting Started:
-I bought a 99 cent notebook to help organize my thoughts. I sketched, illustrated, and diagrammed my way through the entire process.
+Getting Started, I bought a 99 cent notebook to help organize my thoughts. I sketched, illustrated, and diagrammed my way through the entire process.
 This gave me extra mental space, and helped me visualize what was going on in my head.
 
 <img src="{{site.baseurl}}/assets/dist/posts/wagon-notepad.jpg" class="post-img" alt="Notebook">

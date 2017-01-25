@@ -11,9 +11,18 @@ $red: #FF0D0D;
 body {
   font-family: georgia, serif;
   color: $charcoal;
-  font-size: 1.3rem;
-  line-height: 1.7;
+  font-size: 1.2rem;
+  line-height: 1.6;
   background-color: white;
+}
+
+::selection {
+  background: $smoke;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $smoke;
 }
 
 .pull-right {

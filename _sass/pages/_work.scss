@@ -12,6 +12,10 @@
   display: block;
 }
 
+.work-thumbnail-border {
+  border: 1px solid $smoke;
+}
+
 .work-gallery:hover {
   opacity: .9;
 }
@@ -22,7 +26,7 @@
   text-decoration: none;
   text-align: center;
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   cursor: pointer;
   position: relative;
   top: -3px;

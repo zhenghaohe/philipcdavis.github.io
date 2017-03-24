@@ -5,10 +5,14 @@ permalink: /notebook/
 <div class="home">
 
     {% for post in site.posts %}
-    <div class="post-list-row">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
+      <div class="post-list-row">
+      {% if post.external_url %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
+      {% endif %}
       <span class="post-list-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </div>
+      </div>
     {% endfor %}
 
 

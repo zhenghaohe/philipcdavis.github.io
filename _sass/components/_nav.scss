@@ -20,19 +20,24 @@
 .nav-link {
   color: $smoke-dark;
   text-decoration: none;
-  padding-left: 13px;
-  padding-right: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
   font-size: 16px;
+  padding-bottom: 0px;
 
   &:hover {
-    color: $red;
+    color: $charcoal;
+  }
+
+  &.active {
+    color: $charcoal;
   }
 }
 
 @media (min-width: 500px) {
   .nav-link {
     font-size: 19px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }

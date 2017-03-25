@@ -7,6 +7,7 @@
 
 # Site settings
 title: Philip Davis
+name: work
 exclude: ["node_modules"]
 email: Phillysoul11@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog

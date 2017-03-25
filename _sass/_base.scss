@@ -1,15 +1,18 @@
 $charcoal: #29292a;
-$smoke-dark: #64646E;
-$smoke-shadow: #abb1b5;
+$smoke-dark: #7B8E9B;
+$smoke-shadow: #D1D8DE;
 $smoke: #EAEEF1;
 $red: #FF0D0D;
+
+$serif: Georgia, serif;
+$sans-serif: -apple-system, system-ui, serif;
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: georgia, serif;
+  font-family: $sans-serif;
   color: $charcoal;
   font-size: 1.2rem;
   line-height: 1.6;

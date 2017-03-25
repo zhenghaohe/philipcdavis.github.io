@@ -1,12 +1,17 @@
 .post {
   margin-bottom: 60px;
+  font-family: Georgia, serif;
 }
 
 .post a {
+  text-decoration: none;
   color: $charcoal;
+  border-bottom: 1px solid $charcoal;
+  transition: all 0.1s ease-in-out;
 
   &:hover {
     color: $red;
+    border-color: $red;
   }
 }
 
@@ -28,14 +33,22 @@
 }
 
 .post h1 {
+  font-weight: 700;
+  font-family: $sans-serif;
   margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.8em;
 }
 
 .post h1, .post h2 {
+  font-weight: 700;
+  font-family: $sans-serif;
   margin-top: 40px;
 }
 
 .post h3, .post h4 {
+  font-weight: 700;
+  font-family: $sans-serif;
   margin-top: 20px;
 }
 
@@ -45,6 +58,7 @@
 }
 
 .post-list-title {
+  font-weight: 800;
   font-size: 1.1rem;
   color: $charcoal;
   text-decoration: none;
@@ -56,7 +70,7 @@
 }
 
 .post-list-meta {
-  color: $smoke-shadow;
+  color: lighten($smoke-dark, 10%);
   font-size: .9rem;
   display: block;
   margin-top: 3px;
@@ -103,6 +117,10 @@
 }
 
 @media (min-width: 800px) {
+  .post h1 {
+    font-size: 2em;
+  }
+
   .post-list-title {
     font-size: 1.4rem;
     display: inline;

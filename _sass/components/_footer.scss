@@ -7,12 +7,12 @@
 }
 
 .foot-link {
-  color: $red;
+  color: $smoke-dark;
   text-decoration: none;
-  margin-left: 5px;
-  margin-right: 5px;
-}
+  margin-left: 17px;
+  margin-right: 17px;
 
-.foot-link:hover {
-  opacity: .6;
+  &:hover {
+    color: $charcoal;
+  }
 }

@@ -1,18 +1,17 @@
 // Gallery for different size images
 
 .photo-gallery {
-  width: 100%;
+  max-width: 100%;
   margin-top: 1%;
   margin-bottom: 0;
 }
 
 .photo-gallery-row {
   width: 100%;
-  margin-left: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: $container-width + 100px) {
   .photo-gallery-row {
-    width: 125%;
+    width: calc(102% + 100px);
   }
 }

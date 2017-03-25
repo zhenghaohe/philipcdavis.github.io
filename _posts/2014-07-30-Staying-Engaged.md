@@ -18,7 +18,6 @@ Side projects give you the freedom to define the rules and explore the things yo
 I always have 1-2 side projects that relate to my work.
 
 ## Surround yourself with passionate people
->You are the average of the five people that you spend the most time with.
-> -  Jim Rohn
+>You are the average of the five people that you spend the most time with. - Jim Rohn
 
 Motivation is contagious. Find people who love what they do and spend lots of time with them.

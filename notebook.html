@@ -7,11 +7,7 @@ permalink: /notebook/
 
     {% for post in site.posts %}
       <div class="post-list-row">
-      {% if post.external_url %}
-        <a target="_blank" href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
-      {% else %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
-      {% endif %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
       <span class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
       </div>
     {% endfor %}

@@ -7,17 +7,30 @@
 }
 
 .work-gallery {
-  text-decoration: none;
-  transition: opacity 0.15s ease-in-out;
   display: block;
+  overflow: hidden;
+  height: auto;
+
+  & img {
+    transition: transform 0.3s cubic-bezier(0.32,0, 0.43, 1);
+    -webkit-transition: transform 0.3s cubic-bezier(0.32,0, 0.43, 1);
+    -moz-transition: transform 0.3s cubic-bezier(0.32,0, 0.43, 1);
+    display: block;
+  }
+
+  &:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.work-gallery-link {
+  text-decoration: none;
 }
 
 .work-thumbnail-border {
   border: 1px solid $smoke;
-}
-
-.work-gallery:hover {
-  opacity: 0.8;
 }
 
 .work-label {
@@ -26,10 +39,9 @@
   text-decoration: none;
   text-align: center;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  margin-top: 7px;
   cursor: pointer;
-  position: relative;
-  top: -3px;
 }
 
 @media (min-width: 350px) {

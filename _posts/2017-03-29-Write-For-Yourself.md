@@ -5,10 +5,10 @@ date:   2017-03-29
 ---
 
 There is tremendous value in writing for yourself.
-You learn to think clearly. You aren’t thinking about blog traffic or vanity metrics. You are focused on ideas.
+You aren’t thinking about blog traffic or vanity metrics. You are focused on ideas.
 
 An life shifting idea is more important than a blog post.
-Writing will slow you down so you can mull over your ideas and flesh them out.
+Writing will slow you down so you can observe the shape of your idea and flesh it out.
 
 >the act of composition, or creation, disciplines the mind; writing is one way to go about thinking, and the practice and habit of writing not only drain the mind but supply it, too. <br><br> - Strunk and White
 

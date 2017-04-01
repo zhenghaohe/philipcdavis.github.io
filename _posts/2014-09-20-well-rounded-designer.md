@@ -8,7 +8,7 @@ date:   2014-09-20
 
 Bezos' quote resonates with me on many levels and I think there's an important takeaway for designers.
 Are we investing into skills that are going to be relevant in 20 years?
-I believe that strong communication skills are indelible for designers
+I believe that strong communication skills are a must for designers
 Here are a few in particular that I am currently focusing on.
 
 ## Persuasion

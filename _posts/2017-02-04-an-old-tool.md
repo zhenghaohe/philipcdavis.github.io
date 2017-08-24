@@ -4,7 +4,7 @@ title:  "An Old Tool for Designers"
 header-img-full: https://learningd3.com/blog/assets/img/posts/designers-data-viz.jpg
 ---
 
-<div class="post-description">Originally posted on <a href="https://learningd3.com/blog">Learning D3</a></div>
+<!-- <div class="post-description">Originally posted on <a href="https://learningd3.com/blog">Learning D3</a></div> -->
 5 years ago, I decided to learn D3.js. I was a designer, and didn't have much JavaScript experience. Looking back, it was one of the best career decisions I've made.
 
 I've used many different design tools. Some have been helpful, many are obsolete.

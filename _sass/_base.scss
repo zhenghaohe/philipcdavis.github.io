@@ -3,6 +3,8 @@ $smoke-dark: #7B8E9B;
 $smoke-shadow: #D1D8DE;
 $smoke: #EAEEF1;
 $red: #FF0D0D;
+$green: #0BAC46;
+$blue: #1377EC;
 
 $serif: Georgia, TimesNewRoman, Times New Roman, Times, Baskerville, serif;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -21,7 +23,10 @@ body {
 
 hr {
   border: none;
-  border-top: 1px solid $smoke;
+  border-top: 2px solid $smoke;
+  width: 40%;
+  margin-top: calc(50px + 2vw);
+  margin-bottom: calc(50px + 2vw);
 }
 
 .pull-right {

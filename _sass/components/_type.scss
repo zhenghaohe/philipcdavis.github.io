@@ -1,51 +1,66 @@
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 900;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: sans-serif;
 }
 
-h1 { font-size: 1.7rem; }
-h2 { font-size: 1.4rem; }
-h3 { font-size: 1.2rem; }
-h4 { font-size: 1.1rem; }
-h5 { font-size: 1rem; }
-h6 { font-size: .9rem; }
+h1 { font-size: 1.3rem; }
+h2 { font-size: 1.1rem; }
+h3 { font-size: 1.0rem; }
+h4 { font-size: 0.9rem; }
+h5 { font-size: 0.8rem; }
+h6 { font-size: 0.7rem; }
 
 p, ul, li, blockquote {
   font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 li {
   margin-bottom: .3rem;
 }
 
+ol {
+  padding-left: 15px;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 0;
-  padding-left: 25px;
-  border-left: 2px solid $smoke-shadow;
+  padding-left: 1rem;
+  border-left: 3px solid $smoke;
 }
 
 @media (min-width: 500px) {
-  h1 { font-size: 1.9rem; }
-  h2 { font-size: 1.6rem; }
-  h3 { font-size: 1.5rem; }
-  h4 { font-size: 1.4rem; }
-  h5 { font-size: 1.3rem; }
-  h6 { font-size: 1.2rem; }
+  h1 { font-size: 1.4rem; }
+  h2 { font-size: 1.2rem; }
+  h3 { font-size: 1.1rem; }
+  h4 { font-size: 1.0rem; }
+  h5 { font-size: 0.9rem; }
+  h6 { font-size: 0.8rem; }
 }
 
 
 @media (min-width: 800px) {
-  h1 { font-size: 2.2rem; }
-  h2 { font-size: 1.9rem; }
-  h3 { font-size: 1.7rem; }
-  h4 { font-size: 1.5rem; }
-  h5 { font-size: 1.4rem; }
-  h6 { font-size: 1.3rem; }
+  h1 { font-size: 2.4rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.4rem; }
+  h4 { font-size: 1.1rem; }
+  h5 { font-size: 1rem; }
+  h6 { font-size: 0.9rem; }
+
+  blockquote {
+    padding-left: 2rem;
+  }
 
   p, ul, li, blockquote {
     font-size: 1.3rem;
+    line-height: 1.6;
+  }
+
+  ol {
+    padding-left: 25px;
   }
 }

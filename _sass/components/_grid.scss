@@ -1,8 +1,8 @@
 $container-width: 750px;
-$container-small-width: 650px;
+$container-small-width: 750px;
 
 .container {
-  max-width: 750px;
+  max-width: $container-width;
   width: 90%;
   margin: 0 auto;
 }
@@ -10,6 +10,7 @@ $container-small-width: 650px;
 .container-small {
   width: 100%;
   max-width: $container-small-width;
+  margin: 0 auto;
 }
 
 .grid-row {

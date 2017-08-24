@@ -6,7 +6,7 @@
 .post a {
   text-decoration: none;
   color: $charcoal;
-  border-bottom: 1px solid $charcoal;
+  border-bottom: 1px dotted $charcoal;
   transition: all 0.1s ease-in-out;
 
   &:hover {
@@ -21,7 +21,6 @@
 
 .post-img {
   width: 100%;
-  margin-left: 0%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -39,12 +38,8 @@
 }
 
 .post-description {
-  font-family: $sans-serif;
-  font-size: 1.1rem;
   color: $smoke-dark;
-  position: relative;
-  top: -15px;
-  font-style: italic;
+  text-align: center;
 
   & a {
     color: $smoke-dark;
@@ -62,25 +57,24 @@
   margin-top: 10px;
 }
 .post h1 {
-  font-weight: 700;
-  font-family: $sans-serif;
   margin-bottom: 20px;
-  font-weight: 700;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .post img {
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.post h1, .post h2 {
-  font-weight: 700;
-  font-family: $sans-serif;
+.post h2 {
   margin-top: 40px;
 }
 
 .post h3, .post h4 {
   font-weight: 700;
-  font-family: $sans-serif;
   margin-top: 20px;
 }
 
@@ -150,7 +144,8 @@
 
 @media (min-width: $container-width + 100px) {
   .post h1 {
-    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 
   .post-list-title {

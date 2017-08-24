@@ -5,7 +5,7 @@ date:   2017-01-24
 header-img-full: https://learningd3.com/blog/assets/img/posts/generative-art/heart.gif
 ---
 
-<div class="post-description">Originally posted on <a href="https://learningd3.com/blog">Learning D3</a></div>
+<!-- <div class="post-description">Originally posted on <a href="https://learningd3.com/blog">Learning D3</a></div> -->
 
 I recently took a trip to the SFMoma where I came across the work of Sol LeWitt. One of the interesting things about Sol's work was that he created the rules of his art pieces, but they were executable by anyone. I wanted to see if anyone had recreated Sol's pieces using D3.js. When I did a quick search I found that [Chuck Grimmet](https://twitter.com/cagrimmett) had made some pieces which was really inspiring.
 

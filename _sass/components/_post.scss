@@ -1,12 +1,11 @@
 .post {
   margin-bottom: 60px;
-  font-family: Georgia, serif;
+  font-family: $serif;
 }
 
 .post a {
-  text-decoration: none;
+
   color: $charcoal;
-  border-bottom: 1px dotted $charcoal;
   transition: all 0.1s ease-in-out;
 
   &:hover {
@@ -110,7 +109,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 1;
-  border-top: 1px solid $smoke;
 
   &:first-of-type {
     border-top: none;

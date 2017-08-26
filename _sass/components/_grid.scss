@@ -1,15 +1,17 @@
-$container-width: 750px;
+$container-width: 960px;
 $container-small-width: 750px;
 
 .container {
   max-width: $container-width;
   width: 90%;
-  margin: 0 auto;
 }
 
 .container-small {
   width: 100%;
   max-width: $container-small-width;
+}
+
+.center {
   margin: 0 auto;
 }
 
@@ -90,5 +92,12 @@ $container-small-width: 750px;
 @media (min-width: 500px) {
   .gallery-unit {
     width: 33.33333333%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .hide-ns {
+    display: none !important;
   }
 }

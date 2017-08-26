@@ -4,6 +4,8 @@ title:  "Write for Yourself"
 date:   2017-03-29
 ---
 
+# Write for Yourself
+
 There is tremendous value in writing for yourself.
 You aren’t thinking about blog traffic or vanity metrics. You are focused on ideas.
 

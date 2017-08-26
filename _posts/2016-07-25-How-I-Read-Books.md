@@ -3,6 +3,8 @@ layout: post
 title:  "How I Read Books"
 date:   2016-07-25
 ---
+
+# How I Read Books
 Books are mini mentors. The value I receive from books exceeds that of other digital mediums. I think it’s because it forces me to sit on a topic for prolonged periods of time. The concepts are given ample room to sink in.
 
 Even though my brain knows I should read more, my natural inclination is to spend my time on twitter and medium.

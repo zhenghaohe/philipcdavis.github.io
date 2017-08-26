@@ -3,6 +3,7 @@ layout: post
 title:  "How to Choose a Side Project"
 date:   2014-11-25
 ---
+# How to Choose a Side Project
 
 I love side projects for a host of reasons.
 They give you autonomy, sharpen your skills, and can teach you valuable lessons about building and shipping products.

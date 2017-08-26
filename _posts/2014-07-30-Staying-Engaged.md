@@ -3,6 +3,7 @@ layout: post
 title:  "Staying Engaged With Your Work"
 date:   2014-07-30 21:55:00
 ---
+# Staying Engaged With Your Work
 
 There will always be seasons when you lose motivation to do your work with excellence.
 When it happens, it means something needs to change, either in your attitude or in the work itself.

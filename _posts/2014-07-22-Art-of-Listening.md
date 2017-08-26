@@ -4,7 +4,7 @@ title:  "The Art of Listening"
 date:   2014-07-22 06:20:00
 permalink:  /Art-of-Listening/
 ---
-
+# The Art of Listening
 
 Over the past few years i've realized how much I dislike listening in one on one conversations and how much I enjoy attention.
 This destructive tendency can jeopardize any relationship which is why I have been fighting it.

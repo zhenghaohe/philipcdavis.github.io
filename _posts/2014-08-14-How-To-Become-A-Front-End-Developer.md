@@ -3,6 +3,7 @@ layout: post
 title:  "How to Become a Front End Developer"
 date:   2014-08-14 22:00:00
 ---
+# How to Become a Front End Developer
 
 I recently taught a front end intensive course to people who had no coding experience.
 Here are three thoughts I would share with new front end developers or those considering the profession.

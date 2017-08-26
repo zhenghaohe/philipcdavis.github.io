@@ -4,6 +4,8 @@ title:  "A Daily Schedule"
 date:   2016-08-30
 ---
 
+# A Daily Schedule
+
 The purpose of my daily schedule is to help me approach my day intentionally. It's not a rigid system. Here are the steps I take to create my schedule:
 
 1. Write 1-3 goals daily goals.

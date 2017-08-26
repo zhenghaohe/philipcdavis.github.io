@@ -4,6 +4,7 @@ title:  "Making Wagon Pool"
 header-img: "making-wagonpool.jpg"
 date:   2014-08-26
 ---
+# Making Wagon Pool
 
 I made my first app this past year. It's a [simple carpooling calculator](http://www.wagonpool.com/) that allows you to find out how much a trip will cost each person involved.
 I designed and built Wagon Pool from scratch without any previous Objective C or Xcode experience.

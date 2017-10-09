@@ -2,13 +2,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   line-height: 1.2;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-family: $sans-serif;
 }
 
-h1 { font-size: 1.3rem; }
-h2 { font-size: 1.1rem; }
-h3 { font-size: 1.0rem; }
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.7rem; }
+h3 { font-size: 1.5rem; }
 h4 { font-size: 0.9rem; }
 h5 { font-size: 0.8rem; }
 h6 { font-size: 0.7rem; }
@@ -34,9 +34,9 @@ blockquote {
 }
 
 @media (min-width: 500px) {
-  h1 { font-size: 1.4rem; }
-  h2 { font-size: 1.2rem; }
-  h3 { font-size: 1.1rem; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.5rem; }
   h4 { font-size: 1.0rem; }
   h5 { font-size: 0.9rem; }
   h6 { font-size: 0.8rem; }
@@ -45,8 +45,8 @@ blockquote {
 
 @media (min-width: 800px) {
   h1 { font-size: 2.4rem; }
-  h2 { font-size: 1.6rem; }
-  h3 { font-size: 1.4rem; }
+  h2 { font-size: 1.8rem; }
+  h3 { font-size: 1.5rem; }
   h4 { font-size: 1.1rem; }
   h5 { font-size: 1rem; }
   h6 { font-size: 0.9rem; }
@@ -71,4 +71,10 @@ blockquote {
 
 .sans-serif {
   font-family: $sans-serif;
+}
+
+a {
+  color: $charcoal;
+  border-bottom: 2px solid $smoke-shadow;
+  text-decoration: none;
 }

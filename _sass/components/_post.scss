@@ -84,7 +84,7 @@
 
 .post-list-title {
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: $charcoal;
   text-decoration: none;
   display: block;
@@ -106,8 +106,8 @@
   text-decoration: none;
   width: 100%;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   line-height: 1;
 
   &:first-of-type {
@@ -128,7 +128,7 @@
   }
 
   .post-list-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .post-list-meta {
@@ -147,19 +147,19 @@
   }
 
   .post-list-title {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     display: inline;
   }
 
   .post-list-meta {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     position: relative;
     top: 2px;
   }
 
   .post-list-row {
-    padding-top: 33px;
-    padding-bottom: 37px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .post-no-header {

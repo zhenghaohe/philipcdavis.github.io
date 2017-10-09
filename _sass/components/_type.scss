@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: sans-serif;
+  font-family: $sans-serif;
 }
 
 h1 { font-size: 1.3rem; }
@@ -14,7 +14,7 @@ h5 { font-size: 0.8rem; }
 h6 { font-size: 0.7rem; }
 
 p, ul, li, blockquote {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -56,8 +56,8 @@ blockquote {
   }
 
   p, ul, li, blockquote {
-    font-size: 1.3rem;
-    line-height: 1.6;
+    font-size: 1.5rem;
+    line-height: 1.4;
   }
 
   ol {

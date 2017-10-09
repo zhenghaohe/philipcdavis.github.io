@@ -6,17 +6,42 @@ $red: #FF0D0D;
 $green: #0BAC46;
 $blue: #1377EC;
 
-$serif: Georgia, TimesNewRoman, Times New Roman, Times, Baskerville, serif;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$serif: "Nitti Grotesk", Georgia, TimesNewRoman, Times New Roman, Times, Baskerville, serif;
+$sans-serif: "Nitti Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 
 * {
   box-sizing: border-box;
 }
 
+.nittigroteskbold {
+  font-family: "Nitti Grotesk";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.nittigroteskitalic {
+  font-family: "Nitti Grotesk";
+  font-style: italic;
+  font-weight: normal;
+}
+
+.nittigrotesknormal {
+  font-family: "Nitti Grotesk";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.nittigrotesksemilight {
+  font-family: "Nitti Grotesk Semilight";
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 body {
-  font-family: $sans-serif;
+  font-family: "Nitti Grotesk";
   color: $charcoal;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.6;
   background-color: white;
 }

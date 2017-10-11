@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: $sans-serif;
+  font-feature-settings: "smcp","c2sc";
 }
 
 h1 { font-size: 1.9rem; }
@@ -74,7 +75,7 @@ blockquote {
 }
 
 a {
-  color: $charcoal;
-  border-bottom: 2px solid $smoke-shadow;
+  color: white;
+  border-bottom: 2px solid darken($smoke-dark, 20%);
   text-decoration: none;
 }

@@ -1,6 +1,9 @@
 .nav {
-  padding-top: 25px;
-  padding-bottom: 27px;
+  padding: 20px;
+
+  a {
+    border-bottom: none;
+  }
 }
 
 .nav-logo {
@@ -18,7 +21,6 @@
 }
 
 .nav-link {
-  color: $smoke-dark;
   text-decoration: none;
   margin-left: 13px;
   margin-right: 13px;
@@ -27,13 +29,14 @@
   margin-top: 5px;
   display: inline-block;
   line-height: 1.2;
+  color: rgba(255,255,255, 0.4);
 
-  &:hover {
-    color: $charcoal;
+  &:hover  {
+    color: rgba(255,255,255, 0.6);
   }
 
-  &.active {
-    color: $charcoal;
+  &.nav-link-active {
+    color: rgba(255,255,255, 0.8);
   }
 }
 

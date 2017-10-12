@@ -1,3 +1,17 @@
 .home-intro {
   margin-top: 200px;
 }
+
+.home-work-link {
+  display: block;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 3px;
+  border-bottom: none;
+  transition: 0.1s all ease;
+  margin-bottom: 40px;
+
+  &:hover {
+    background-color: rgba(255,255,255, 0.05);
+  }
+}

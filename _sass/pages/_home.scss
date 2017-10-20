@@ -1,17 +1,30 @@
-.home-intro {
-  margin-top: 200px;
-}
-
 .home-work-link {
   display: block;
   text-decoration: none;
-  padding: 8px 20px;
+  padding: 20px 25px;
   border-radius: 3px;
   border-bottom: none;
   transition: 0.1s all ease;
   margin-bottom: 40px;
 
+
+  &:first-of-type {
+    position: relative;
+    left: -20px;
+  }
+
   &:hover {
     background-color: rgba(255,255,255, 0.05);
   }
+}
+
+.home-header {
+  border-bottom: 1px solid #222;
+  padding-bottom: 180px;
+}
+
+.home-icon  {
+  width: 55px;
+  float: left;
+  margin-right: 18px;
 }

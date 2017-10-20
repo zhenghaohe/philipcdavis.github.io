@@ -78,4 +78,9 @@ a {
   color: white;
   border-bottom: 2px solid rgba(255,255,255, 0.2);
   text-decoration: none;
+  transition: 0.1s all ease;
+
+  &:hover {
+    border-color: rgba(255,255,255, 0.5);
+  }
 }

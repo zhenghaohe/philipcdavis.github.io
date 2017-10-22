@@ -3,12 +3,12 @@ title: Philip Davis | Notebook
 layout: default
 permalink: /notebook/
 ---
-<div class="home">
+<div class="home  container-small center">
 
     {% for post in site.posts %}
       <div class="post-list-row">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
-      <span class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+        <div class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-title">{{ post.title }}</a>
       </div>
     {% endfor %}
 

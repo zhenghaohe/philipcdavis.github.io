@@ -29,14 +29,14 @@
   margin-top: 5px;
   display: inline-block;
   line-height: 1.2;
-  color: rgba(255,255,255, 0.4);
+  color: $opaque-40;
 
   &:hover  {
-    color: rgba(255,255,255, 0.6);
+    color: $opaque-60;
   }
 
   &.nav-link-active {
-    color: rgba(255,255,255, 0.8);
+    color: $opaque-80;
   }
 }
 

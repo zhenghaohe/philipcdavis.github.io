@@ -3,21 +3,6 @@
   font-family: $serif;
 }
 
-.post a {
-
-  color: $charcoal;
-  transition: all 0.1s ease-in-out;
-
-  &:hover {
-    color: $red;
-    border-color: $red;
-  }
-
-  &.no-border {
-    border-bottom: none;
-  }
-}
-
 .post-img {
   width: 100%;
   margin-top: 20px;
@@ -82,23 +67,11 @@
   margin-bottom: 20px;
 }
 
-.post-list-title {
-  font-weight: 800;
-  font-size: 1.5rem;
-  color: $charcoal;
-  text-decoration: none;
-  display: block;
-
-  &:hover {
-    color: $red;
-  }
-}
-
 .post-list-meta {
   color: lighten($smoke-dark, 10%);
-  font-size: .9rem;
-  display: block;
+  font-size: 1rem;
   margin-top: 3px;
+  text-transform: uppercase;
   margin-bottom: 3px;
 }
 
@@ -106,9 +79,11 @@
   text-decoration: none;
   width: 100%;
   display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   line-height: 1;
+
+  font-size: 120%;
 
   &:first-of-type {
     border-top: none;
@@ -127,14 +102,6 @@
     font-size: 1.3rem;
   }
 
-  .post-list-title {
-    font-size: 1.5rem;
-  }
-
-  .post-list-meta {
-    font-size: 1rem;
-  }
-
   .post-no-header {
     margin-bottom: 60px;
   }
@@ -147,19 +114,15 @@
   }
 
   .post-list-title {
-    font-size: 1.8rem;
     display: inline;
   }
 
   .post-list-meta {
-    font-size: 1.5rem;
-    position: relative;
-    top: 2px;
   }
 
   .post-list-row {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .post-no-header {

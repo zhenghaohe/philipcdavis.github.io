@@ -1,11 +1,23 @@
-
-$charcoal: #29292a;
+$charcoal: #1B1C1E;
 $smoke-dark: #7B8E9B;
 $smoke-shadow: #D1D8DE;
 $smoke: #EAEEF1;
 $red: #FF0D0D;
 $green: #0BAC46;
 $blue: #1377EC;
+
+$dark: #1B1C1E;
+
+$opaque-10: rgba($dark, 0.1);
+$opaque-20: rgba($dark, 0.2);
+$opaque-30: rgba($dark, 0.3);
+$opaque-40: rgba($dark, 0.4);
+$opaque-50: rgba($dark, 0.5);
+$opaque-60: rgba($dark, 0.6);
+$opaque-60: rgba($dark, 0.7);
+$opaque-80: rgba($dark, 0.8);
+$opaque-90: rgba($dark, 0.9);
+$opaque-100: rgba($dark, 1);
 
 @font-face {
   font-family: 'Nitti Grotesk';
@@ -39,10 +51,10 @@ $sans-serif: "Nitti Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Hel
 
 body {
   font-family: "Nitti Grotesk";
-  color: #ccc;
+  color: $opaque-100;
   font-size: 1.5rem;
   line-height: 1.6;
-  background-color: #090909;
+  background-color: #fff;
   font-feature-settings: "calt","liga","hist";
 }
 

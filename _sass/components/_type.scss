@@ -7,9 +7,9 @@ h1, h2, h3, h4, h5, h6 {
   font-feature-settings: "smcp","c2sc";
 }
 
-h1 { font-size: 1.9rem; }
-h2 { font-size: 1.7rem; }
-h3 { font-size: 1.5rem; }
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.3rem; }
 h4 { font-size: 0.9rem; }
 h5 { font-size: 0.8rem; }
 h6 { font-size: 0.7rem; }
@@ -31,13 +31,13 @@ blockquote {
   font-style: italic;
   margin-left: 0;
   padding-left: 1rem;
-  border-left: 3px solid rgba(255,255,255, 0.1);
+  border-left: 3px solid $opaque-10;
 }
 
 @media (min-width: 500px) {
   h1 { font-size: 1.7rem; }
-  h2 { font-size: 1.6rem; }
-  h3 { font-size: 1.5rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.3rem; }
   h4 { font-size: 1.0rem; }
   h5 { font-size: 0.9rem; }
   h6 { font-size: 0.8rem; }
@@ -45,9 +45,9 @@ blockquote {
 
 
 @media (min-width: 800px) {
-  h1 { font-size: 2.4rem; }
-  h2 { font-size: 1.8rem; }
-  h3 { font-size: 1.5rem; }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.3rem; }
   h4 { font-size: 1.1rem; }
   h5 { font-size: 1rem; }
   h6 { font-size: 0.9rem; }
@@ -74,13 +74,18 @@ blockquote {
   font-family: $sans-serif;
 }
 
+.uppercase {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 a {
-  color: white;
-  border-bottom: 2px solid rgba(255,255,255, 0.2);
+  color: $opaque-100;
+  border-bottom: 2px solid $opaque-10;
   text-decoration: none;
   transition: 0.1s all ease;
 
   &:hover {
-    border-color: rgba(255,255,255, 0.5);
+    border-color: $opaque-50;
   }
 }

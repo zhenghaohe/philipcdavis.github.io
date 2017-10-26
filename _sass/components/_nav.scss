@@ -9,6 +9,7 @@
 .nav-logo {
   height: 40px;
   display: block;
+  opacity: 0.3;
 }
 
 .nav-logo-img:hover {
@@ -29,14 +30,26 @@
   margin-top: 5px;
   display: inline-block;
   line-height: 1.2;
-  color: $opaque-40;
+  color: $dark-60;
 
   &:hover  {
-    color: $opaque-60;
+    color: $dark-90;
   }
 
   &.nav-link-active {
-    color: $opaque-80;
+    color: $dark-100;
+  }
+}
+
+.home .nav-link {
+  color: $light-60;
+
+  &:hover  {
+    color: $light-90;
+  }
+
+  &.nav-link-active {
+    color: $light-100;
   }
 }
 

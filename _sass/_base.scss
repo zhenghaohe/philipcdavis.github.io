@@ -7,17 +7,41 @@ $green: #0BAC46;
 $blue: #1377EC;
 
 $dark: #1B1C1E;
+$gray: #AAAAAA;
+$white: #FFFFFF;
 
-$opaque-10: rgba($dark, 0.1);
-$opaque-20: rgba($dark, 0.2);
-$opaque-30: rgba($dark, 0.3);
-$opaque-40: rgba($dark, 0.4);
-$opaque-50: rgba($dark, 0.5);
-$opaque-60: rgba($dark, 0.6);
-$opaque-60: rgba($dark, 0.7);
-$opaque-80: rgba($dark, 0.8);
-$opaque-90: rgba($dark, 0.9);
-$opaque-100: rgba($dark, 1);
+$dark-10: rgba($dark, 0.1);
+$dark-20: rgba($dark, 0.2);
+$dark-30: rgba($dark, 0.3);
+$dark-40: rgba($dark, 0.4);
+$dark-50: rgba($dark, 0.5);
+$dark-60: rgba($dark, 0.6);
+$dark-70: rgba($dark, 0.7);
+$dark-80: rgba($dark, 0.8);
+$dark-90: rgba($dark, 0.9);
+$dark-100: rgba($dark, 1);
+
+$light-10: rgba($white, 0.1);
+$light-20: rgba($white, 0.2);
+$light-30: rgba($white, 0.3);
+$light-40: rgba($white, 0.4);
+$light-50: rgba($white, 0.5);
+$light-60: rgba($white, 0.6);
+$light-70: rgba($white, 0.7);
+$light-80: rgba($white, 0.8);
+$light-90: rgba($white, 0.9);
+$light-100: rgba($white, 1);
+
+$gray-10: rgba($gray, 0.1);
+$gray-20: rgba($gray, 0.2);
+$gray-30: rgba($gray, 0.3);
+$gray-40: rgba($gray, 0.4);
+$gray-50: rgba($gray, 0.5);
+$gray-60: rgba($gray, 0.6);
+$gray-70: rgba($gray, 0.7);
+$gray-80: rgba($gray, 0.8);
+$gray-90: rgba($gray, 0.9);
+$gray-100: rgba($gray, 1);
 
 @font-face {
   font-family: 'Nitti Grotesk';
@@ -51,7 +75,7 @@ $sans-serif: "Nitti Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Hel
 
 body {
   font-family: "Nitti Grotesk";
-  color: $opaque-100;
+  color: $dark-100;
   font-size: 1.5rem;
   line-height: 1.6;
   background-color: #fff;

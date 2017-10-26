@@ -1,3 +1,12 @@
+.home {
+  background-color: $charcoal;
+  color: white;
+
+  & blockquote {
+    color: $light-90;
+  }
+}
+
 .home-work-link {
   display: block;
   text-decoration: none;
@@ -14,12 +23,12 @@
   }
 
   &:hover {
-    background-color: rgba(0,0,0, 0.05);
+    background-color: $gray-10;
   }
 }
 
 .home-header {
-  border-bottom: 1px solid $opaque-10;
+  border-bottom: 1px solid $gray-20;
   padding-bottom: 180px;
 }
 

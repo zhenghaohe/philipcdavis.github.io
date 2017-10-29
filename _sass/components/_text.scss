@@ -18,3 +18,13 @@
 .bold {
   font-weight: bold;
 }
+
+.text-center {
+  text-align: center;
+}
+
+@media(max-width: $small) {
+  .text-center-small {
+    text-align: center;
+  }
+}

@@ -1,8 +1,17 @@
 .nav {
-  padding: 35px;
+  width: 92%;
+  padding: 40px 0 40px 0;
+  margin: 0 auto;
 
   a {
     border-bottom: none;
+  }
+}
+
+@media (min-width: $large) {
+  .nav {
+    width: 100%;
+    padding: 40px;
   }
 }
 
@@ -53,7 +62,7 @@
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: $small) {
   .nav-link {
     margin-left: 25px;
     margin-right: 25px;

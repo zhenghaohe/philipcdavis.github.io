@@ -19,14 +19,14 @@ I needed to learn Object Oriented Programming and learn mobile development on it
 Getting Started, I bought a 99 cent notebook to help organize my thoughts. I sketched, illustrated, and diagrammed my way through the entire process.
 This gave me extra mental space, and helped me visualize what was going on in my head.
 
-<img src="{{site.baseurl}}/assets/dist/posts/wagon-notepad.jpg" class="post-img" alt="Notebook">
+<img src="{{site.baseurl}}/assets/dist/posts/wagon-notepad.jpg" alt="Notebook">
 
 ## Design
 I wanted the app to look polished and to make calculating easy.
 I spent a lot of time thinking about how I wanted the users to input information.
 I mocked up 8 different ways the interface could work.
 
-<img src="{{site.baseurl}}/assets/dist/posts/wagon-mockups.jpg" class="post-img" alt="Mockups">
+<img src="{{site.baseurl}}/assets/dist/posts/wagon-mockups.jpg" alt="Mockups">
 
 I chose the last option as a starting point because the user can get fast estimates without having to type or switch pages.
 
@@ -35,7 +35,7 @@ A friend challenged me to make something memorable.
 I sketched out lots of ideas some of which looked great at 512x512, but poor on the actual device.
 After much tweaking I came up with something I liked.
 
-<img src="{{site.baseurl}}/assets/dist/posts/wagon-icon.jpg" class="post-img" alt="WagonPool Icon">
+<img src="{{site.baseurl}}/assets/dist/posts/wagon-icon.jpg" alt="WagonPool Icon">
 
 ## Development
 Developing Wagon Pool was both challenging and rewarding. So many hours went into such a small app.

@@ -7,7 +7,7 @@ $container-small-width: 720px;
 }
 
 .container-small {
-  width: 100%;
+  width: 92%;
   max-width: $container-small-width;
 }
 
@@ -66,7 +66,7 @@ $container-small-width: 720px;
     clear: both;
 }
 
-@media (min-width: 500px) {
+@media (min-width: $small) {
   .grid-1 { width: 16.6666666%; }
   .grid-2 { width: 33.3333333%; }
   .grid-3 { width: 50%; }
@@ -75,7 +75,7 @@ $container-small-width: 720px;
   .grid-6 { width: 100%; }
 }
 
-@media (min-width: 800px) {
+@media (min-width: $large) {
   .gallery-unit {
     padding-left: 3%;
     padding-right: 3%;
@@ -89,14 +89,14 @@ $container-small-width: 720px;
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: $small) {
   .gallery-unit {
     width: 33.33333333%;
   }
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: $small) {
   .hide-ns {
     display: none !important;
   }

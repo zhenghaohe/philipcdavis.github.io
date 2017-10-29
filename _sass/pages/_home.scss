@@ -19,7 +19,7 @@
 
   &:first-of-type {
     position: relative;
-    left: -20px;
+    left: 0;
   }
 
   &:hover {
@@ -27,9 +27,14 @@
   }
 }
 
+@media (min-width: $small) {
+  .home-work-link:first-of-type {
+    left: -20px;
+  }
+}
+
 .home-header {
   border-bottom: 1px solid $gray-20;
-  padding-bottom: 180px;
 }
 
 .home-icon  {

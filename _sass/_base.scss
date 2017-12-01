@@ -46,38 +46,11 @@ $gray-100: rgba($gray, 1);
 $large: 800px;
 $small: 600px;
 
-@font-face {
-  font-family: 'Nitti Grotesk';
-  src: url('../assets/fonts/nittigrotesk-normal-v20.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Nitti Grotesk';
-  src: url('../assets/fonts/nittigrotesk-bold-v20.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nitti Grotesk';
-  src: url('../assets/fonts/nittigrotesk-normalitalic-v20.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-}
-
-$serif: "Nitti Grotesk", Georgia, TimesNewRoman, Times New Roman, Times, Baskerville, serif;
-$sans-serif: "Nitti Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-
 * {
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: "Nitti Grotesk";
   color: $dark-100;
   font-size: 1.5rem;
   line-height: 1.6;

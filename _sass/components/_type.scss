@@ -3,7 +3,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: $sans-serif;
   font-feature-settings: "smcp","c2sc";
 }
 
@@ -64,14 +63,6 @@ blockquote {
   ol {
     padding-left: 25px;
   }
-}
-
-.serif {
-  font-family: $serif;
-}
-
-.sans-serif {
-  font-family: $sans-serif;
 }
 
 .uppercase {

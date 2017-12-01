@@ -1,4 +1,10 @@
-# This is my job 
+---
+layout: post
+title:  This is my Job
+---
+
+# This is my Job
+A lot has been written about what encapsulates the scope of the designers work. Different opinions exist because design can look vastly different depending on your project and company. This is my job. There are many like it, but this one is mine.
 
 ## Make Intentional Design Decisions.
 Good design is rarely haphazard. Come up with more solutions than you think are necessary, then get feedback early and often. Once you understand the shape of the problem you can work towards a solution.

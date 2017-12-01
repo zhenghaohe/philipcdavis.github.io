@@ -1,5 +1,10 @@
+---
+layout: post
+title:  On Writing CSS
+---
+
 # On Writing CSS
-Writing good CSS will look different depending on how many people are touching it, and who will be maintaining it. The type of project will also change what type of css system need to be used. A lone ranger may need a different system than a team of 20.
+A good styling system will depend on the team and project that uses it. A lone ranger may need a different system than a team of 20. Designers who are heavily involved in developing the front end may decide on a much smaller library of components.
 
 After experimenting with css systems using vanilla css, sass, postcss, css-components, and CSS in JS solutions I figured I would some thoughts on the type of CSS that I like to write and use.
 
@@ -25,4 +30,4 @@ One of the nice things about CSS libraries like Tachyons & BassCSS is that they'
 
 <hr>
 
-There isn't one right way of writing CSS. A lot depends on the team that's using it. Conventions and libraries have made styling web applications much easier. I know it’s not perfect, but CSS solutions aren’t the dumpster fire that they are made out to be. As for me, I haven’t lost sleep over a css codebase the past few years. The system works — that’s good enough for me.
+There isn't one right way of writing CSS. A lot depends on the team that's using it. Conventions and libraries have made styling web applications much easier. I know it’s not perfect, but CSS solutions aren’t the dumpster fire that they are made out to be. As for me, I haven’t lost sleep over a css codebase the past few years. I’ve got a system that works which is good enough for me.

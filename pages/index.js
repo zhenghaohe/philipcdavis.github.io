@@ -1,65 +1,93 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { Box, Text, Image, Flex, Link } from "rebass";
+import styled from "../styles/Home.module.css";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
+      <style jsx global>{`
+        :root {
+          --surface-background: var(--charcoal);
+          --primary-text: var(--white);
+          --secondary-text: var(--smoke-shadow);
+          --link: #4bb7ff;
+        }
+      `}</style>
+      <Text mb={2}>
+        I'm a product designer and UI engineer. Right now I'm working on the
+        Facebook design system. Previously I was designing interfaces at Apple.
+        In my free time I created a{" "}
+        <a href="https://react.design">React.js course</a> for designers. You
+        can find me on <a href="https://twitter.com/philipcdavis">twitter</a>.
+      </Text>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Text mb={4} mt={5} fontWeight="bold">
+        Recent Work
+      </Text>
+      <Flex mx={-4} flexDirection="column">
+        <Flex flexDirection="row">
+          <WorkLink
+            image="/images/facebook-icon.png"
+            name="Facebook"
+            dates="2019-Present"
+          />
+          <WorkLink
+            image="/images/apple-icon.png"
+            name="Apple"
+            dates="2015-2018"
+          />
+        </Flex>
+        <Flex flexDirection="row">
+          <WorkLink
+            image="/images/react-for-design-icon.png"
+            name="React for Design"
+            dates="2018-Present"
+          />
+          <WorkLink
+            image="/images/learningd3-icon.png"
+            name="Learning D3"
+            dates="2015-Present"
+          />
+        </Flex>
+      </Flex>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <Text mb={4} mt={5} fontWeight="bold">
+        Featured Writing
+      </Text>
+      <Box>
+        <Link display="block" href="https://react.design/javascript">
+          A Designer's Guide to JavaScript
+        </Link>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <Link display="block" href="https://react.design/terminal">
+          A Designer's Guide to the Terminal
+        </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+        <Link display="block" href="/writing/react-is-for-designers">
+          React is for Designers
+        </Link>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+        <Link display="block" href="/writing/on-writing-css">
+          On Writing CSS
+        </Link>
+        <Link display="block" href="/writing/my-first-online-course">
+          My First Online Course
+        </Link>
+      </Box>
+    </Layout>
+  );
+}
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+function WorkLink(props) {
+  return (
+    <Flex width="100%" className={styled.workLink} mr={3} mb={4}>
+      <Image width="60px" height="60px" src={props.image} />
+      <Box ml="16px">
+        <Text mt="4px" style={{ lineHeight: 1 }}>
+          {props.name}
+        </Text>
+        <Text opacity={0.6}>{props.dates}</Text>
+      </Box>
+    </Flex>
+  );
 }

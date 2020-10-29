@@ -21,9 +21,9 @@ export default function Home() {
       <Text mb={[3, 6]}>
         I'm a product designer and UI engineer. Right now I'm working on the
         Facebook design system. Previously I was designing interfaces at Apple.
-        In my free time I created a{" "}
+        In my free time I work on a{" "}
         <Link underline href="https://react.design">
-          React.js course
+          react course
         </Link>{" "}
         for designers.
       </Text>

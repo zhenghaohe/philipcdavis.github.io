@@ -7,9 +7,7 @@ const Head = function (props) {
   const description = props.description
     ? props.description
     : "The personal site of Philip Davis";
-  const image = props.image
-    ? props.image
-    : "https://farm2.staticflickr.com/1849/43676135265_5d6be8f15a_o.png";
+  const image = props.image ? props.image : "/og/default.png";
   return (
     <>
       <NextHead>
@@ -20,15 +18,17 @@ const Head = function (props) {
           as="font"
           type="font/woff2"
           crossorigin
-        >
-          <link
-            rel="preload"
-            href="/fonts/NittiGrotesk-Bold.woff2"
-            as="font"
-            type="font/woff2"
-            crossorigin
-          ></link>
-        </link>
+        />
+        <link
+          rel="preload"
+          href="/fonts/NittiGrotesk-Bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+        <link type="image/svg+xml" rel="icon" href="/favicon.svg" />
+        <link rel="mask-icon" href="/favicon.svg" color="#000000" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </NextHead>
       <NextSeo
@@ -46,7 +46,7 @@ const Head = function (props) {
         }}
         twitter={{
           handle: "@philipcdavis",
-          cardType: "summary_large_image",
+          cardType: props.image ? "summary_large_image" : "summary",
         }}
       />
     </>

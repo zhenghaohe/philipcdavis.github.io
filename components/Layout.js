@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
-import Head from "next/head";
+import Head from "./Head";
 import { Box } from "rebass";
 
 export default function Layout({ children }) {

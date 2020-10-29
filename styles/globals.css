@@ -36,6 +36,7 @@
     url("/fonts/NittiGrotesk-Bold.woff") format("woff");
   font-weight: 700;
   font-style: bold;
+  font-display: swap;
 }
 
 @font-face {
@@ -44,15 +45,27 @@
     url("/fonts/NittiGrotesk-Regular.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 * {
   box-sizing: border-box;
 }
 
+/* html {
+  font-size: 85%;
+  letter-spacing: 0.4px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+}
+
+body {
+  line-height: 1.6;
+} */
+
 html {
   font-size: 100%;
-  letter-spacing: normal;
 }
 
 body {

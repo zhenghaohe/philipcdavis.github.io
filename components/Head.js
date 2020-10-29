@@ -3,7 +3,7 @@ import NextHead from "next/head";
 import { NextSeo } from "next-seo";
 
 const Head = function (props) {
-  const title = props.title ? props.title : "React for Design";
+  const title = props.title ? props.title : "Philip Davis";
   const description = props.description
     ? props.description
     : "The personal site of Philip Davis";
@@ -14,6 +14,21 @@ const Head = function (props) {
     <>
       <NextHead>
         <link rel="icon" href="/favicon.svg" />
+        <link
+          rel="preload"
+          href="/fonts/NittiGrotesk.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        >
+          <link
+            rel="preload"
+            href="/fonts/NittiGrotesk-Bold.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+          ></link>
+        </link>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </NextHead>
       <NextSeo

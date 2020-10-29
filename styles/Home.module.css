@@ -1,8 +1,7 @@
 .workLink {
   display: block;
   text-decoration: none;
-  padding: 20px 25px;
-  border-radius: 12px;
+  border-radius: 0;
   line-height: 1.2;
   border-bottom: none;
   transition: 0.01s background-color ease-out;
@@ -15,18 +14,15 @@
 }
 
 .workLink:hover {
-  background-color: rgba(100, 100, 100, 0.3);
   color: var(--primary-text);
 }
 
-@media (min-width: var(--small)) {
-  .workLink:first-of-type {
-    left: -20px;
+@media (min-width: 600px) {
+  .workLink:hover {
+    background-color: rgba(100, 100, 100, 0.3);
   }
-}
 
-.workLinkIcon {
-  width: 60px;
-  float: left;
-  margin-right: 20px;
+  .workLink {
+    border-radius: 12px;
+  }
 }

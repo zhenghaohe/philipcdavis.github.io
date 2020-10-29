@@ -15,7 +15,7 @@ export default function Home() {
           --link: #4bb7ff;
         }
       `}</style>
-      <Text fontWeight="bold" mt={[3, 6]}>
+      <Text fontWeight="bold" mt={[5, 6]}>
         Hello, my name is Philip.
       </Text>
       <Text mb={[3, 6]}>
@@ -31,7 +31,7 @@ export default function Home() {
       <Text mb={[2, 4]} mt={[5]} fontWeight="bold">
         Recent Work
       </Text>
-      <Flex mx={-4} flexDirection="column">
+      <Flex mx={[0, -4]} flexDirection="column">
         <Flex flexDirection={["column", "row"]}>
           <WorkLink
             url="https://facebook.com"
@@ -92,17 +92,20 @@ export default function Home() {
 function WorkLink(props) {
   return (
     <Link
-      width="100%"
+      width={["auto", "100%"]}
       passHref
       className={styled.workLink}
+      px={[0, "25px"]}
+      mx={[0, "0"]}
+      py="20px"
       href={props.url}
-      mr={[0, 3]}
+      mr={[0, 4]}
       mb={[0, 4]}
     >
       <Flex>
         <Image width="60px" height="60px" src={props.image} />
         <Box ml="16px">
-          <Text mt="4px" style={{ lineHeight: 1 }}>
+          <Text mt={["6px", "4px"]} style={{ lineHeight: 1 }}>
             {props.name}
           </Text>
           <Text opacity={0.6}>{props.dates}</Text>

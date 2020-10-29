@@ -22,7 +22,7 @@ export default function Nav() {
 
       <Link
         href="/writing"
-        mx={4}
+        ml={[3, 4]}
         className={
           (styles.link,
           asPath === "/writing" ? (styles.link, styles.active) : styles.link)

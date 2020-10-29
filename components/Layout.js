@@ -6,10 +6,10 @@ import { Box } from "rebass";
 export default function Layout({ children }) {
   return (
     <>
-      <Box maxWidth={"46rem"} width={"94%"} mx="auto">
+      <Box maxWidth={"46rem"} width={"90%"} mx="auto">
         <Head></Head>
         <Nav />
-        <Box mt={[3, 6]}>{children}</Box>
+        <Box mt={[4, 6]}>{children}</Box>
       </Box>
       <Footer />
     </>

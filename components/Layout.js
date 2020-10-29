@@ -1,16 +1,16 @@
-import styles from "../styles/layout.module.css";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Head from "next/head";
+import { Box } from "rebass";
 
 export default function Layout({ children }) {
   return (
     <>
-      <div className={styles.container}>
+      <Box maxWidth={"46rem"} width={"94%"} mx="auto">
         <Head></Head>
         <Nav />
-        <div>{children}</div>
-      </div>
+        <Box mt={[3, 6]}>{children}</Box>
+      </Box>
       <Footer />
     </>
   );

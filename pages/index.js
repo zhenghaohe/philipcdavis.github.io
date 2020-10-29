@@ -11,10 +11,14 @@ export default function Home() {
           --surface-background: var(--charcoal);
           --primary-text: var(--white);
           --secondary-text: var(--smoke-shadow);
+          --surface-highlight: #393939;
           --link: #4bb7ff;
         }
       `}</style>
-      <Text mb={2}>
+      <Text fontWeight="bold" mt={[3, 6]}>
+        Hello, my name is Philip.
+      </Text>
+      <Text mb={[3, 6]}>
         I'm a product designer and UI engineer. Right now I'm working on the
         Facebook design system. Previously I was designing interfaces at Apple.
         In my free time I created a{" "}
@@ -24,11 +28,11 @@ export default function Home() {
         for designers.
       </Text>
 
-      <Text mb={4} mt={5} fontWeight="bold">
+      <Text mb={[2, 4]} mt={[5]} fontWeight="bold">
         Recent Work
       </Text>
       <Flex mx={-4} flexDirection="column">
-        <Flex flexDirection="row">
+        <Flex flexDirection={["column", "row"]}>
           <WorkLink
             url="https://facebook.com"
             image="/images/facebook-icon.png"
@@ -42,7 +46,7 @@ export default function Home() {
             dates="2015-2018"
           />
         </Flex>
-        <Flex flexDirection="row">
+        <Flex flexDirection={["column", "row"]}>
           <WorkLink
             url="https://react.design"
             image="/images/react-for-design-icon.png"
@@ -58,7 +62,7 @@ export default function Home() {
         </Flex>
       </Flex>
 
-      <Text mb={4} mt={5} fontWeight="bold">
+      <Text mb={[2, 4]} mt={5} fontWeight="bold">
         Featured Writing
       </Text>
       <Box>
@@ -92,8 +96,8 @@ function WorkLink(props) {
       passHref
       className={styled.workLink}
       href={props.url}
-      mr={3}
-      mb={4}
+      mr={[0, 3]}
+      mb={[0, 4]}
     >
       <Flex>
         <Image width="60px" height="60px" src={props.image} />

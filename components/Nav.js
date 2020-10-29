@@ -7,7 +7,7 @@ export default function Nav() {
   const { asPath } = useRouter();
 
   return (
-    <Flex my={5}>
+    <Flex my={[4, 5]}>
       <Link href="/" className={styles.link}>
         Philip Davis
       </Link>

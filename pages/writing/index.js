@@ -11,16 +11,20 @@ function Writing({ allPostsData }) {
         {allPostsData.map(({ id, date, title }) => (
           <div key={id}>
             <Text
-              fontWeight="normal"
-              fontSize={3}
+              fontWeight="bold"
+              fontSize={[2, 3]}
               color="var(--smoke-dark)"
-              mt={4}
+              mt={[3, 4]}
               mb={-2}
             >
               <Date dateString={date} />
             </Text>
 
-            <Link href={`/writing/${id}`} fontWeight="bold" fontSize={[3, 4]}>
+            <Link
+              href={`/writing/${id}`}
+              fontWeight="bold"
+              fontSize={[4, "28px"]}
+            >
               {title}
             </Link>
           </div>

@@ -11,7 +11,6 @@ const Head = function (props) {
   return (
     <>
       <NextHead>
-        <link rel="icon" href="/favicon.svg" />
         <link
           rel="preload"
           href="/fonts/NittiGrotesk-Regular.woff2"
@@ -26,8 +25,16 @@ const Head = function (props) {
           type="font/woff2"
           crossorigin
         />
-        <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
-        <link rel="mask-icon" href="/favicons/favicon.svg" color="#000000" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/favicons/favicon8371.svg"
+        />
+        <link
+          rel="mask-icon"
+          href="/favicons/favicon8371.svg"
+          color="#000000"
+        />
         <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </NextHead>

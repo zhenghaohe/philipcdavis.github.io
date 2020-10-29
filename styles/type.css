@@ -76,15 +76,6 @@ blockquote {
   text-transform: uppercase;
 }
 
-a {
-  color: inherit;
-}
-
-a:hover {
-  cursor: pointer;
-  color: var(--link);
-}
-
 .post p,
 .post ul,
 .post ol {
@@ -110,6 +101,14 @@ a:hover {
   display: block;
 }
 
+.post hr {
+  border: none;
+  border-top: 2px solid var(--smoke);
+  width: 40%;
+  margin-top: calc(50px + 2vw);
+  margin-bottom: calc(50px + 2vw);
+}
+
 .post h2 {
   margin-top: 40px;
 }
@@ -124,4 +123,25 @@ figcaption {
   color: var(--secondary-text);
   font-size: 1.2rem;
   margin-bottom: 2rem;
+}
+
+code {
+  padding: 2px 4px;
+  border: 2px solid var(--smoke-shadow);
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "SF Mono", Menlo, Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  white-space: nowrap;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: none;
+  border: none;
 }

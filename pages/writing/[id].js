@@ -1,7 +1,25 @@
 import Head from "next/head";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import Layout from "../../components/layout";
-import { Box } from "rebass";
+import Layout from "../../components/Layout";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import ReactMarkdown from "react-markdown/with-html";
+import Syntax from "../../components/Syntax";
+import Link from "../../components/Link";
+import Image from "next/image";
+
+const renderers = {
+  image: ({ src, alt }) => <Image unsized src={src} alt={alt} />,
+  link: ({ href, children }) => (
+    <Link href={href} underline>
+      {children}
+    </Link>
+  ),
+  code: ({ language, value }) => {
+    return (
+      <SyntaxHighlighter style={Syntax} language={language} children={value} />
+    );
+  },
+};
 
 export default function Post({ postData }) {
   return (
@@ -9,9 +27,11 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <Box
+      <ReactMarkdown
+        renderers={renderers}
+        allowDangerousHtml={true}
         className="post"
-        dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        children={postData.contentHtml}
       />
     </Layout>
   );

@@ -1,6 +1,7 @@
-import { Box, Text, Image, Flex, Link } from "rebass";
+import { Box, Text, Image, Flex } from "rebass";
+import Link from "../components/Link";
 import styled from "../styles/Home.module.css";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
@@ -17,8 +18,10 @@ export default function Home() {
         I'm a product designer and UI engineer. Right now I'm working on the
         Facebook design system. Previously I was designing interfaces at Apple.
         In my free time I created a{" "}
-        <a href="https://react.design">React.js course</a> for designers. You
-        can find me on <a href="https://twitter.com/philipcdavis">twitter</a>.
+        <Link underline href="https://react.design">
+          React.js course
+        </Link>{" "}
+        for designers.
       </Text>
 
       <Text mb={4} mt={5} fontWeight="bold">
@@ -27,11 +30,13 @@ export default function Home() {
       <Flex mx={-4} flexDirection="column">
         <Flex flexDirection="row">
           <WorkLink
+            url="https://facebook.com"
             image="/images/facebook-icon.png"
             name="Facebook"
             dates="2019-Present"
           />
           <WorkLink
+            url="/work/apple"
             image="/images/apple-icon.png"
             name="Apple"
             dates="2015-2018"
@@ -39,11 +44,13 @@ export default function Home() {
         </Flex>
         <Flex flexDirection="row">
           <WorkLink
+            url="https://react.design"
             image="/images/react-for-design-icon.png"
             name="React for Design"
             dates="2018-Present"
           />
           <WorkLink
+            url="https://learningd3.com"
             image="/images/learningd3-icon.png"
             name="Learning D3"
             dates="2015-Present"
@@ -55,22 +62,22 @@ export default function Home() {
         Featured Writing
       </Text>
       <Box>
-        <Link display="block" href="https://react.design/javascript">
+        <Link underline display="block" href="https://react.design/javascript">
           A Designer's Guide to JavaScript
         </Link>
 
-        <Link display="block" href="https://react.design/terminal">
+        <Link underline display="block" href="https://react.design/terminal">
           A Designer's Guide to the Terminal
         </Link>
 
-        <Link display="block" href="/writing/react-is-for-designers">
+        <Link underline display="block" href="/writing/react-is-for-designers">
           React is for Designers
         </Link>
 
-        <Link display="block" href="/writing/on-writing-css">
+        <Link underline display="block" href="/writing/on-writing-css">
           On Writing CSS
         </Link>
-        <Link display="block" href="/writing/my-first-online-course">
+        <Link underline display="block" href="/writing/my-first-online-course">
           My First Online Course
         </Link>
       </Box>
@@ -80,14 +87,23 @@ export default function Home() {
 
 function WorkLink(props) {
   return (
-    <Flex width="100%" className={styled.workLink} mr={3} mb={4}>
-      <Image width="60px" height="60px" src={props.image} />
-      <Box ml="16px">
-        <Text mt="4px" style={{ lineHeight: 1 }}>
-          {props.name}
-        </Text>
-        <Text opacity={0.6}>{props.dates}</Text>
-      </Box>
-    </Flex>
+    <Link
+      width="100%"
+      passHref
+      className={styled.workLink}
+      href={props.url}
+      mr={3}
+      mb={4}
+    >
+      <Flex>
+        <Image width="60px" height="60px" src={props.image} />
+        <Box ml="16px">
+          <Text mt="4px" style={{ lineHeight: 1 }}>
+            {props.name}
+          </Text>
+          <Text opacity={0.6}>{props.dates}</Text>
+        </Box>
+      </Flex>
+    </Link>
   );
 }

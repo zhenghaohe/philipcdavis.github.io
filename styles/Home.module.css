@@ -16,6 +16,7 @@
 
 .workLink:hover {
   background-color: rgba(100, 100, 100, 0.3);
+  color: var(--primary-text);
 }
 
 @media (min-width: var(--small)) {

@@ -1,8 +1,8 @@
 import { getSortedPostsData } from "../../lib/posts";
-import { default as NextLink } from "next/link";
-import { Text, Link } from "rebass";
+import { Text } from "rebass";
 import Date from "../../components/Date";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
+import Link from "../../components/Link";
 
 function Writing({ allPostsData }) {
   return (
@@ -10,13 +10,19 @@ function Writing({ allPostsData }) {
       <div>
         {allPostsData.map(({ id, date, title }) => (
           <div key={id}>
-            <Text fontSize={3} color="var(--smoke-dark)" mt={4} mb={-1}>
+            <Text
+              fontWeight="normal"
+              fontSize={3}
+              color="var(--smoke-dark)"
+              mt={4}
+              mb={-2}
+            >
               <Date dateString={date} />
             </Text>
 
-            <NextLink href={`/writing/${id}`}>
-              <Link fontSize={[3, 4]}>{title}</Link>
-            </NextLink>
+            <Link href={`/writing/${id}`} fontWeight="bold" fontSize={[3, 4]}>
+              {title}
+            </Link>
           </div>
         ))}
       </div>

@@ -1,37 +1,35 @@
-import styles from "./nav.module.css";
-import { default as NextLink } from "next/link";
+import styles from "../styles/nav.module.css";
 import { useRouter } from "next/router";
-import { Flex, Box, Link } from "rebass";
+import { Flex, Box } from "rebass";
+import Link from "./Link";
 
-export default function Layout() {
+export default function Nav() {
   const { asPath } = useRouter();
 
   return (
     <Flex my={5}>
-      <NextLink href="/">
-        <Link className={styles.link}>Philip Davis</Link>
-      </NextLink>
+      <Link href="/" className={styles.link}>
+        Philip Davis
+      </Link>
       <Box flexGrow={1}></Box>
-      <NextLink href="/">
-        <Link
-          className={
-            asPath === "/" ? (styles.link, styles.active) : styles.link
-          }
-        >
-          Work
-        </Link>
-      </NextLink>
-      <NextLink href="/writing">
-        <Link
-          mx={4}
-          className={
-            (styles.link,
-            asPath === "/writing" ? (styles.link, styles.active) : styles.link)
-          }
-        >
-          Writing
-        </Link>
-      </NextLink>
+
+      <Link
+        href="/"
+        className={asPath === "/" ? (styles.link, styles.active) : styles.link}
+      >
+        Work
+      </Link>
+
+      <Link
+        href="/writing"
+        mx={4}
+        className={
+          (styles.link,
+          asPath === "/writing" ? (styles.link, styles.active) : styles.link)
+        }
+      >
+        Writing
+      </Link>
     </Flex>
   );
 }

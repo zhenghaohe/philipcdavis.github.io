@@ -5,8 +5,10 @@ import styles from "../styles/footer.module.css";
 
 function Footer(props) {
   return (
-    <Box mt={6} className={styles.footer}>
-      <Link href="https://twitter.com/philipcdavis">@philipcdavis</Link>
+    <Box mt={[5, 6]} className={styles.footer}>
+      <Link fontSize={[3, 4]} href="https://twitter.com/philipcdavis">
+        @philipcdavis
+      </Link>
     </Box>
   );
 }

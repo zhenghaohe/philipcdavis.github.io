@@ -15,7 +15,7 @@ function Writing({ allPostsData }) {
               fontSize={[2, 3]}
               color="var(--smoke-dark)"
               mt={[3, 4]}
-              mb={-2}
+              mb={[-2, -1]}
             >
               <Date dateString={date} />
             </Text>
@@ -23,7 +23,7 @@ function Writing({ allPostsData }) {
             <Link
               href={`/writing/${id}`}
               fontWeight="bold"
-              fontSize={[4, "28px"]}
+              fontSize={[3, "28px"]}
             >
               {title}
             </Link>

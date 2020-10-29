@@ -23,7 +23,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --surface-background: var(--charcoal);
-    --surface-highlight: var(--smoke-dark);
+    --surface-highlight: #393939;
     --primary-text: var(--white);
     --secondary-text: var(--smoke-shadow);
     --link: #4bb7ff;

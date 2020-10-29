@@ -64,8 +64,11 @@ It's a small app, but it's something I am very proud of.
 
 _Update: This app is no longer available on the App Store._
 
-<div class="grid-row cf">
-    <img src="/images/sliding.gif" class="grid-3 post-half-img">
-    <img src="/images/modal.gif" class="grid-3 post-half-img">
+<div style="display: flex;">
+    <div style="max-width: 300px; margin-right: 10px;">
+    <img src="/images/sliding.gif">
+    </div>
+    <div style="max-width: 300px">
+    <img src="/images/modal.gif">
+    </div>
 </div>
-

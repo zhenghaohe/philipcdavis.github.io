@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Box maxWidth={"46rem"} width={"90%"} mx="auto">
-        <Head></Head>
+        <Head />
         <Nav />
         <Box mt={[5, 6]}>{children}</Box>
       </Box>

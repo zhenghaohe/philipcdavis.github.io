@@ -29,7 +29,7 @@ I came across [Mike Bostock's](https://twitter.com/mbostock) example of [Mitchel
 
 Using this algorithm, and help from one of Mike's [examples](https://bl.ocks.org/mbostock/6224050) I was able to get my final result.
 
-![Photo of a Heart](/images/heart.gif)
+<img src="/images/heart.gif" alt="Photo of a Heart" />
 
 I'm happy with it, but there are two problems I would love to have solved.
 
@@ -42,30 +42,21 @@ The second thing would be the ability to prevent circles from escaping the bound
 One of the side benefits of working on generative art in D3.js is that you discover new portions of the API. Below i've collected some of the things i've made this month.
 
 <figcaption>
-  <img class="fit" src="/images/ring-of-bars.gif" alt="ring-of-bars" />
-  Custom Arc Tweening — 
-  <a href="http://bl.ocks.org/philipcdavis/dafa2489338f593c526a8f9978f0dee1">
-    Link
-  </a>
+  <img src="/images/ring-of-bars.gif" alt="ring-of-bars" />
+  Custom Arc Tweening
 </figcaption>
 
 <figcaption>
-  <img class="fit" src="/images/circle-tunnel.gif" alt="transitions example" />
-  Transitions — 
-  <a href="http://bl.ocks.org/philipcdavis/b5224a272556fcb2d0c776b7a247ede4">
-    Live
-  </a>
+  <img src="/images/circle-tunnel.gif" alt="transitions example" />
+  Transitions
 </figcaption>
 
 <figcaption>
-  <img class="fit" src="/images/static.gif" alt="generating static example" />
+  <img src="/images/static.gif" alt="generating static example" />
   Static
 </figcaption>
 
 <figcaption>
-  <img class="fit" src="/images/moire.jpg" alt="Working with radial lines" />
-  Radial Lines — 
-  <a href="http://bl.ocks.org/philipcdavis/2b626bdef4133921615a5e4fbb921e70">
-    Live
-  </a>
+  <img src="/images/moire.jpg" alt="Working with radial lines" />
+  Radial Lines
 </figcaption>

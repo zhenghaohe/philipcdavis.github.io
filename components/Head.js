@@ -14,7 +14,7 @@ const Head = function (props) {
         <link rel="icon" href="/favicon.svg" />
         <link
           rel="preload"
-          href="/fonts/NittiGrotesk.woff2"
+          href="/fonts/NittiGrotesk-Regular.woff2"
           as="font"
           type="font/woff2"
           crossorigin

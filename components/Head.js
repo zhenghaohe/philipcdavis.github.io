@@ -7,7 +7,9 @@ const Head = function (props) {
   const description = props.description
     ? props.description
     : "The personal site of Philip Davis";
-  const image = props.image ? props.image : "https://pbs.twimg.com/profile_images/659824786260934656/syJKampr_400x400.jpg";
+  const image = props.image
+    ? props.image
+    : "https://pbs.twimg.com/profile_images/659824786260934656/syJKampr_400x400.jpg";
   return (
     <>
       <NextHead>
@@ -17,6 +19,7 @@ const Head = function (props) {
           as="font"
           type="font/woff2"
           crossorigin
+        />
         <link
           rel="preload"
           href="/fonts/NittiGrotesk-Bold.woff2"

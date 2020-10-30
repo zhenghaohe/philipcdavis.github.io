@@ -16,11 +16,13 @@ const Head = function (props) {
           href="/fonts/NittiGrotesk-Regular.woff2"
           as="font"
           type="font/woff2"
+          crossorigin
         <link
           rel="preload"
           href="/fonts/NittiGrotesk-Bold.woff2"
           as="font"
           type="font/woff2"
+          crossorigin
         />
         <link
           rel="icon"

@@ -15,7 +15,7 @@ export default function Home() {
           --link: #4bb7ff;
         }
       `}</style>
-      <Box mb={6}>
+      <Box mb={[5, 6]}>
         <Text fontWeight="bold">Hello, my name is Philip.</Text>
         <Text mb={[3, 6]}>
           I'm a product designer and UI engineer. Right now I'm working on the

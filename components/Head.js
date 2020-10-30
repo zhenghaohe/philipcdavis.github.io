@@ -7,26 +7,10 @@ const Head = function (props) {
   const description = props.description
     ? props.description
     : "The personal site of Philip Davis";
-  const image = props.image
-    ? props.image
-    : "https://pbs.twimg.com/profile_images/659824786260934656/syJKampr_400x400.jpg";
+  const image = props.image ? props.image : "/images/og/default.png";
   return (
     <>
       <NextHead>
-        <link
-          rel="preload"
-          href="/fonts/NittiGrotesk-Regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin
-        />
-        <link
-          rel="preload"
-          href="/fonts/NittiGrotesk-Bold.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin
-        />
         <link
           rel="icon"
           type="image/svg+xml"
@@ -51,7 +35,7 @@ const Head = function (props) {
         }}
         twitter={{
           handle: "@philipcdavis",
-          cardType: props.image ? "summary_large_image" : "summary",
+          cardType: "summary_large_image",
         }}
       />
     </>

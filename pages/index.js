@@ -103,7 +103,12 @@ function WorkLink(props) {
       mb={[0, 4]}
     >
       <Flex>
-        <Image width="60px" height="60px" src={props.image} />
+        <Image
+          alt={`${props.name} icon`}
+          width="60px"
+          height="60px"
+          src={props.image}
+        />
         <Box ml="16px">
           <Text mt={["6px", "4px"]} style={{ lineHeight: 1 }}>
             {props.name}

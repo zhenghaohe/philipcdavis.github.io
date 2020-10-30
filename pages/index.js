@@ -15,18 +15,18 @@ export default function Home() {
           --link: #4bb7ff;
         }
       `}</style>
-      <Text fontWeight="bold" mt={[5, 6]}>
-        Hello, my name is Philip.
-      </Text>
-      <Text mb={[3, 6]}>
-        I'm a product designer and UI engineer. Right now I'm working on the
-        Facebook design system. Previously I was designing interfaces at Apple.
-        In my free time I work on a{" "}
-        <Link underline href="https://react.design">
-          react course
-        </Link>{" "}
-        for designers.
-      </Text>
+      <Box mb={6}>
+        <Text fontWeight="bold">Hello, my name is Philip.</Text>
+        <Text mb={[3, 6]}>
+          I'm a product designer and UI engineer. Right now I'm working on the
+          Facebook design system. Previously I was designing interfaces at
+          Apple. In my free time I work on a{" "}
+          <Link underline href="https://react.design">
+            react course
+          </Link>{" "}
+          for designers.
+        </Text>
+      </Box>
 
       <Text mb={[2, 4]} mt={[5]} fontWeight="bold">
         Recent Work

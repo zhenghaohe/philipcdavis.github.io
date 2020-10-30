@@ -13,13 +13,11 @@ const Head = function (props) {
   return (
     <>
       <NextHead>
-        <link
-          rel="icon"
-          type="image/svg+xml"
-          href="/favicons/favicon.svg?v=3"
-        />
+        <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+        <link rel="mask-icon" href="/favicons/favicon.svg" color="#8A8A8A" />
         <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="theme-color" content="#222222" />
       </NextHead>
 
       <NextSeo

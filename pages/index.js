@@ -1,4 +1,5 @@
-import { Box, Text, Image, Flex } from "rebass";
+import { Box, Text, Flex } from "rebass";
+import Image from "next/image";
 import Link from "../components/Link";
 import styled from "../styles/Home.module.css";
 import Layout from "../components/Layout";
@@ -105,8 +106,8 @@ function WorkLink(props) {
       <Flex>
         <Image
           alt={`${props.name} icon`}
-          width="60px"
-          height="60px"
+          width={60}
+          height={60}
           src={props.image}
         />
         <Box ml="16px">

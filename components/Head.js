@@ -28,7 +28,7 @@ const Head = function (props) {
         <link
           rel="icon"
           type="image/svg+xml"
-          href="/favicons/favicon8371.svg"
+          href="/favicons/favicon.svg?v=3"
         />
         <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

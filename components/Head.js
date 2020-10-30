@@ -7,7 +7,9 @@ const Head = function (props) {
   const description = props.description
     ? props.description
     : "The personal site of Philip Davis";
-  const image = props.image ? props.image : "/images/og/default.png";
+  const image = props.image
+    ? props.image
+    : "https://res.cloudinary.com/dpgzvne4j/image/upload/v1604077998/default_ky8gci.png";
   return (
     <>
       <NextHead>

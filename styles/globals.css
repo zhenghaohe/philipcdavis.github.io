@@ -12,6 +12,7 @@
   --gray: #aaaaaa;
   --white: #ffffff;
   --surface-background: var(--white);
+  --overlay: rgba(250, 250, 250, 0.7);
   --surface-highlight: var(--smoke);
   --primary-text: var(--charcoal);
   --secondary-text: var(--smoke-dark);
@@ -27,6 +28,7 @@
     --primary-text: var(--white);
     --secondary-text: var(--smoke-shadow);
     --link: #4bb7ff;
+    --overlay: rgba(0, 0, 0, 0.5);
   }
 }
 

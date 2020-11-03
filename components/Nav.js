@@ -1,16 +1,19 @@
+import React from "react";
 import styles from "../styles/nav.module.css";
 import { useRouter } from "next/router";
 import { Flex, Box } from "rebass";
 import Link from "./Link";
+import Spotlight from "./Spotlight";
 
 export default function Nav() {
   const { asPath } = useRouter();
 
   return (
     <Flex my={[4, 5]}>
-      <Link href="/" className={styles.link}>
-        Philip Davis
-      </Link>
+      <Box className={styles.link}>Philip Davis</Box>
+
+      <Spotlight />
+
       <Box flexGrow={1}></Box>
 
       <Link

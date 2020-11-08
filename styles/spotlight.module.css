@@ -1,6 +1,26 @@
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: scale(0.98) translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .overlay {
   background-color: var(--overlay);
-  transition: 0.2s all cubic-bezier(0.2, 0, 0, 1);
+  animation: fade-in 0.1s cubic-bezier(0.2, 0, 0, 1);
 }
 
 .overlay [data-reach-dialog-content] {
@@ -16,27 +36,27 @@
   padding: 0;
   max-width: 40rem;
   overflow: hidden;
+  animation: slide-up 0.1s cubic-bezier(0.2, 0, 0, 1);
 }
 
 .list-container {
-  max-height: 20rem;
+  max-height: 21.5rem;
   overflow-y: auto;
 }
 
 .list-item {
-  padding: 8px 30px;
+  padding: 5px 30px;
   font-size: 1.4rem;
   opacity: 0.7;
 }
 
-.list-item:hover {
-  background-color: var(--surface-highlight);
-  opacity: 0.8;
+.list-item:last-of-type {
+  margin-bottom: 10px;
 }
 
 .list-item-active {
   background-color: var(--surface-highlight);
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .search-input {
@@ -71,14 +91,13 @@
 }
 
 .list-heading {
+  text-transform: capitalize;
   font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
   padding-left: 30px;
-  background-color: var(--surface-highlight);
-  opacity: 0.3;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  opacity: 0.4;
+  font-weight: bold;
+  margin-top: 25px;
+  padding-bottom: 3px;
 }
 
 .cmd-hint {

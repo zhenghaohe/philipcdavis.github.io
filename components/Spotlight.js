@@ -107,6 +107,7 @@ function Spotlight() {
                           </div>
                           {matchSorter(section.source, inputValue, {
                             keys: ["title"],
+                            baseSort: (a, b) => (a.index < b.index ? -1 : 1),
                           }).map((item, itemIndex) => {
                             const index = result.itemIndex++;
                             return (

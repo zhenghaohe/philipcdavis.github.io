@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "node lib/db && next build",
-    "start": "next start"
+    "start": "next start",
+    "db": "node lib/db"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.19",

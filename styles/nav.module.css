@@ -20,3 +20,21 @@
 .active:hover {
   color: var(--primary-text);
 }
+
+.logo {
+  font-size: 2rem;
+  position: relative;
+  top: -2px;
+  left: -6px;
+  padding: 6px;
+  line-height: 1;
+  margin: 0;
+  border-radius: 8px;
+  width: 41px;
+  height: 41px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  background-color: var(--surface-highlight);
+}

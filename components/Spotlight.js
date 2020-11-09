@@ -1,57 +1,73 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import { DialogOverlay, DialogContent } from "@reach/dialog";
 import Downshift from "downshift";
 import styles from "../styles/spotlight.module.css";
 import "@reach/dialog/styles.css";
-import posts from "../data/blog/blog.json";
 import { matchSorter } from "match-sorter";
 import tinykeys from "tinykeys";
+import posts from "../data/blog/blog.json";
 
 let socials = [
   {
     title: "Twitter",
-    url: "https://twitter.com/philipcdavis",
+    extUrl: "https://twitter.com/philipcdavis",
   },
   {
     title: "Github",
-    url: "https://github.com/philipcdavis",
+    extUrl: "https://github.com/philipcdavis",
   },
 ];
 
 let projects = [
   {
     title: "React for Design",
-    url: "https://react.design",
+    extUrl: "https://react.design",
   },
   {
     title: "Learning D3.js",
-    url: "https://learningd3.com",
+    extUrl: "https://learningd3.com",
+  },
+];
+
+let nav = [
+  {
+    title: "Work",
+    url: "/",
+  },
+  {
+    title: "Writing",
+    url: "/writing",
   },
 ];
 
 const data = [
-  { name: "writing", source: posts },
+  { name: "Writing", source: posts },
+  { name: "Navigation", source: nav },
   {
-    name: "social",
+    name: "Social",
     source: socials,
   },
   {
-    name: "projects",
+    name: "Projects",
     source: projects,
   },
 ];
 
-function Spotlight() {
-  const [showDialog, setShowDialog] = React.useState(false);
+function Spotlight(props) {
+  const router = useRouter();
+  const [showInstructions, setShowInstructions] = useState(false);
+  const [showDialog, setShowDialog] = useState(false);
   const open = () => setShowDialog(true);
   const close = () => {
+    setShowInstructions(false);
     setShowDialog(false);
   };
 
   useEffect(() => {
     let unsubscribe = tinykeys(window, {
       "$mod+K": () => {
-        open();
+        showDialog ? close() : open();
       },
       Escape: () => {
         close();
@@ -62,84 +78,108 @@ function Spotlight() {
     };
   });
   return (
-    <DialogOverlay
-      className={styles.overlay}
-      onDismiss={close}
-      isOpen={showDialog}
-    >
-      <DialogContent aria-label="Spotlight" className={styles.content}>
-        <Downshift
-          initialHighlightedIndex={0}
-          defaultHighlightedIndex={0}
-          onChange={(selection) => console.log(selection)}
-          itemToString={(item) => (item ? item.title : "")}
-        >
-          {({
-            getInputProps,
-            getItemProps,
-            getMenuProps,
-            inputValue,
-            highlightedIndex,
-            getRootProps,
-          }) => (
-            <div {...getRootProps({}, { suppressRefError: true })}>
-              <div className={styles["search-input-container"]}>
-                <input
-                  spellCheck="false"
-                  value={inputValue}
-                  placeholder="Search"
-                  className={styles["search-input"]}
-                  {...getInputProps()}
-                />
-                <div className={styles["cmd-hint"]}>⌘ ＋ K</div>
-              </div>
-              <div {...getMenuProps()} className={styles["list-container"]}>
-                {
-                  matchSorter(data, inputValue, {
-                    baseSort: (a, b) => (a.index < b.index ? -1 : 1),
-                    keys: [(section) => section.source.map((i) => i.title)],
-                  }).reduce(
-                    (result, section, sectionIndex) => {
-                      result.sections.push(
-                        <div key={sectionIndex}>
-                          <div className={styles["list-heading"]}>
-                            {section.name}
-                          </div>
-                          {matchSorter(section.source, inputValue, {
-                            keys: ["title"],
-                            baseSort: (a, b) => (a.index < b.index ? -1 : 1),
-                          }).map((item, itemIndex) => {
-                            const index = result.itemIndex++;
-                            return (
-                              <div
-                                className={`${styles["list-item"]} ${
-                                  highlightedIndex === index
-                                    ? styles["list-item-active"]
-                                    : ""
-                                }`}
-                                key={itemIndex}
-                                {...getItemProps({
-                                  item: item,
-                                  index: index,
-                                })}
-                              >
-                                {item.title}
+    <div>
+      <div
+        onClick={() => {
+          open();
+          setShowInstructions(true);
+        }}
+        className={props.className}
+      >
+        {props.children}
+      </div>
+      <DialogOverlay
+        className={styles.overlay}
+        onDismiss={close}
+        isOpen={showDialog}
+      >
+        <DialogContent aria-label="Spotlight" className={styles.content}>
+          <Downshift
+            initialHighlightedIndex={0}
+            defaultHighlightedIndex={0}
+            onChange={(selection) => {
+              selection.extUrl
+                ? window.open(selection.extUrl, "_blank")
+                : router.push(selection.url);
+              close();
+            }}
+            itemToString={(item) => (item ? item.title : "")}
+          >
+            {({
+              getInputProps,
+              getItemProps,
+              getMenuProps,
+              inputValue,
+              highlightedIndex,
+              getRootProps,
+            }) => (
+              <div {...getRootProps({}, { suppressRefError: true })}>
+                <div className={styles["search-input-container"]}>
+                  <input
+                    spellCheck="false"
+                    value={inputValue}
+                    placeholder="Search"
+                    style={{
+                      width: showInstructions ? "calc(100% - 90px)" : "100%",
+                    }}
+                    className={styles["search-input"]}
+                    {...getInputProps()}
+                  />
+                  {showInstructions && (
+                    <div className={styles["cmd-hint"]}>⌘ ＋ K</div>
+                  )}
+                </div>
+                <div {...getMenuProps()} className={styles["list-container"]}>
+                  {
+                    matchSorter(data, inputValue, {
+                      baseSort: (a, b) => (a.index < b.index ? -1 : 1),
+                      keys: [(section) => section.source.map((i) => i.title)],
+                    }).reduce(
+                      (result, section, sectionIndex) => {
+                        result.sections.push(
+                          <div key={sectionIndex}>
+                            {section.name && (
+                              <div className={styles["list-heading"]}>
+                                {section.name}
                               </div>
-                            );
-                          })}
-                        </div>
-                      );
-                      return result;
-                    },
-                    { sections: [], itemIndex: 0 }
-                  ).sections
-                }
+                            )}
+
+                            {matchSorter(section.source, inputValue, {
+                              keys: ["title"],
+                              baseSort: (a, b) => (a.index < b.index ? -1 : 1),
+                            }).map((item, itemIndex) => {
+                              const index = result.itemIndex++;
+                              return (
+                                <div
+                                  className={`${styles["list-item"]} ${
+                                    highlightedIndex === index
+                                      ? styles["list-item-active"]
+                                      : ""
+                                  }`}
+                                  key={itemIndex}
+                                  {...getItemProps({
+                                    item: item,
+                                    index: index,
+                                  })}
+                                >
+                                  {item.title}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        );
+                        return result;
+                      },
+                      { sections: [], itemIndex: 0 }
+                    ).sections
+                  }
+                </div>
               </div>
-            </div>
-          )}
-        </Downshift>
-      </DialogContent>
-    </DialogOverlay>
+            )}
+          </Downshift>
+        </DialogContent>
+      </DialogOverlay>
+    </div>
   );
 }
 

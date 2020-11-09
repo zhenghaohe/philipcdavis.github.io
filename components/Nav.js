@@ -10,12 +10,8 @@ export default function Nav() {
 
   return (
     <Flex my={[4, 5]}>
-      <Box className={styles.link}>Philip Davis</Box>
-
-      <Spotlight />
-
+      <Spotlight className={styles.logo}>⌘</Spotlight>
       <Box flexGrow={1}></Box>
-
       <Link
         href="/"
         className={asPath === "/" ? (styles.link, styles.active) : styles.link}

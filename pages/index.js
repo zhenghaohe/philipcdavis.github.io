@@ -13,7 +13,7 @@ export default function Home() {
           --primary-text: var(--white);
           --secondary-text: var(--smoke-shadow);
           --surface-highlight: #393939;
-          --overlay: rgba(0, 0, 0, 0.5);
+          --overlay: rgba(10, 10, 10, 0.4);
           --link: #4bb7ff;
         }
       `}</style>

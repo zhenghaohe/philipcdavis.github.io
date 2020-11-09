@@ -1,7 +1,8 @@
+@import "./normalize.css";
 @import "./type.css";
 
 :root {
-  --charcoal: #181818;
+  --charcoal: #2c2c2c;
   --smoke-dark: #85898e;
   --smoke-shadow: #d8dadc;
   --smoke: #eceeef;
@@ -12,7 +13,7 @@
   --gray: #aaaaaa;
   --white: #ffffff;
   --surface-background: var(--white);
-  --overlay: rgba(250, 250, 250, 0.7);
+  --overlay: rgba(155, 155, 155, 0.5);
   --surface-highlight: var(--smoke);
   --primary-text: var(--charcoal);
   --secondary-text: var(--smoke-dark);
@@ -28,7 +29,7 @@
     --primary-text: var(--white);
     --secondary-text: var(--smoke-shadow);
     --link: #4bb7ff;
-    --overlay: rgba(0, 0, 0, 0.5);
+    --overlay: rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -53,18 +54,6 @@
 * {
   box-sizing: border-box;
 }
-
-/* html {
-  font-size: 85%;
-  letter-spacing: 0.4px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    sans-serif;
-}
-
-body {
-  line-height: 1.6;
-} */
 
 html {
   font-size: 100%;

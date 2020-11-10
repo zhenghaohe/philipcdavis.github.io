@@ -170,7 +170,7 @@ function Spotlight(props) {
                       onKeyDown: (e) => {
                         if (
                           e.key === "ArrowDown" &&
-                          sorter(
+                          items(
                             data,
                             inputValue,
                             highlightedIndex,

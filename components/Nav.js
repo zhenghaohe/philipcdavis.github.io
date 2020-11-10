@@ -9,7 +9,7 @@ export default function Nav() {
   const { asPath } = useRouter();
 
   return (
-    <Flex my={[4, 5]}>
+    <Flex my={[4, 5]} alignItems="center">
       <Spotlight className={styles.logo}>⌘</Spotlight>
       <Box flexGrow={1}></Box>
       <Link

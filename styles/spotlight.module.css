@@ -50,7 +50,7 @@
 }
 
 .list-container {
-  max-height: 21.5rem;
+  max-height: 21rem;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }

@@ -60,13 +60,13 @@ function Spotlight(props) {
   const [showDialog, setShowDialog] = useState(false);
   const open = () => setShowDialog(true);
   const close = () => {
-    setShowInstructions(false);
     setShowDialog(false);
   };
 
   useEffect(() => {
     let unsubscribe = tinykeys(window, {
-      "$mod+K": () => {
+      "$mod+K": (e) => {
+        showDialog && e.target.blur();
         showDialog ? close() : open();
       },
       Escape: () => {
@@ -99,7 +99,6 @@ function Spotlight(props) {
             defaultHighlightedIndex={0}
             isOpen={true}
             onChange={(selection) => {
-              console.log(selection);
               selection.extUrl
                 ? window.open(selection.extUrl, "_blank")
                 : router.push(selection.url);
@@ -125,7 +124,13 @@ function Spotlight(props) {
                       width: showInstructions ? "calc(100% - 90px)" : "100%",
                     }}
                     className={styles["search-input"]}
-                    {...getInputProps()}
+                    {...getInputProps({
+                      onKeyDown: (e) => {
+                        if (e.code === "Escape") {
+                          e.target.blur();
+                        }
+                      },
+                    })}
                   />
                   {showInstructions && (
                     <div className={styles["cmd-hint"]}>⌘ ＋ K</div>

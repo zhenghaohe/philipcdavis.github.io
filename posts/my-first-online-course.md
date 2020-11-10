@@ -3,8 +3,6 @@ title: "My First Online Course"
 date: "2017-12-04"
 ---
 
-
-
 # My First Online Course
 
 Last year I launched Learning D3 to teach others how to build interactive data visualizations with D3.js. I spent over a year working on it, and in this post i'll dig into each step of the process sharing the hurdles I had to jump along the way.

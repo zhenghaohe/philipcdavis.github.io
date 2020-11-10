@@ -54,47 +54,6 @@ const data = [
   },
 ];
 
-const items = (data, inputValue, highlightedIndex, getItemProps) => {
-  return matchSorter(data, inputValue, {
-    baseSort: (a, b) => (a.index < b.index ? -1 : 1),
-    keys: [(section) => section.source.map((i) => i.title)],
-  }).reduce(
-    (result, section, sectionIndex) => {
-      result.sections.push(
-        <div key={sectionIndex}>
-          {section.name && (
-            <div className={styles["list-heading"]}>{section.name}</div>
-          )}
-
-          {matchSorter(section.source, inputValue, {
-            keys: ["title"],
-            baseSort: (a, b) => (a.index < b.index ? -1 : 1),
-          }).map((item, itemIndex) => {
-            const index = result.itemIndex++;
-            return (
-              <div
-                className={`${styles["list-item"]} ${
-                  highlightedIndex === index ? styles["list-item-active"] : ""
-                }`}
-                key={itemIndex}
-                {...getItemProps({
-                  key: item + index,
-                  item: item,
-                  index: index,
-                })}
-              >
-                {item.title}
-              </div>
-            );
-          })}
-        </div>
-      );
-      return result;
-    },
-    { sections: [], itemIndex: 0 }
-  );
-};
-
 function Spotlight(props) {
   const router = useRouter();
   const [showInstructions, setShowInstructions] = useState(false);
@@ -166,26 +125,7 @@ function Spotlight(props) {
                       width: showInstructions ? "calc(100% - 90px)" : "100%",
                     }}
                     className={styles["search-input"]}
-                    {...getInputProps({
-                      onKeyDown: (e) => {
-                        if (
-                          e.key === "ArrowDown" &&
-                          items(
-                            data,
-                            inputValue,
-                            highlightedIndex,
-                            getItemProps
-                          ).itemIndex ===
-                            highlightedIndex + 1
-                        ) {
-                          e.nativeEvent.preventDownshiftDefault = true;
-                        }
-
-                        if (e.key === "ArrowUp" && highlightedIndex === 0) {
-                          e.nativeEvent.preventDownshiftDefault = true;
-                        }
-                      },
-                    })}
+                    {...getInputProps()}
                   />
                   {showInstructions && (
                     <div className={styles["cmd-hint"]}>⌘ ＋ K</div>
@@ -193,8 +133,48 @@ function Spotlight(props) {
                 </div>
                 <div {...getMenuProps()} className={styles["list-container"]}>
                   {
-                    items(data, inputValue, highlightedIndex, getItemProps)
-                      .sections
+                    matchSorter(data, inputValue, {
+                      baseSort: (a, b) => (a.index < b.index ? -1 : 1),
+                      keys: [(section) => section.source.map((i) => i.title)],
+                    }).reduce(
+                      (result, section, sectionIndex) => {
+                        result.sections.push(
+                          <div key={sectionIndex}>
+                            {section.name && (
+                              <div className={styles["list-heading"]}>
+                                {section.name}
+                              </div>
+                            )}
+
+                            {matchSorter(section.source, inputValue, {
+                              keys: ["title"],
+                              baseSort: (a, b) => (a.index < b.index ? -1 : 1),
+                            }).map((item, itemIndex) => {
+                              const index = result.itemIndex++;
+                              return (
+                                <div
+                                  className={`${styles["list-item"]} ${
+                                    highlightedIndex === index
+                                      ? styles["list-item-active"]
+                                      : ""
+                                  }`}
+                                  key={itemIndex}
+                                  {...getItemProps({
+                                    key: item + index,
+                                    item: item,
+                                    index: index,
+                                  })}
+                                >
+                                  {item.title}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        );
+                        return result;
+                      },
+                      { sections: [], itemIndex: 0 }
+                    ).sections
                   }
                 </div>
               </div>

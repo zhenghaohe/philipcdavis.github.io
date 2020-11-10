@@ -97,7 +97,9 @@ function Spotlight(props) {
           <Downshift
             initialHighlightedIndex={0}
             defaultHighlightedIndex={0}
+            isOpen={true}
             onChange={(selection) => {
+              console.log(selection);
               selection.extUrl
                 ? window.open(selection.extUrl, "_blank")
                 : router.push(selection.url);
@@ -111,6 +113,7 @@ function Spotlight(props) {
               getMenuProps,
               inputValue,
               highlightedIndex,
+              itemCount,
               getRootProps,
             }) => (
               <div {...getRootProps({}, { suppressRefError: true })}>
@@ -123,7 +126,13 @@ function Spotlight(props) {
                       width: showInstructions ? "calc(100% - 90px)" : "100%",
                     }}
                     className={styles["search-input"]}
-                    {...getInputProps()}
+                    {...getInputProps({
+                      onKeyDown: (e) => {
+                        if (e.key === "ArrowDown") {
+                          console.log(itemCount);
+                        }
+                      },
+                    })}
                   />
                   {showInstructions && (
                     <div className={styles["cmd-hint"]}>⌘ ＋ K</div>
@@ -158,6 +167,7 @@ function Spotlight(props) {
                                   }`}
                                   key={itemIndex}
                                   {...getItemProps({
+                                    key: item + index,
                                     item: item,
                                     index: index,
                                   })}

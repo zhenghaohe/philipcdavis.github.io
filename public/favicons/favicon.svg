@@ -8,7 +8,7 @@
       }
       @media (prefers-color-scheme: dark) {
         #cmd circle {
-          fill: #616161;
+          fill: #484848;
         }
         #cmd path {
           stroke: white;

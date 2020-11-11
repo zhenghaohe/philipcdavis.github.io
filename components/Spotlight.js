@@ -60,6 +60,7 @@ function Spotlight(props) {
   const [showDialog, setShowDialog] = useState(false);
   const open = () => setShowDialog(true);
   const close = () => {
+    setShowInstructions(false);
     setShowDialog(false);
   };
 

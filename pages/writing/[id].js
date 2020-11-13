@@ -5,6 +5,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import ReactMarkdown from "react-markdown/with-html";
 import Syntax from "../../components/Syntax";
 import Link from "../../components/Link";
+import Share from "../../components/Share";
 import Image from "next/image";
 
 const renderers = {

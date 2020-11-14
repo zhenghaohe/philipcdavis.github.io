@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from "../../components/Head";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Layout from "../../components/Layout";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -25,9 +25,7 @@ const renderers = {
 export default function Post({ postData }) {
   return (
     <Layout>
-      <Head image={postData.image}>
-        <title>{postData.title}</title>
-      </Head>
+      <Head title={postData.title} image={postData.image}></Head>
       <ReactMarkdown
         renderers={renderers}
         allowDangerousHtml={true}

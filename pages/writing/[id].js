@@ -25,7 +25,7 @@ const renderers = {
 export default function Post({ postData }) {
   return (
     <Layout>
-      <Head>
+      <Head image={postData.image}>
         <title>{postData.title}</title>
       </Head>
       <ReactMarkdown

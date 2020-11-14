@@ -1,6 +1,7 @@
 ---
 title: "A Digital Tool Checklist"
 date: "2020-11-13"
+image: "https://res.cloudinary.com/dpgzvne4j/image/upload/v1605364416/a-digital-tool-checklist_nta21b.png"
 ---
 
 # A Digital Tool Checklist

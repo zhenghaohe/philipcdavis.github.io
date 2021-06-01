@@ -30,7 +30,7 @@ Another quick action that is very effective is Notion's Quick Insert. Hitting th
 
 ![Framer's Component Picker](/images/command-palette-3.png)
 
-Framer's component picker allows for more advanced navigation. Components are grouped and nested. You can move up and down the navigation hierarchy using the back icon or by hitting the Escape key.
+Framer's component picker allows for more advanced navigation. Components are grouped and nested. You can move up and down the navigation hierarchy using both mouse and keyboard.
 
 # Palettes in Palettes
 

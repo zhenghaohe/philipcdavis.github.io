@@ -14,17 +14,17 @@ This interface pattern is especially helpful in professional tools. It allows pe
 
 Here are four command palette's that don't fit the normal Search use case.
 
-# Quick Add
+# Quick Entry
 
-![Things 3 Quick Add](/images/command-palette-1.png)
+![Things 3 Quick Entry](/images/command-palette-1.png)
 
-The Quick Add in Things 3 is a great example of how you can use prompts to stay focused. The Quick Todo appears via Keyboard Shortcut over whatever app you are in. It allows you to file away your idea into it's correct place, and then lets you get back to work. Command palettes can be extremely effective at helping you stay focused. They show up immediately, and hide themselves to get out of the way when not needed.
+The Quick Entry in Things 3 is a great example of how you can use prompts to stay focused. The entry appears via Keyboard Shortcut over whatever app you are in. These help you file away your idea into the correct place, and then let you get back to work. Command palettes can be extremely effective at helping you stay focused. They show up immediately, and hide themselves to get out of the way when not needed.
 
 # Contextual Insert
 
 ![Notion's Quick Insert](/images/command-palette-2.png)
 
-Another quick action that is very effective is Notion's Quick Insert. Hitting the `/` command brings up a popover than shows next to your cursor. Here the input is the document which shows that you don't need to create an interruptible overlay, but can inline these prompts.
+Another quick action that is very effective is Notion's block options. Hitting the `/` command brings up a popover than shows next to your cursor. Here the input is the document which shows that you don't need to create an interruptible overlay, but can inline these prompts.
 
 # Grouping and Nesting
 

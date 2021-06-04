@@ -8,7 +8,7 @@ image: "https://res.cloudinary.com/dpgzvne4j/image/upload/v1622567905/command-pa
 
 The command palette seems to be making a resurgence. I couldn't be happier. It's one of my favorite UI patterns.
 
-Command palettes allow you to create a friendly and fast way to interact with your interface. They are more user friendly than traditional command line interfaces, but offer many of the same ergonomic advantages. They can be used with just your keyboard, but are often usable with mouse or trackpad inputs. You see command palettes often in text editors, and often used for Search. Spotlight is a great examples of a widely used command palette.
+Command palettes allow you to create a friendly and fast way to interact with an application. They are more user friendly than traditional command line interfaces, but offer many of the same ergonomic advantages. They can be used with just your keyboard, but are often usable with mouse or trackpad inputs. You see command palettes often in text editors, and often used for Search. Spotlight is a great examples of a widely used command palette.
 
 This interface pattern is especially helpful in professional tools. It allows people to navigate and perform actions quickly. If you want to add lots of functionality without a bloated interface, a command palette may be able to help.
 

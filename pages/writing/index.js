@@ -1,5 +1,5 @@
 import { getSortedPostsData } from "../../lib/posts";
-import { Text } from "rebass";
+import { Button, Text } from "rebass";
 import Date from "../../components/Date";
 import Layout from "../../components/Layout";
 import Link from "../../components/Link";

@@ -10,9 +10,9 @@ export default function Share() {
       flexDirection="column"
       mt={6}
     >
-      <Text color="var(--secondary-text)">Enjoy this Article?</Text>
-      <Link color="var(--link)" href="https://twitter.com/philip">
-        Share on Twitter
+      {/* <Text color="var(--secondary-text)">Enjoy this Article?</Text> */}
+      <Link color="var(--link)" href="https://twitter.com/philipcdavis">
+        Follow on Twitter
       </Link>
     </Flex>
   );

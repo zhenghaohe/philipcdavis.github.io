@@ -8,7 +8,7 @@ export default function Share() {
       width="100%"
       alignItems="center"
       flexDirection="column"
-      mt={6}
+      mt={[5, 6]}
     >
       {/* <Text color="var(--secondary-text)">Enjoy this Article?</Text> */}
       <Link color="var(--link)" href="https://twitter.com/philipcdavis">

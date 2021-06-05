@@ -32,7 +32,6 @@ export default function Post({ postData }) {
         className="post"
         children={postData.contentHtml}
       />
-      <Share />
     </Layout>
   );
 }
